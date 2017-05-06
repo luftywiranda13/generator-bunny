@@ -19,9 +19,6 @@
   <a href="https://greenkeeper.io">
     <img src="https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/releases">
-    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg" />
-  </a>
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
   </a>
