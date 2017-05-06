@@ -24,63 +24,62 @@ You should spend your time more on writing codes than setting them up.
 
 
 ## This solution
-This repo includes built-in modern tools which are widely-used in the community.
-> * Automated GitHub release notes generator
-> * Automated releasing with [semantic-release][semantic-link]
-> * Automated testing & validation before any commits
-> * Automated source-code formatting with [prettier][prettier-link]
-> * [Babel][babel-link] transpiler
-> * [Eslint][eslint-link]
-> * [Flow][flow-link]
-> * [Jest][jest-link]
-> * [React][react-link]
-> * [Travis CI][travis-link]
-> * Really? You need me to list them all here? 🐰
+This repo includes built-in modern tools which are widely-used in the community:
+- Automated GitHub release notes generator
+- Automated releasing with [semantic-release][semantic-link]
+- Automated testing & validation before any commits
+- Automated source-code formatting with [prettier][prettier-link]
+- [Babel][babel-link] transpiler
+- [Eslint][eslint-link]
+- [Flow][flow-link]
+- [Jest][jest-link]
+- [React][react-link]
+- [Travis CI][travis-link]
+- Really? You need me to list them all here? 🐰
 
 So you can shift your focus working on the project itself.
 
 
 ## Setup
 ### Get the source code
-Clone this repo
+Clone this repo:
 ```sh
 git clone git@github.com:luftywiranda13/solid-node-module.git my-module
 ```
 
-Remove existing history from this repo
+Remove existing history from this repo:
 ```sh
 rm -rf .git
 git init
 ```
 
-### Install dependencies
+Install dependencies:
 ```sh
 npm install
 ```
-You don't have to use [`npm`][npm-link], use [`yarn`][yarn-link] if you want to.
+You don't have to use [`npm`][npm-link], even better you can use [`yarn`][yarn-link] if you want to.
 
 ### Tweak as you need
-You may need to change specific things like project name, badges, etc.
+You may need to change specific things like project name, change links, badges, etc.
 
-### Validate the project
+After finishing all those things, don't forget to **validate** your settings to make sure nothing breaks your project:
 ```sh
 npm start validate
 ```
-If it's all good, then you're ready to go!
+If it's all good, then you're ready to go! 🚀
 
 
 ## How automated releasing works
 It's 2017, you don't need to tag, bump version, write changelog, and publish to npm manually by yourself.
 
-This is how to automate those processes:
 
 ### Commit changes like you normally do
-Add the changes you made
+Add the changes you made to staging area:
 ```sh
 git add .
 ```
 
-But instead of running ```sh git commit -m "blahblah"```, you need to run
+But instead of running ```sh git commit -m "blahblah"```, you need to run:
 ```sh
 npm start commit
 ```
