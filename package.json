@@ -2,15 +2,9 @@
   "name": "solid-node-module",
   "version": "0.0.0-development",
   "description": "Instant node module starter-kit",
+  "license": "MIT",
   "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
   "homepage": "https://github.com/luftywiranda13/solid-node-module#readme",
-  "keywords": [
-    "javascript",
-    "node",
-    "npm",
-    "module"
-  ],
-  "license": "MIT",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -46,6 +40,12 @@
       "git add"
     ]
   },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm",
+    "module"
+  ],
   "bugs": {
     "url": "https://github.com/luftywiranda13/solid-node-module/issues"
   },
