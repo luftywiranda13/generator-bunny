@@ -1,9 +1,9 @@
 {
-  "name": "solid-nm",
+  "name": "solid-node-module",
   "version": "0.0.0-development",
   "description": "Instant node module starter-kit",
   "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
-  "homepage": "https://github.com/luftywiranda13/solid-nm#readme",
+  "homepage": "https://github.com/luftywiranda13/solid-node-module#readme",
   "keywords": [
     "javascript",
     "node",
@@ -44,11 +44,11 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/luftywiranda13/solid-nm/issues"
+    "url": "https://github.com/luftywiranda13/solid-node-module/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luftywiranda13/solid-nm.git"
+    "url": "https://github.com/luftywiranda13/solid-node-module.git"
   },
   "dependencies": {
     "react": "^15.5.4",
