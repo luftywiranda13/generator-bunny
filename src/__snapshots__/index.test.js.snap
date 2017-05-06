@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div>
   <p>
-    Hello!
+    Hello, welcome to solid-node-module!
   </p>
 </div>
 `;
