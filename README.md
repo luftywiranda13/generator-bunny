@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="320" />
+</p>
 
 <p align="center">
   <strong>Instant [node module][npm-link] starter-kit.<strong>
