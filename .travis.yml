@@ -1,0 +1,19 @@
+language: node_js
+cache:
+  yarn: true
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+  - 'stable'
+  - '6'
+script:
+  - yarn start validate
+after_success:
+  - yarn start report-coverage
+  - yarn start release
+branches:
+  only:
+    - master
+    - /^greenkeeper/.*$/

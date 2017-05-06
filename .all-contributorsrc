@@ -1,0 +1,22 @@
+{
+  "projectName": "solid-nm",
+  "projectOwner": "luftywiranda13",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "luftywiranda13",
+      "name": "Lufty Wiranda",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22868432?v=3",
+      "profile": "https://www.instagram.com/luftywiranda13",
+      "contributions": [
+        "code",
+        "doc",
+        "plugin"
+      ]
+    }
+  ]
+}
