@@ -1,26 +1,33 @@
-# ⚡️ solid-node-module ⚡️
-This is exactly what I use for my own modules.
 
-> Instant [node module][npm-link] starter-kit.
 
-[![GitHub release][release-badge]][release-link]
-[![Build Status][build-badge]][build-link]
-[![Code Coverage][coverage-badge]][coverage-link]
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
-[![styled with prettier][prettier-badge]][prettier-link]
-[![license][license-badge]][license-link]
+<p align="center">
+  <strong>Instant [node module][npm-link] starter-kit.<strong>
+</p>
 
-[![semantic-release][semantic-badge]][semantic-link]
-[![Commitizen friendly][commitizen-badge]][commitizen-link]
-[![PRs Welcome][prs-badge]][prs-link]
-[![Code of Conduct][coc-badge]][coc-link]
-[![Roadmap][roadmap-badge]][roadmap-link]
-[![Examples][examples-badge]][examples-link]
+<p align="center">
+  [![GitHub release][release-badge]][release-link]
+  [![Build Status][build-badge]][build-link]
+  [![Code Coverage][coverage-badge]][coverage-link]
+  [![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
+  [![styled with prettier][prettier-badge]][prettier-link]
+  [![license][license-badge]][license-link]
+</p>
+<p align="center">
+  [![semantic-release][semantic-badge]][semantic-link]
+  [![Commitizen friendly][commitizen-badge]][commitizen-link]
+  [![PRs Welcome][prs-badge]][prs-link]
+  [![Code of Conduct][coc-badge]][coc-link]
+  [![Roadmap][roadmap-badge]][roadmap-link]
+  [![Examples][examples-badge]][examples-link]
+</p>
 
-Don't let yourself for always having to setup any [node module][npm-link] or [open-source][open-source-link] projects from scratch. You should spend your time more on writing codes than setting them up.
+<p align="center">
+  Don't let yourself for always having to setup any [node module][npm-link] or [open-source][open-source-link] projects from scratch. You should spend your time more on writing codes than setting them up.
+</p>
 
-Set it once, then forget it! 🙈
+<p align="center"><strong>Set it once, then forget it!</strong></p>
 
+---
 
 ## Highlights
 This repo includes built-in modern tools which are widely-used in the community:
