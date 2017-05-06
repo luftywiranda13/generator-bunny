@@ -3,28 +3,55 @@
 </p>
 
 <p align="center">
-  <strong>Instant [node module][npm-link] starter-kit.<strong>
+  <strong>Instant <a href="https://www.npmjs.com">node module</a> starter-kit.<strong>
 </p>
 
 <p align="center">
-  [![GitHub release][release-badge]][release-link]
-  [![Build Status][build-badge]][build-link]
-  [![Code Coverage][coverage-badge]][coverage-link]
-  [![Greenkeeper badge][greenkeeper-badge]][greenkeeper-link]
-  [![styled with prettier][prettier-badge]][prettier-link]
-  [![license][license-badge]][license-link]
+  <a href="https://github.com/luftywiranda13/solid-node-module/releases">
+    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg" />
+  </a>
+  <a href="https://travis-ci.org/luftywiranda13/solid-node-module">
+    <img src="https://img.shields.io/travis/luftywiranda13/solid-node-module.svg" />
+  </a>
+  <a href="https://codecov.io/github/luftywiranda13/solid-node-module">
+    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg" />
+  </a>
+  <a href="https://greenkeeper.io">
+    <img src="https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg" />
+  </a>
+  <a href="https://github.com/luftywiranda13/solid-node-module/releases">
+    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg" />
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
+  </a>
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg" />
+  </a>
 </p>
 <p align="center">
-  [![semantic-release][semantic-badge]][semantic-link]
-  [![Commitizen friendly][commitizen-badge]][commitizen-link]
-  [![PRs Welcome][prs-badge]][prs-link]
-  [![Code of Conduct][coc-badge]][coc-link]
-  [![Roadmap][roadmap-badge]][roadmap-link]
-  [![Examples][examples-badge]][examples-link]
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
+  </a>
+  <a href="http://commitizen.github.io/cz-cli">
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md">
+    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg" />
+  </a>
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md">
+    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg" />
+  </a>
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md">
+    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg" />
+  </a>
 </p>
 
 <p align="center">
-  Don't let yourself for always having to setup any [node module][npm-link] or [open-source][open-source-link] projects from scratch. You should spend your time more on writing codes than setting them up.
+  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch. You should spend your time more on writing codes than setting them up.
 </p>
 
 <p align="center"><strong>Set it once, then forget it!</strong></p>
