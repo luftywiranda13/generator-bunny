@@ -8,6 +8,8 @@ notifications:
 node_js:
   - 'stable'
   - '6'
+before_script:
+  - npm prune
 script:
   - yarn start validate
 after_success:
