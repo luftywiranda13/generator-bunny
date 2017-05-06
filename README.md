@@ -111,9 +111,15 @@ Those scripts are provided by [nps][nps-link].
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
 
-## Other solutions
-I'm not aware of any. If you are, please [make a pull request][prs-link] and add it
-here!
+## Suggestions
+Help things to get better, contributions of any kind are welcome!
+
+I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [solid-node-module](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
+
+Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!
+
+This project follows the [all-contributors][all-contributors-link] specification.
+
 
 ## Contributors
 Thanks goes to these people:
@@ -123,8 +129,6 @@ Thanks goes to these people:
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors][all-contributors-link] specification.
-Contributions of any kind are welcome!
 
 ## License
 MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
