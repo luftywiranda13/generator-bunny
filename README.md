@@ -93,7 +93,7 @@ This way, you can make sure anyone who contribute to your repository write usefu
 git push -u origin master
 ```
 
-Manually do initial publishing to npm. **remember you only need to do this once**
+Manually do initial publishing to npm. **remember you only need to do this once**.
 ```sh
 npm publish
 ```
