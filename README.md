@@ -17,13 +17,12 @@ This is exactly what I use for my own modules.
 [![Roadmap][roadmap-badge]][roadmap-link]
 [![Examples][examples-badge]][examples-link]
 
-## The problem
-Don't let yourself for always having to setup any [node module][npm-link] or [open-source][open-source-link] projects from scratch.
+Don't let yourself for always having to setup any [node module][npm-link] or [open-source][open-source-link] projects from scratch. You should spend your time more on writing codes than setting them up.
 
-You should spend your time more on writing codes than setting them up.
+Set it once, then forget it! 🙈
 
 
-## This solution
+## Highlights
 This repo includes built-in modern tools which are widely-used in the community:
 - Automated GitHub release notes generator
 - Automated releasing with [semantic-release][semantic-link]
@@ -36,8 +35,6 @@ This repo includes built-in modern tools which are widely-used in the community:
 - [React][react-link]
 - [Travis CI][travis-link]
 - Really? You need me to list them all here? 🐰
-
-So you can shift your focus working on the project itself.
 
 
 ## Setup
@@ -59,7 +56,7 @@ npm install
 ```
 You don't have to use [`npm`][npm-link], even better you can use [`yarn`][yarn-link] if you want to.
 
-### Tweak as you need
+### Tweak what you need
 You may need to change specific things like project name, change links, badges, etc.
 
 After finishing all those things, don't forget to **validate** your settings to make sure nothing breaks your project:
@@ -69,7 +66,7 @@ npm start validate
 If it's all good, then you're ready to go! 🚀
 
 
-## How automated releasing works
+## Automated releasing
 It's 2017, you don't need to tag, bump version, write changelog, and publish to npm manually by yourself.
 
 
@@ -114,7 +111,7 @@ Those scripts are provided by [nps][nps-link].
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
 
-## Other Solutions
+## Other solutions
 I'm not aware of any. If you are, please [make a pull request][prs-link] and add it
 here!
 
