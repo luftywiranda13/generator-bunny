@@ -6,10 +6,12 @@
   },
   "extends": [
     "airbnb",
+    "plugin:flowtype/recommended",
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended"
   ],
   "plugins": [
+    "flowtype",
     "import",
     "jest",
     "jsx-a11y",
