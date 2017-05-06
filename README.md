@@ -41,30 +41,30 @@ So you can shift your focus working on the project itself.
 
 
 ## Setup
-#### 1. Get the source code
+### Get the source code
 Clone this repo
-```
-$ git clone git@github.com:luftywiranda13/solid-node-module.git my-module
+```sh
+git clone git@github.com:luftywiranda13/solid-node-module.git my-module
 ```
 
 Remove existing history from this repo
-```
-$ rm -rf .git
-$ git init
+```sh
+rm -rf .git
+git init
 ```
 
-#### 2. Install dependencies
-```
-$ npm install
+### Install dependencies
+```sh
+npm install
 ```
 You don't have to use [`npm`][npm-link], use [`yarn`][yarn-link] if you want to.
 
-#### 3. Tweak as you need
+### Tweak as you need
 You may need to change specific things like project name, badges, etc.
 
-#### 4. Validate the project
-```
-$ npm start validate
+### Validate the project
+```sh
+npm start validate
 ```
 If it's all good, then you're ready to go!
 
@@ -74,14 +74,14 @@ It's 2017, you don't need to tag, bump version, write changelog, and publish to 
 
 This is how to automate those processes:
 
-#### 1. Commit changes like you normally do
+### Commit changes like you normally do
 Add the changes you made
-```
-$ git add .
+```sh
+git add .
 ```
 
-But instead of running ```git commit -m "blahblah"```, you need to run
-```
+But instead of running ```sh git commit -m "blahblah"```, you need to run
+```sh
 npm start commit
 ```
 
@@ -89,24 +89,24 @@ Choose type of commit, then follow the instructions.
 
 This way, you can make sure anyone who contribute to your repository write useful & meaningful commit message in to it. Then your changelog will be useful to the others too.
 
-#### 2. Push to GitHub
-```
-$ git push -u origin master
+### Push to GitHub
+```sh
+git push -u origin master
 ```
 
 Manually do initial publishing to npm. **remember you only need to do this once**
-```
+```sh
 npm publish
 ```
 
 **Notice:** don't bump your project's version manually. Ever!
 
-#### 3. Sit back and relax
+### Sit back and relax
 Now let [Travis CI][travis-link] and [semantic-release][semantic-link] do the releasing stuffs for you ☕ 💅
 
 
 ## Tips
-To find some more additional scripts you can run inside the project, run ```npm start``` on your terminal.
+To find some more additional scripts you can run inside the project, run ```sh npm start``` on your terminal.
 
 Those scripts are provided by [nps][nps-link].
 
