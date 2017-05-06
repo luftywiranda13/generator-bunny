@@ -42,6 +42,7 @@ This repo includes built-in modern tools which are widely-used in the community:
 Clone this repo:
 ```sh
 git clone git@github.com:luftywiranda13/solid-node-module.git my-module
+cd my-module
 ```
 
 Remove existing history from this repo:
