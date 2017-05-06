@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Instant <a href="https://www.npmjs.com">node module</a> starter-kit.<strong>
+  <strong>Instant <a href="https://www.npmjs.com">node module</a> starter-kit.</strong>
 </p>
 
 <p align="center">
