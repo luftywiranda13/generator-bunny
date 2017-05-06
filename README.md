@@ -1,4 +1,4 @@
-# ⚡️ solid-nm ⚡️
+# ⚡️ solid-node-module ⚡️
 This is exactly what I use for my own modules.
 
 > Instant [node module][npm-link] starter-kit.
@@ -44,7 +44,7 @@ So you can shift your focus working on the project itself.
 #### 1. Get the source code
 Clone this repo
 ```
-$ git clone git@github.com:luftywiranda13/solid-nm.git my-module
+$ git clone git@github.com:luftywiranda13/solid-node-module.git my-module
 ```
 
 Remove existing history from this repo
@@ -123,7 +123,7 @@ here!
 Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/solid-nm/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/solid-nm/commits?author=luftywiranda13 "Documentation") [🔌](#plugin-luftywiranda13 "Plugin/utility libraries") |
+| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/solid-node-module/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/solid-node-module/commits?author=luftywiranda13 "Documentation") [🔌](#plugin-luftywiranda13 "Plugin/utility libraries") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
@@ -136,24 +136,24 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
 [babel-link]: https://babeljs.io
-[build-badge]: https://img.shields.io/travis/luftywiranda13/solid-nm.svg
-[build-link]: https://travis-ci.org/luftywiranda13/solid-nm
+[build-badge]: https://img.shields.io/travis/luftywiranda13/solid-node-module.svg
+[build-link]: https://travis-ci.org/luftywiranda13/solid-node-module
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg
-[coc-link]: https://github.com/luftywiranda13/solid-nm/blob/master/other/CODE_OF_CONDUCT.md
+[coc-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-link]: http://commitizen.github.io/cz-cli
-[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-nm.svg
-[coverage-link]: https://codecov.io/github/luftywiranda13/solid-nm
+[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg
+[coverage-link]: https://codecov.io/github/luftywiranda13/solid-node-module
 [eslint-link]: http://eslint.org/
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg
-[examples-link]: https://github.com/luftywiranda13/solid-nm/blob/master/other/EXAMPLES.md
+[examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md
 [flow-link]: https://flow.org/
-[greenkeeper-badge]: https://badges.greenkeeper.io/luftywiranda13/solid-nm.svg
+[greenkeeper-badge]: https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg
 [greenkeeper-link]: https://greenkeeper.io
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
-[license-badge]: https://img.shields.io/github/license/luftywiranda13/eslint-config-reasonable.svg
-[license-link]: https://github.com/luftywiranda13/eslint-config-reasonable/blob/master/LICENSE
+[license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg
+[license-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
@@ -162,10 +162,10 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [prs-link]: http://makeapullrequest.com
 [react-link]: https://github.com/facebook/react
-[release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-nm.svg
-[release-link]: https://github.com/luftywiranda13/solid-nm/releases/latest
+[release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg
+[release-link]: https://github.com/luftywiranda13/solid-node-module/releases/latest
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg
-[roadmap-link]: https://github.com/luftywiranda13/solid-nm/blob/master/other/ROADMAP.md
+[roadmap-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md
 [semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-link]: https://github.com/semantic-release/semantic-release
 [sindresorhus-link]: https://github.com/sindresorhus
