@@ -42,7 +42,7 @@
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md">
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/examples.md">
     <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
   </a>
 </p>
@@ -180,7 +180,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [coverage-link]: https://codecov.io/github/luftywiranda13/solid-node-module
 [eslint-link]: http://eslint.org/
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
-[examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md
+[examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/examples.md
 [flow-link]: https://flow.org
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
