@@ -36,7 +36,7 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md">
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/code_of_conduct.md">
     <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md">
@@ -173,7 +173,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [build-badge]: https://img.shields.io/travis/luftywiranda13/solid-node-module.svg?style=flat-square
 [build-link]: https://travis-ci.org/luftywiranda13/solid-node-module
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md
+[coc-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/code_of_conduct.md
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen-link]: http://commitizen.github.io/cz-cli
 [coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square

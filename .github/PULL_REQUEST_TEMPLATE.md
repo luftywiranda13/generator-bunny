@@ -2,7 +2,7 @@
 Thanks for your interest in the project. I appreciate bugs filed and PRs submitted!
 
 Please make sure that you are familiar with and follow the Code of Conduct for
-this project (found in the CODE_OF_CONDUCT.md file).
+this project (found in the code_of_conduct.md file).
 
 Also, please make sure you're familiar with and follow the instructions in the
 contributing guidelines (found in the contributing.md file).
