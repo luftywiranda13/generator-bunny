@@ -56,7 +56,7 @@ pre-commit
 
 ## Help needed
 
-Please checkout the [ROADMAP.md][ROADMAP] and raise an issue to discuss
+Please checkout the [roadmap.md][roadmap] and raise an issue to discuss
 any of the items in the want to do or might do list.
 
 Also, please watch the repo and respond to questions/bug reports/feature requests! Thanks!
@@ -66,5 +66,5 @@ Also, please watch the repo and respond to questions/bug reports/feature request
 [egghead]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
 [nps]: https://npmjs.com/package/nps
 [readme]: ./readme.md
-[ROADMAP]: ./other/ROADMAP.md
+[roadmap]: ./other/roadmap.md
 [semantic-release]: https://npmjs.com/package/semantic-release

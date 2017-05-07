@@ -39,7 +39,7 @@
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md">
     <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md">
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md">
@@ -197,7 +197,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg?style=flat-square
 [release-link]: https://github.com/luftywiranda13/solid-node-module/releases/latest
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[roadmap-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md
+[roadmap-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md
 [semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-link]: https://github.com/semantic-release/semantic-release
 [sindresorhus-link]: https://github.com/sindresorhus
