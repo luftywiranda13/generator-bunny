@@ -7,26 +7,14 @@
   "extends": [
     "airbnb",
     "plugin:flowtype/recommended",
-    "plugin:jest/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jest/recommended"
   ],
   "plugins": [
     "flowtype",
-    "import",
-    "jest",
-    "jsx-a11y",
-    "react"
+    "jest"
   ],
   "rules": {
-    // TODO: airbnb fixme
-    "jsx-a11y/img-has-alt": "off",
-
     "max-len": ["error", 80],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-
-    // TODO: airbnb fixme
-    // "react/jsx-space-before-closing": "off",
-    // TODO: airbnb fixme
-    // "react/jsx-tag-spacing": "error"
   }
 }
