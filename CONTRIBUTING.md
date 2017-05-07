@@ -17,7 +17,7 @@ This project uses [`nps`][nps] and you can run `npm start` to see what scripts a
 ## Add yourself as a contributor
 
 This project follows the [all contributors][all-contributors] specification. To add yourself to the table of
-contributors on the README.md, please use the automated script as part of your PR:
+contributors on the [readme.md][readme], please use the automated script as part of your PR:
 
 ```console
 npm start "contributors.add <YOUR_GITHUB_USERNAME>"
@@ -61,9 +61,10 @@ any of the items in the want to do or might do list.
 
 Also, please watch the repo and respond to questions/bug reports/feature requests! Thanks!
 
-[egghead]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[semantic-release]: https://npmjs.com/package/semantic-release
-[convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
 [all-contributors]: https://github.com/kentcdodds/all-contributors
-[ROADMAP]: ./other/ROADMAP.md
+[convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
+[egghead]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
 [nps]: https://npmjs.com/package/nps
+[readme]: ./readme.md
+[ROADMAP]: ./other/ROADMAP.md
+[semantic-release]: https://npmjs.com/package/semantic-release
