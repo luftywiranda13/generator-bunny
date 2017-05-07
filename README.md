@@ -16,8 +16,8 @@
   <a href="https://codecov.io/github/luftywiranda13/solid-node-module">
     <img src="https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
-  <a href="https://greenkeeper.io">
-    <img src="https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://david-dm.org/luftywiranda13/solid-node-module">
+    <img src="https://david-dm.org/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
@@ -181,9 +181,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [eslint-link]: http://eslint.org/
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md
-[flow-link]: https://flow.org/
-[greenkeeper-badge]: https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg?style=flat-square
-[greenkeeper-link]: https://greenkeeper.io
+[flow-link]: https://flow.org
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square
