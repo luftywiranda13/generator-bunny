@@ -106,11 +106,13 @@ It's 2017, you don't need to tag, bump version, write changelog, and publish to 
 
 ### Commit changes like you normally do
 Add the changes you made to staging area:
+
 ```sh
 git add .
 ```
 
-But instead of running ```sh git commit -m "blahblah"```, you need to run:
+But instead of running `git commit -m "blahblah"`, you need to run:
+
 ```sh
 npm start commit
 ```
@@ -120,11 +122,13 @@ Choose type of commit, then follow the instructions.
 This way, you can make sure anyone who contribute to your repository write useful & meaningful commit message in to it. Then your changelog will be useful to the others too.
 
 ### Push to GitHub
+
 ```sh
 git push -u origin master
 ```
 
 Manually do initial publishing to npm. **remember you only need to do this once**.
+
 ```sh
 npm publish
 ```
@@ -136,7 +140,7 @@ Now let [Travis CI][travis-link] and [semantic-release][semantic-link] do the re
 
 
 ## Tips
-To find some more additional scripts you can run inside the project, run ```sh npm start``` on your terminal.
+To find some more additional scripts you can run inside the project, run `npm start` on your terminal.
 
 Those scripts are provided by [nps][nps-link].
 
