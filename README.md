@@ -8,42 +8,42 @@
 
 <p align="center">
   <a href="https://github.com/luftywiranda13/solid-node-module/releases">
-    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg" />
+    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
   <a href="https://travis-ci.org/luftywiranda13/solid-node-module">
-    <img src="https://img.shields.io/travis/luftywiranda13/solid-node-module.svg" />
+    <img src="https://img.shields.io/travis/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
   <a href="https://codecov.io/github/luftywiranda13/solid-node-module">
-    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg" />
+    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
   <a href="https://greenkeeper.io">
-    <img src="https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg" />
+    <img src="https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
   <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
+    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg" />
+    <img src="https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
 </p>
 <p align="center">
   <a href="https://github.com/semantic-release/semantic-release">
-    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
   </a>
   <a href="http://commitizen.github.io/cz-cli">
-    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
   </a>
   <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" />
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md">
-    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg" />
+    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md">
-    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg" />
+    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md">
-    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg" />
+    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
   </a>
 </p>
 
@@ -170,37 +170,37 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
 [babel-link]: https://babeljs.io
-[build-badge]: https://img.shields.io/travis/luftywiranda13/solid-node-module.svg
+[build-badge]: https://img.shields.io/travis/luftywiranda13/solid-node-module.svg?style=flat-square
 [build-link]: https://travis-ci.org/luftywiranda13/solid-node-module
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/CODE_OF_CONDUCT.md
-[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen-link]: http://commitizen.github.io/cz-cli
-[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square
 [coverage-link]: https://codecov.io/github/luftywiranda13/solid-node-module
 [eslint-link]: http://eslint.org/
-[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg
+[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/EXAMPLES.md
 [flow-link]: https://flow.org/
-[greenkeeper-badge]: https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg
+[greenkeeper-badge]: https://badges.greenkeeper.io/luftywiranda13/solid-node-module.svg?style=flat-square
 [greenkeeper-link]: https://greenkeeper.io
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
-[license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg
+[license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square
 [license-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
-[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
+[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier-link]: https://github.com/prettier/prettier
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-link]: http://makeapullrequest.com
 [react-link]: https://github.com/facebook/react
-[release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg
+[release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg?style=flat-square
 [release-link]: https://github.com/luftywiranda13/solid-node-module/releases/latest
-[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg
+[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
 [roadmap-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/ROADMAP.md
-[semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-link]: https://github.com/semantic-release/semantic-release
 [sindresorhus-link]: https://github.com/sindresorhus
 [travis-link]: https://travis-ci.org
