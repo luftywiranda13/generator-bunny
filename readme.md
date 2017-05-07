@@ -22,7 +22,7 @@
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE">
+  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/license">
     <img src="https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square" />
   </a>
 </p>
@@ -185,7 +185,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square
-[license-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/LICENSE
+[license-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/license
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
