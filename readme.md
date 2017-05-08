@@ -128,8 +128,7 @@ yarn global add semantic-release-cli
 semantic-release-cli setup
 ```
 
-Select Travis CI (or Travis CI Pro, if you have it).<br />
-Then answer `no` to `overwrite`
+Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
 
 Then, publish manually for the **first time only**:<br />
 ```sh
@@ -152,7 +151,8 @@ npm start commit
 ```
 
 #### Select the type of your commit
-This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].<br />
+This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
+
 Following the conventions is important if you want to start a maintainable and scalable project.<br />
 Also it is **required to make automated releasing works**.
 
