@@ -1,3 +1,6 @@
-node_modules
-coverage
-dist
+build/
+coverage/
+dist/
+flow-typed/
+lib/
+node_modules/
