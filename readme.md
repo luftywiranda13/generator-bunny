@@ -101,6 +101,15 @@ Generate files:
 yo bunny
 ```
 
+Install dependencies
+```sh
+# with yarn:
+yarn
+
+# with npm:
+npm install
+```
+
 Follow the instruction from the command-line, Then validate your project by running:
 ```sh
 # with yarn:
