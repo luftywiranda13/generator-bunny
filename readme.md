@@ -71,6 +71,25 @@ This generator includes built-in modern tools which are widely-used in the commu
 - More… You need me to list them all here? 🐰
 
 
+## Getting started
+
+### Installation
+
+Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
+
+With yarn:
+```sh
+yarn global add yo
+yarn global add generator-bunny
+```
+
+Or with npm:
+```sh
+npm i -g yo
+npm i -g generator-bunny
+```
+
+
 ## Inspiration
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
@@ -112,6 +131,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
 [examples-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md
 [flow-link]: https://flow.org
+[generator-bunny-link]: https://github.com/luftywiranda13/generator-bunny
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square
@@ -133,3 +153,4 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [sindresorhus-link]: https://github.com/sindresorhus
 [travis-link]: https://travis-ci.org
 [yarn-link]: https://yarnpkg.com
+[yeoman-link]: http://yeoman.io/
