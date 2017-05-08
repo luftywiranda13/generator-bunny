@@ -77,14 +77,12 @@ This generator includes built-in modern tools which are widely-used in the commu
 
 Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
 
-With yarn:
 ```sh
+# with yarn:
 yarn global add yo
 yarn global add generator-bunny
-```
 
-Or with npm:
-```sh
+# with npm: 
 npm i -g yo
 npm i -g generator-bunny
 ```
@@ -105,11 +103,10 @@ yo bunny
 
 Follow the instruction from the command-line, Then validate your project by running:
 ```sh
+# with yarn:
 yarn start validate
-```
 
-Or with npm:
-```sh
+# with npm:
 npm start validate
 ```
 
@@ -120,7 +117,6 @@ If you got no errors then you're ready to go!<br />
 
 ### First-timer
 Install and setup [semantic-release][semantic-link]:
-
 ```sh
 # with npm:
 npm i -g semantic-release-cli
@@ -128,12 +124,12 @@ npm i -g semantic-release-cli
 # or with yarn :
 yarn global add semantic-release-cli 
 
-# then run 
+# then run:
 semantic-release-cli setup
 ```
 
-When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it).
-> Don't forget to choose `no` to `overwrite`.
+When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it).<br />
+Choose `no` to `overwrite`
 
 Then, publish manually for the **first time only**:<br />
 ```sh
@@ -146,10 +142,12 @@ npm publish
 Follow these steps to maintain better project and have the ability to release it automatically.
 
 #### Make changes then commit those changes by running: 
+
 ```sh
+#with yarn:
 yarn start commit 
 
-# or
+# with npm:
 npm start commit
 ```
 
@@ -157,7 +155,7 @@ npm start commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following the conventions is important if you want to start a maintainable and scalable project. Also it is **required to make automated releasing works**.
 
 #### Push those changes to your remote repository
-> Don't add tag or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.
+Don't add tag or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.
 
 #### Sit back and relax 💅
 GitHub release notes, publishing to npm, bump project version, and many more complicated things are already handled by semantic-release. Your release version number is formatted based on [SemVer][semver-link].
@@ -178,11 +176,10 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 This generator ships with some useful scripts to help you. To see the list, run:
 ```sh
+# with yarn:
 yarn start
-```
 
-Or with npm:
-```sh
+# with npm:
 npm start
 ```
 
