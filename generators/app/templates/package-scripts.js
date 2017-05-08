@@ -1,7 +1,8 @@
-const npsUtils = require('nps-utils')
-const series = npsUtils.series
-const concurrent = npsUtils.concurrent
-const rimraf = npsUtils.rimraf
+const npsUtils = require('nps-utils'); // eslint-disable-line
+
+const series = npsUtils.series;
+const concurrent = npsUtils.concurrent;
+const rimraf = npsUtils.rimraf;
 
 module.exports = {
   scripts: {
@@ -25,11 +26,17 @@ module.exports = {
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
-      script: series(rimraf('dist'), 'babel --copy-files --out-dir dist --ignore *.test.js src'),
+      script: series(
+        rimraf('dist'),
+        'babel --copy-files --out-dir dist --ignore *.test.js src'
+      ),
     },
     lint: {
-      description: 'lint the entire project',
-      script: 'eslint .',
+      description: 'lint the entire project with eslint & flow',
+      script: series(
+        'flow',
+        'eslint .'
+      ),
     },
     reportCoverage: {
       description: 'Report coverage stats to codecov. This should be run after the `test` script',
@@ -37,7 +44,11 @@ module.exports = {
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
-      script: series('semantic-release pre', 'npm publish', 'semantic-release post'),
+      script: series(
+        'semantic-release pre',
+        'npm publish',
+        'semantic-release post'
+      ),
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
@@ -47,7 +58,7 @@ module.exports = {
   options: {
     silent: false,
   },
-}
+};
 
 // this is not transpiled
 /*
