@@ -53,7 +53,10 @@
     "boilerplate",
     "npm"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "yeoman-generator": "^1.1.1"
+  },
   "devDependencies": {
     "all-contributors-cli": "^4.3.0",
     "babel-eslint": "^7.2.3",

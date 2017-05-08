@@ -19,10 +19,6 @@ module.exports = {
       description: 'This uses commitizen to help us generate well formatted commit messages',
       script: 'git-cz',
     },
-    test: {
-      default: 'jest --coverage',
-      watch: 'jest --watch',
-    },
     lint: {
       description: 'lint the entire project with eslint & flow',
       script: 'eslint .',
@@ -41,7 +37,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: concurrent.nps('lint', 'test'),
+      script: concurrent.nps('lint'),
     },
   },
   options: {
