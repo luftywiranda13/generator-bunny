@@ -2,4 +2,5 @@ build/
 coverage/
 dist/
 flow-typed/
+generators/app/templates/
 lib/

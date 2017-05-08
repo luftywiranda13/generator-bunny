@@ -1,13 +1,17 @@
 {
-  "name": "solid-node-module",
+  "name": "generator-bunny",
   "version": "0.0.0-development",
-  "description": "Instant node module starter-kit",
+  "description": "Jumpstart node module",
   "license": "MIT",
   "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
-  "homepage": "https://github.com/luftywiranda13/solid-node-module#readme",
-  "main": "dist/index.js",
+  "homepage": "https://github.com/luftywiranda13/generator-bunny#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luftywiranda13/generator-bunny.git"
+  },
+  "main": "generators/app/index.js",
   "files": [
-    "dist"
+    "generators"
   ],
   "scripts": {
     "start": "nps",
@@ -18,9 +22,6 @@
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "autoFix": true
     }
   },
   "jest": {
@@ -41,32 +42,21 @@
     ]
   },
   "keywords": [
+    "🐰",
     "javascript",
+    "open-source",
     "node",
-    "npm",
-    "module"
+    "node-module",
+    "yeoman",
+    "yeoman-generator",
+    "starter-kit",
+    "boilerplate",
+    "npm"
   ],
-  "bugs": {
-    "url": "https://github.com/luftywiranda13/solid-node-module/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luftywiranda13/solid-node-module.git"
-  },
-  "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "all-contributors-cli": "^4.0.1",
-    "babel-cli": "^6.24.1",
+    "all-contributors-cli": "^4.3.0",
     "babel-eslint": "^7.2.3",
-    "babel-jest": "^20.0.0",
-    "babel-preset-env": "^1.2.0",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.23.0",
     "codecov": "^2.1.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
@@ -77,7 +67,6 @@
     "eslint-plugin-jest": "^20.0.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
-    "flow-bin": "^0.45.0",
     "husky": "^0.13.2",
     "jest-cli": "^20.0.0",
     "lint-staged": "^3.3.1",
