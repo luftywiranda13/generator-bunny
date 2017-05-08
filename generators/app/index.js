@@ -37,6 +37,7 @@ module.exports = class extends Generator {
       mv('babelrc', '.babelrc');
       mv('editorconfig', '.editorconfig');
       mv('eslintignore', '.eslintignore');
+      mv('eslintrc.json', '.eslintrc.json');
     });
   }
   install() {
