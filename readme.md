@@ -119,7 +119,8 @@ If you got no errors then you're ready to go!<br />
 ## Usage
 
 ### First-timer
-1. Install and setup [semantic-release][semantic-link]:
+Install and setup [semantic-release][semantic-link]:
+
 ```sh
 # with npm:
 npm i -g semantic-release-cli
@@ -131,8 +132,13 @@ yarn global add semantic-release-cli
 semantic-release-cli setup
 ```
 
-2. When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it). Don't forget to choose `no` to `overwrite`.
-3. Publish manually: `npm publish`. **Remember to do this only once**.
+When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it). Don't forget to choose `no` to `overwrite`.
+
+Publish manually: 
+```sh
+npm publish
+```
+**Remember to do this only once**.
 
 
 ### Recommended workflow
