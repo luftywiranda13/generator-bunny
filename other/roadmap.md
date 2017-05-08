@@ -14,7 +14,7 @@ Care to help? See [contributing.md][contributing-link]
 - [ ] Make custom eslint plugin/config.
 
 
-## Wont do
+## Won't do
 
 
 [contributing-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/contributing.md
