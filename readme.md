@@ -103,8 +103,7 @@ Generate files:
 yo bunny
 ```
 
-Follow the instruction from the command-line,<br />
-Then validate your project by running:
+Follow the instruction from the command-line, Then validate your project by running:
 ```sh
 yarn start validate
 ```
