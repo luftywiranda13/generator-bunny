@@ -154,7 +154,7 @@ Help things to get better, contributions of any kind are welcome!
 
 I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [solid-node-module](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
-Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!
+Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it! See [contributing.md](./contributing.md) for more informations about how to contribute.
 
 This project follows the [all-contributors][all-contributors-link] specification.
 
