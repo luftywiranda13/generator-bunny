@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Jumpstart <a href="https://www.npmjs.com">node module</a>.</strong>
+  <strong>Jumpstart <a href="https://www.npmjs.com">node module</a>, like a bunny!</strong>
 </p>
 
 <p align="center">
