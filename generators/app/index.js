@@ -40,6 +40,8 @@ module.exports = class extends Generator {
       mv('eslintrc.json', '.eslintrc.json');
       mv('flowconfig', '.flowconfig');
       mv('gitattributes', '.gitattributes');
+      mv('github/issue_template.md', '.github/issue_template.md');
+      mv('github/pull_request_template.md', '.github/pull_request_template.md');
       mv('gitignore', '.gitignore');
       mv('npmrc', '.npmrc');
       mv('travis.yml', '.travis.yml');
