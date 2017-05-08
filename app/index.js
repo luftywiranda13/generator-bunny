@@ -62,7 +62,7 @@ module.exports = class extends Generator {
       mv('travis.yml', '.travis.yml');
     });
   }
-  install() {
-    this.spawnCommand('git', ['init']);
+  git() {
+    this.spawnCommandSync('git', ['init']);
   }
 };
