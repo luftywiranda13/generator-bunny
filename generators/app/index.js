@@ -39,6 +39,7 @@ module.exports = class extends Generator {
       mv('eslintignore', '.eslintignore');
       mv('eslintrc.json', '.eslintrc.json');
       mv('flowconfig', '.flowconfig');
+      mv('gitattributes', '.gitattributes');
     });
   }
   install() {
