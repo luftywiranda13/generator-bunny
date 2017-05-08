@@ -152,6 +152,8 @@ Or with npm:
 npm start
 ```
 
+The scripts are provided by [nps][nps-link].
+
 
 ## Inspiration
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
