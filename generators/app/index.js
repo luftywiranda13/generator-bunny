@@ -18,7 +18,7 @@ module.exports = class extends Generator {
       },
       {
         name: 'description',
-        message: 'What\'s the project description?',
+        message: "What's the project description?",
         type: 'input',
       },
     ]).then((props) => {
@@ -26,8 +26,11 @@ module.exports = class extends Generator {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
       };
 
-      this.fs.copyTpl([`${this.templatePath()}/**`],
-      this.destinationPath(), props);
+      this.fs.copyTpl(
+        [`${this.templatePath()}/**`],
+        this.destinationPath(),
+        props,
+      );
 
       mv('gitattributes', '.gitattributes');
       mv('gitignore', '.gitignore');
