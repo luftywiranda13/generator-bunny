@@ -7,23 +7,23 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/luftywiranda13/solid-node-module/releases">
-    <img src="https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://github.com/luftywiranda13/generator-bunny/releases">
+    <img src="https://img.shields.io/github/release/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-  <a href="https://travis-ci.org/luftywiranda13/solid-node-module">
-    <img src="https://img.shields.io/travis/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
+    <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-  <a href="https://codecov.io/github/luftywiranda13/solid-node-module">
-    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://codecov.io/github/luftywiranda13/generator-bunny">
+    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-  <a href="https://david-dm.org/luftywiranda13/solid-node-module">
-    <img src="https://david-dm.org/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://david-dm.org/luftywiranda13/generator-bunny">
+    <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/license">
-    <img src="https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square" />
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/license">
+    <img src="https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
 </p>
 <p align="center">
@@ -36,13 +36,13 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/code_of_conduct.md">
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md">
     <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md">
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/solid-node-module/blob/master/other/examples.md">
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md">
     <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
   </a>
 </p>
@@ -152,7 +152,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 ## Suggestions
 Help things to get better, contributions of any kind are welcome!
 
-I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [solid-node-module](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
+I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
 Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it! See [contributing.md](./contributing.md) for more informations about how to contribute.
 
@@ -174,22 +174,22 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
 [babel-link]: https://babeljs.io
-[build-badge]: https://img.shields.io/travis/luftywiranda13/solid-node-module.svg?style=flat-square
-[build-link]: https://travis-ci.org/luftywiranda13/solid-node-module
+[build-badge]: https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square
+[build-link]: https://travis-ci.org/luftywiranda13/generator-bunny
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/code_of_conduct.md
+[coc-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen-link]: http://commitizen.github.io/cz-cli
-[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/solid-node-module.svg?style=flat-square
-[coverage-link]: https://codecov.io/github/luftywiranda13/solid-node-module
+[coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square
+[coverage-link]: https://codecov.io/github/luftywiranda13/generator-bunny
 [eslint-link]: http://eslint.org/
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
-[examples-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/examples.md
+[examples-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md
 [flow-link]: https://flow.org
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
-[license-badge]: https://img.shields.io/github/license/luftywiranda13/solid-node-module.svg?style=flat-square
-[license-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/license
+[license-badge]: https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square
+[license-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/license
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
@@ -198,10 +198,10 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-link]: http://makeapullrequest.com
 [react-link]: https://github.com/facebook/react
-[release-badge]: https://img.shields.io/github/release/luftywiranda13/solid-node-module.svg?style=flat-square
-[release-link]: https://github.com/luftywiranda13/solid-node-module/releases/latest
+[release-badge]: https://img.shields.io/github/release/luftywiranda13/generator-bunny.svg?style=flat-square
+[release-link]: https://github.com/luftywiranda13/generator-bunny/releases/latest
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[roadmap-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/other/roadmap.md
+[roadmap-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md
 [semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-link]: https://github.com/semantic-release/semantic-release
 [sindresorhus-link]: https://github.com/sindresorhus
