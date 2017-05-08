@@ -41,6 +41,8 @@ module.exports = class extends Generator {
       mv('flowconfig', '.flowconfig');
       mv('gitattributes', '.gitattributes');
       mv('gitignore', '.gitignore');
+      mv('npmrc', '.npmrc');
+      mv('travis.yml', '.travis.yml');
     });
   }
   install() {
