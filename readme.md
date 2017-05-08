@@ -119,17 +119,34 @@ If you got no errors then you're ready to go!<br />
 ## Usage
 
 ### First-timer
-1. Install [semantic-release][semantic-link]: `npm i -g semantic-release-cli` or `yarn global add semantic-release-cli`
-2. Setup semantic-release: `semantic-release-cli setup`
-3. When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it).<br />Then answer `no` to `overwrite`.
-4. Publish manually: `npm publish`. **Remember to do this only once**.
+1. Install and setup [semantic-release][semantic-link]:
+```sh
+# with npm:
+npm i -g semantic-release-cli
+
+# or with yarn :
+yarn global add semantic-release-cli 
+
+# then run 
+semantic-release-cli setup
+```
+
+2. When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it). Don't forget to choose `no` to `overwrite`.
+3. Publish manually: `npm publish`. **Remember to do this only once**.
 
 
 ### Recommended workflow
 
 Follow these steps to maintain better project and have the ability to release it automatically:
 1. Make changes
-2. Commit those changes by running `yarn start commit` or `npm start commit`
+2. Commit those changes by running: 
+```sh
+yarn start commit 
+
+# or
+npm start commit
+```
+
 3. Select the type of your commit.<br />This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following the conventions is important if you want to start a maintainable and scalable project. Also it is **required to make automated releasing works**.
 4. Push those changes to your remote repository.<br />**Notice:** don't add tag or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.
 5. Sit back and relax 💅<br />GitHub release notes, publishing to npm, bump project version, and many more complicated things are already handled by semantic-release. Your release version number is formatted based on [SemVer][semver-link].
