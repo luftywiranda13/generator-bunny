@@ -6,7 +6,7 @@ We haven't filled this out yet though. Care to help? See [contributing.md][contr
 
 ## Want to do
 - [x] Make yeoman generator.
-- [ ] Create test
+- [x] Create test
 
 
 ## Might do
