@@ -12,19 +12,32 @@ module.exports = class extends Generator {
       },
       {
         name: 'description',
-        message: "What's the project description?",
+        message: 'Description?',
         default: 'as cute as bunny',
+        type: 'input',
+        store: true,
+      },
+      {
+        name: 'name',
+        message: 'Your name?',
+        default: this.user.git.name(),
+        type: 'input',
+      },
+      {
+        name: 'email',
+        message: 'Email address?',
+        default: this.user.git.email(),
         type: 'input',
       },
       {
         name: 'githubUsername',
-        message: "What's your GitHub username?",
+        message: 'GitHub username?',
         type: 'input',
         store: true,
       },
       {
         name: 'website',
-        message: "What's the URL of your website?",
+        message: 'URL of your website?',
         type: 'input',
         store: true,
       },
@@ -36,9 +49,9 @@ module.exports = class extends Generator {
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
         description: props.description,
-        name: this.user.git.name(),
+        name: props.name,
         githubUsername: props.githubUsername,
-        email: this.user.git.email(),
+        email: props.email,
         website: props.website,
       };
 
