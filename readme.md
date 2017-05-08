@@ -116,6 +116,30 @@ npm start validate
 If you got no errors then you're ready to go!<br />
 
 
+## Usage
+
+### First-timer
+1. Install [semantic-release][semantic-link]: `npm i -g semantic-release-cli` or `yarn global add semantic-release-cli`
+2. Setup semantic-release: `semantic-release-cli setup`
+3. When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it).<br />Then answer `no` to `overwrite`.
+4. Publish manually: `npm publish`. **Remember to do this only once**.
+
+
+### Recommended workflow
+
+Follow these steps to maintain better project and have the ability to release it automatically:
+1. Make changes
+2. Commit those changes by running `yarn start commit` or `npm start commit`
+3. Select the type of your commit.<br />This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following the conventions is important if you want to start a maintainable and scalable project. Also it is **required to make automated releasing works**.
+4. Push those changes to your remote repository.<br />**Notice:** don't add tag or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.
+5. Sit back and relax 💅<br />GitHub release notes, publishing to npm, bump project version, and many more complicated things are already handled by semantic-release. Your release version number is formatted based on [SemVer][semver-link].
+
+
+### Your own workflow
+
+You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
+
+
 ## Inspiration
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
@@ -144,6 +168,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
+[angular-conventions-link]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit
 [babel-link]: https://babeljs.io
 [build-badge]: https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square
 [build-link]: https://travis-ci.org/luftywiranda13/generator-bunny
@@ -176,6 +201,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 [roadmap-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md
 [semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-link]: https://github.com/semantic-release/semantic-release
+[semver-link]: http://semver.org/
 [sindresorhus-link]: https://github.com/sindresorhus
 [travis-link]: https://travis-ci.org
 [yarn-link]: https://yarnpkg.com
