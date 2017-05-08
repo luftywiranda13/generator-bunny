@@ -38,6 +38,7 @@ module.exports = class extends Generator {
       mv('editorconfig', '.editorconfig');
       mv('eslintignore', '.eslintignore');
       mv('eslintrc.json', '.eslintrc.json');
+      mv('flowconfig', '.flowconfig');
     });
   }
   install() {
