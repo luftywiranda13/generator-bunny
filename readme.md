@@ -140,6 +140,19 @@ Follow these steps to maintain better project and have the ability to release it
 You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
 
 
+## Tips
+
+This generator ships with some useful scripts to help you. To see the list, run:
+```sh
+yarn start
+```
+
+Or with npm:
+```sh
+npm start
+```
+
+
 ## Inspiration
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
