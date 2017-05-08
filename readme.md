@@ -134,11 +134,10 @@ semantic-release-cli setup
 
 When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it). Don't forget to choose `no` to `overwrite`.
 
-Publish manually: 
+Then, publish manually for the **first time only**:<br />
 ```sh
 npm publish
 ```
-**Remember to do this only once**.
 
 
 ### Recommended workflow
