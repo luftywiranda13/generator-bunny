@@ -8,4 +8,4 @@ We haven't filled this out yet though. Care to help? See `CONTRIBUTING.md`
 
 ## Might do
 
-## Wont do
+## Won't do
