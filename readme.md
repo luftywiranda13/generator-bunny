@@ -78,7 +78,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 ## Suggestions
 Help things to get better, contributions of any kind are welcome!
 
-I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
+I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
 Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
 Also see [contributing.md](./contributing.md) for more informations about how to contribute.
