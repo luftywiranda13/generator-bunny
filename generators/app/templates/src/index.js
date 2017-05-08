@@ -1,3 +1,3 @@
 const bunny = 'hi, 🐰';
 
-module.exports = bunny;
+export default bunny;
