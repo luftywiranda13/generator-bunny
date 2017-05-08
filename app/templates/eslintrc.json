@@ -11,7 +11,10 @@
   ],
   "plugins": [
     "flowtype",
-    "jest"
+    "import",
+    "jest",
+    "jsx-a11y",
+    "react"
   ],
   "rules": {
     "max-len": ["error", 80],
