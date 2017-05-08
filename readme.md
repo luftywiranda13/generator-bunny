@@ -48,7 +48,8 @@
 </p>
 
 <p align="center">
-  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch. Spend your time more on writing codes than setting them up.
+  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
+  Spend your time more on writing codes than setting them up.
 </p>
 
 <p align="center"><strong>Set it once, then forget it!</strong></p>
@@ -79,12 +80,12 @@ Help things to get better, contributions of any kind are welcome!
 
 I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](`#`) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
-Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it! See [contributing.md](./contributing.md) for more informations about how to contribute.
-
-This project follows the [all-contributors][all-contributors-link] specification.
+Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
+Also see [contributing.md](./contributing.md) for more informations about how to contribute.
 
 
 ## Contributors
+This project follows the [all-contributors][all-contributors-link] specification.<br />
 Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
