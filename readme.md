@@ -62,12 +62,12 @@ This repo includes built-in modern tools which are widely-used in the community:
 - Automated releasing with [semantic-release][semantic-link]
 - Automated testing & validation before any commits
 - Automated source-code formatting with [prettier][prettier-link]
-- [Babel][babel-link] transpiler
-- [Eslint][eslint-link]
-- [Flow][flow-link]
-- [Jest][jest-link]
-- [React][react-link]
-- [Travis CI][travis-link]
+- [Babel][babel-link] transpiler for writing next generation JavaScript
+- [Eslint][eslint-link] linting utility
+- [Flow][flow-link] static typechecker
+- [Jest][jest-link] test runner
+- [React][react-link] ready
+- [Travis Continuous Integration][travis-link]
 - Really? You need me to list them all here? 🐰
 
 
