@@ -163,7 +163,7 @@ This project follows the [all-contributors][all-contributors-link] specification
 Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/solid-node-module/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/solid-node-module/commits?author=luftywiranda13 "Documentation") [🔌](#plugin-luftywiranda13 "Plugin/utility libraries") |
+| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Documentation") [💡](#example-luftywiranda13 "Examples") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
