@@ -139,6 +139,12 @@ Follow these steps to maintain better project and have the ability to release it
 
 You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
 
+For example, you still can do it like this:
+```sh
+git add .
+git commit -m "I want to do it my way cause this is my project and I'm working for myself"
+```
+
 
 ## Tips
 
