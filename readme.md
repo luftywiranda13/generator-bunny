@@ -178,6 +178,12 @@ Thanks goes to these people:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
+## Useful links
+
+- [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+- [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
+
+
 ## License
 MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
 
