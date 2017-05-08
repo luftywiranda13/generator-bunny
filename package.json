@@ -54,7 +54,11 @@
     "npm"
   ],
   "dependencies": {
-    "lodash.kebabcase": "^4.1.1",
+    "humanize-url": "^1.0.1",
+    "is-scoped": "^1.0.0",
+    "normalize-url": "^1.2.0",
+    "superb": "^1.1.3",
+    "underscore.string": "^3.0.3",
     "yeoman-generator": "^1.1.1"
   },
   "devDependencies": {
