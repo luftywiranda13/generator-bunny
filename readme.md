@@ -154,13 +154,13 @@ npm start commit
 ```
 
 #### Select the type of your commit
-> This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following the conventions is important if you want to start a maintainable and scalable project. Also it is **required to make automated releasing works**.
+This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following the conventions is important if you want to start a maintainable and scalable project. Also it is **required to make automated releasing works**.
 
 #### Push those changes to your remote repository
 > Don't add tag or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.
 
 #### Sit back and relax 💅
-> GitHub release notes, publishing to npm, bump project version, and many more complicated things are already handled by semantic-release. Your release version number is formatted based on [SemVer][semver-link].
+GitHub release notes, publishing to npm, bump project version, and many more complicated things are already handled by semantic-release. Your release version number is formatted based on [SemVer][semver-link].
 
 
 ### Your own workflow
