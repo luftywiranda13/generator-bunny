@@ -32,17 +32,11 @@ module.exports = class extends Generator {
         props,
       );
 
-      mv('gitattributes', '.gitattributes');
-      mv('gitignore', '.gitignore');
-      mv('travis.yml', '.travis.yml');
-      mv('npmrc', '.npmrc');
-      mv('babelrc', '.babelrc');
-      mv('opt-in', '.opt-in');
-      mv('eslintignore', '.eslintignore');
       mv('_package.json', 'package.json');
       mv('all-contributorsrc', '.all-contributorsrc');
-      mv('github/ISSUE_TEMPLATE.md', '.github/ISSUE_TEMPLATE.md');
-      mv('github/PULL_REQUEST_TEMPLATE.md', '.github/PULL_REQUEST_TEMPLATE.md');
+      mv('babelrc', '.babelrc');
+      mv('editorconfig', '.editorconfig');
+      mv('eslintignore', '.eslintignore');
     });
   }
   install() {
