@@ -1,6 +1,7 @@
-node_modules
-coverage
-dist
 .opt-in
 .opt-out
-
+build
+coverage
+dist
+lib
+node_modules
