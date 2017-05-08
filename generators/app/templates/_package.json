@@ -1,55 +1,27 @@
 {
   "name": "<%= moduleName %>",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "description": "<%= description %>",
-  "main": "dist/index.js",
-  "scripts": {
-    "start": "nps",
-    "test": "nps test",
-    "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\""
+  "license": "MIT",
+  "author": "<%= name %> <%= email %>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "keywords": [],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "all-contributors-cli": "^4.0.1",
-    "babel-cli": "^6.23.0",
-    "babel-jest": "^19.0.0",
-    "babel-preset-env": "^1.2.0",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.23.0",
-    "codecov": "^2.1.0",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^3.17.0",
-    "eslint-config-kentcdodds": "^12.0.0",
-    "husky": "^0.13.2",
-    "jest-cli": "^19.0.2",
-    "lint-staged": "^3.3.1",
-    "nps": "^5.0.3",
-    "nps-utils": "^1.1.2",
-    "opt-cli": "^1.5.1",
-    "prettier-eslint-cli": "^3.1.2",
-    "semantic-release": "^6.3.6",
-    "validate-commit-msg": "^2.11.1"
+  "scripts": {
+    "start": "nps",
+    "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
+    "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\"",
+    "test": "nps test"
   },
-  "eslintConfig": {
-    "extends": [
-      "kentcdodds",
-      "kentcdodds/jest",
-      "kentcdodds/prettier"
-    ]
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier-eslint --write",
-      "git add"
-    ]
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   },
   "jest": {
     "testEnvironment": "node",
@@ -62,17 +34,49 @@
       }
     }
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint -- --trailing-comma all --single-quote --parser flow --write",
+      "git add"
+    ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kentcdodds/<%= moduleName %>.git"
+  "keywords": [
+    "🐰"
+  ],
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
-  "bugs": {
-    "url": "https://github.com/kentcdodds/<%= moduleName %>/issues"
-  },
-  "homepage": "https://github.com/kentcdodds/<%= moduleName %>#readme"
+  "devDependencies": {
+    "all-contributors-cli": "^4.0.1",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^20.0.0",
+    "babel-preset-env": "^1.2.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.23.0",
+    "codecov": "^2.1.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "14.1.0",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jest": "^20.0.0",
+    "eslint-plugin-jsx-a11y": "4.0.0",
+    "eslint-plugin-react": "6.10.3",
+    "flow-bin": "^0.45.0",
+    "husky": "^0.13.2",
+    "jest": "^20.0.0",
+    "jest-cli": "^20.0.0",
+    "lint-staged": "^3.3.1",
+    "nps": "^5.0.3",
+    "nps-utils": "^1.1.2",
+    "opt-cli": "^1.5.1",
+    "prettier-eslint-cli": "^3.1.2",
+    "react-test-renderer": "^15.5.4",
+    "semantic-release": "^6.3.2",
+    "validate-commit-msg": "^2.11.1"
+  }
 }
