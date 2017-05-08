@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/luftywiranda13/generator-bunny/releases">
-    <img src="https://img.shields.io/github/release/luftywiranda13/generator-bunny.svg?style=flat-square" />
+  <a href="https://www.npmjs.com/package/generator-bunny">
+    <img src="https://img.shields.io/npm/v/generator-bunny.svg?style=flat-square" />
   </a>
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
     <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square" />
