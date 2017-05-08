@@ -23,6 +23,10 @@ module.exports = {
       description: 'lint the entire project with eslint & flow',
       script: 'eslint .',
     },
+    test: {
+      default: 'jest --coverage',
+      watch: 'jest --watch',
+    },
     reportCoverage: {
       description: 'Report coverage stats to codecov. This should be run after the `test` script',
       script: 'codecov',
@@ -37,7 +41,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: concurrent.nps('lint'),
+      script: concurrent.nps('lint', 'test'),
     },
   },
   options: {
