@@ -1,100 +1,112 @@
-# <%= moduleName %>
+<p align="center">
+  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="320" />
+</p>
 
-<%= description %>
+<p align="center">
+  <strong>Jumpstart <a href="https://www.npmjs.com">node module</a>, like a bunny!</strong>
+</p>
 
-[![Build Status][build-badge]][build]
-[![Code Coverage][coverage-badge]][coverage]
-[![Dependencies][dependencyci-badge]][dependencyci]
-[![version][version-badge]][package]
-[![downloads][downloads-badge]][npm-stat]
-[![MIT License][license-badge]][LICENSE]
+<p align="center">
+  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
+  Spend your time more on writing codes than setting them up.
+</p>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-[![PRs Welcome][prs-badge]][prs]
-[![Donate][donate-badge]][donate]
-[![Code of Conduct][coc-badge]][coc]
-[![Roadmap][roadmap-badge]][roadmap]
-[![Examples][examples-badge]][examples]
+<p align="center"><strong>Set it once, then forget it!</strong></p>
 
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
+---
 
-## The problem
+## Highlights
 
 
-
-## This solution
-
+## Getting started
 
 
-## Installation
-
-This module is distributed via [npm][npm] which is bundled with [node][node] and
-should be installed as one of your project's <% if (devDep) { %>`devDependencies`<% } %><% if (!devDep) { %>`dependencies`<% } %>:
+### Installation
 
 ```
 npm install --save<% if (devDep) { %>-dev<% } %> <%= moduleName %>
 ```
 
+```sh
+# with yarn:
+yarn add <%= moduleName %>
+
+# with npm: 
+npm install --save <%= moduleName %>
+```
+
+
 ## Usage
 
 
+## Suggestions
+Help things to get better, contributions of any kind are welcome!
 
-## Inspiration
+I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [<%= moduleName %>](https://github.com/<%= githubUsername %>/<%= repoName %>) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
+Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
+Also see [contributing.md](./contributing.md) for more informations about how to contribute.
 
-
-## Other Solutions
-
-I'm not aware of any, if you are please [make a pull request][prs] and add it
-here!
 
 ## Contributors
-
-Thanks goes to these people ([emoji key][emojis]):
+This project follows the [all-contributors][all-contributors-link] specification.<br />
+Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub>Kent C. Dodds</sub>](https://kentcdodds.com)<br />[💻](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) [📖](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) 🚇 [⚠️](https://github.com/kentcdodds/<%= moduleName %>/commits?author=kentcdodds) |
-| :---: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors][all-contributors] specification.
-Contributions of any kind welcome!
 
-## LICENSE
+## Inspiration
+Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
-MIT
 
-[npm]: https://www.npmjs.com/
-[node]: https://nodejs.org
-[build-badge]: https://img.shields.io/travis/kentcdodds/<%= moduleName %>.svg?style=flat-square
-[build]: https://travis-ci.org/kentcdodds/<%= moduleName %>
-[coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/<%= moduleName %>.svg?style=flat-square
-[coverage]: https://codecov.io/github/kentcdodds/<%= moduleName %>
-[dependencyci-badge]: https://dependencyci.com/github/kentcdodds/<%= moduleName %>/badge?style=flat-square
-[dependencyci]: https://dependencyci.com/github/kentcdodds/<%= moduleName %>
-[version-badge]: https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square
-[package]: https://www.npmjs.com/package/<%= moduleName %>
-[downloads-badge]: https://img.shields.io/npm/dm/<%= moduleName %>.svg?style=flat-square
-[npm-stat]: http://npm-stat.com/charts.html?package=<%= moduleName %>&from=2016-04-01
-[license-badge]: https://img.shields.io/npm/l/<%= moduleName %>.svg?style=flat-square
-[license]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/LICENSE
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[prs]: http://makeapullrequest.com
-[donate-badge]: https://img.shields.io/badge/$-support-green.svg?style=flat-square
-[donate]: http://kcd.im/donate
+## Useful links
+
+- [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+- [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
+
+
+## License
+MIT &copy; [<%= name %>](<%= website %>)
+
+
+[all-contributors-link]: https://github.com/kentcdodds/all-contributors
+[angular-conventions-link]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit
+[babel-link]: https://babeljs.io
+[build-badge]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
+[build-link]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/CODE_OF_CONDUCT.md
-[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[roadmap]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/ROADMAP.md
+[coc-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/code_of_conduct.md
+[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
+[commitizen-link]: http://commitizen.github.io/cz-cli
+[coverage-badge]: https://img.shields.io/codecov/c/github/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
+[coverage-link]: https://codecov.io/github/<%= githubUsername %>/<%= moduleName %>
+[eslint-link]: http://eslint.org/
 [examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
-[examples]: https://github.com/kentcdodds/<%= moduleName %>/blob/master/other/EXAMPLES.md
-[github-watch-badge]: https://img.shields.io/github/watchers/kentcdodds/<%= moduleName %>.svg?style=social
-[github-watch]: https://github.com/kentcdodds/<%= moduleName %>/watchers
-[github-star-badge]: https://img.shields.io/github/stars/kentcdodds/<%= moduleName %>.svg?style=social
-[github-star]: https://github.com/kentcdodds/<%= moduleName %>/stargazers
-[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20<%= moduleName %>!%20https://github.com/kentcdodds/<%= moduleName %>%20%F0%9F%91%8D
-[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/kentcdodds/<%= moduleName %>.svg?style=social
-[emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
-[all-contributors]: https://github.com/kentcdodds/all-contributors
+[examples-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/examples.md
+[flow-link]: https://flow.org
+[<%= moduleName %>-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>
+[jest-link]: https://facebook.github.io/jest
+[kentcdodds-link]: https://github.com/kentcdodds
+[license-badge]: https://img.shields.io/github/license/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
+[license-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/license
+[npm-link]: https://www.npmjs.com/
+[nps-link]: https://github.com/kentcdodds/nps
+[open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
+[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
+[prettier-link]: https://github.com/prettier/prettier
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs-link]: http://makeapullrequest.com
+[react-link]: https://github.com/facebook/react
+[release-badge]: https://img.shields.io/github/release/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
+[release-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/releases/latest
+[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
+[roadmap-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/roadmap.md
+[semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
+[semantic-link]: https://github.com/semantic-release/semantic-release
+[semver-link]: http://semver.org/
+[sindresorhus-link]: https://github.com/sindresorhus
+[travis-link]: https://travis-ci.org
+[yarn-link]: https://yarnpkg.com
+[yeoman-link]: http://yeoman.io/
