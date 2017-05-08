@@ -128,8 +128,8 @@ yarn global add semantic-release-cli
 semantic-release-cli setup
 ```
 
-When you're asked about Continuous Integration, choose Travis CI (or Travis CI Pro, if you have it).<br />
-Choose `no` to `overwrite`
+Select Travis CI (or Travis CI Pro, if you have it).<br />
+Then answer `no` to `overwrite`
 
 Then, publish manually for the **first time only**:<br />
 ```sh
