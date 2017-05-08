@@ -15,4 +15,4 @@ We haven't filled this out yet though. Care to help? See [contributing.md][contr
 ## Wont do
 
 
-[contributing-link]: https://github.com/luftywiranda13/solid-node-module/blob/master/contributing.md
+[contributing-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/contributing.md

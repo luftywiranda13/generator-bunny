@@ -2,7 +2,6 @@ const npsUtils = require('nps-utils'); // eslint-disable-line
 
 const series = npsUtils.series;
 const concurrent = npsUtils.concurrent;
-const rimraf = npsUtils.rimraf;
 
 module.exports = {
   scripts: {
@@ -24,19 +23,9 @@ module.exports = {
       default: 'jest --coverage',
       watch: 'jest --watch',
     },
-    build: {
-      description: 'delete the dist directory and run babel to build the files',
-      script: series(
-        rimraf('dist'),
-        'babel --copy-files --out-dir dist --ignore *.test.js src'
-      ),
-    },
     lint: {
       description: 'lint the entire project with eslint & flow',
-      script: series(
-        'flow',
-        'eslint .'
-      ),
+      script: 'eslint .',
     },
     reportCoverage: {
       description: 'Report coverage stats to codecov. This should be run after the `test` script',
@@ -52,7 +41,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: concurrent.nps('lint', 'build', 'test'),
+      script: concurrent.nps('lint', 'test'),
     },
   },
   options: {
