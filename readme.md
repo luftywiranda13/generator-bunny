@@ -90,6 +90,33 @@ npm i -g generator-bunny
 ```
 
 
+### Create new project
+
+Make a directory to hold your project:
+```sh
+mkdir my-bunny
+cd my-bunny
+```
+
+Generate files:
+```sh
+yo bunny
+```
+
+Follow the instruction from the command-line,<br />
+Then validate your project by running:
+```sh
+yarn start validate
+```
+
+Or with npm:
+```sh
+npm start validate
+```
+
+If you got no errors then you're ready to go!<br />
+
+
 ## Inspiration
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
