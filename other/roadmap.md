@@ -10,7 +10,7 @@ We haven't filled this out yet though. Care to help? See [contributing.md][contr
 
 
 ## Might do
-- [ ] Make custom eslint rule/config.
+- [ ] Make custom eslint plugin/config.
 
 
 ## Wont do
