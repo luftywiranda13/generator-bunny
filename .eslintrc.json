@@ -9,7 +9,10 @@
     "plugin:jest/recommended"
   ],
   "plugins": [
-    "jest"
+    "import",
+    "jest",
+    "jsx-a11y",
+    "react"
   ],
   "rules": {
     "max-len": ["error", 80],
