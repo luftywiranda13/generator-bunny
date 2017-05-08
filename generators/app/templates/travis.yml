@@ -1,12 +1,15 @@
-sudo: false
 language: node_js
 cache:
+  yarn: true
   directories:
     - node_modules
 notifications:
   email: false
 node_js:
+  - 'stable'
   - '6'
+before_script:
+  - npm prune
 script:
   - yarn start validate
 after_success:
@@ -15,3 +18,4 @@ after_success:
 branches:
   only:
     - master
+    - /^greenkeeper/.*$/
