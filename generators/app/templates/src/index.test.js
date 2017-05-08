@@ -1,5 +1,7 @@
-import lib from './';
+import bunny from './index';
 
-test('lib should be tested', () => {
-  expect(lib).toBeDefined();
+describe('index.js', () => {
+  it('should print hi message from bunny!', () => {
+    expect(bunny).toEqual('hi, 🐰');
+  });
 });
