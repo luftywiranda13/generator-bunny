@@ -155,10 +155,6 @@ npm start
 The scripts are provided by [nps][nps-link].
 
 
-## Inspiration
-Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
-
-
 ## Suggestions
 Help things to get better, contributions of any kind are welcome!
 
@@ -176,6 +172,10 @@ Thanks goes to these people:
 | [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Documentation") [💡](#example-luftywiranda13 "Examples") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+## Inspiration
+Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
 
 ## Useful links
