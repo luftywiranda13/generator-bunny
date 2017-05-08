@@ -8,7 +8,6 @@ module.exports = class extends Generator {
         name: 'moduleName',
         message: 'What do you want to name your module?',
         default: this.appname.replace(/\s/g, '-'),
-        filter: x => kebabCase(x).toLowerCase(),
         store: true,
       },
       {
@@ -35,7 +34,7 @@ module.exports = class extends Generator {
       };
 
       const tpl = {
-        moduleName: props.moduleName,
+        moduleName: kebabCase(props.moduleName).toLowerCase(),
         description: props.description,
         name: this.user.git.name(),
         githubUsername: props.githubUsername,
@@ -46,7 +45,8 @@ module.exports = class extends Generator {
       this.fs.copyTpl(
         [`${this.templatePath()}/**`],
         this.destinationPath(),
-        tpl);
+        tpl,
+      );
 
       mv('_package.json', 'package.json');
       mv('all-contributorsrc', '.all-contributorsrc');
