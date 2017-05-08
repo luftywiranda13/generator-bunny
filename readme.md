@@ -58,7 +58,7 @@
 
 ## Highlights
 This repo includes built-in modern tools which are widely-used in the community:
-- Automated GitHub release notes generator
+- Automated [GitHub release](/releases) notes generator
 - Automated releasing with [semantic-release][semantic-link]
 - Automated testing & validation before any commits
 - Automated source-code formatting with [prettier][prettier-link]
@@ -68,7 +68,7 @@ This repo includes built-in modern tools which are widely-used in the community:
 - [Jest][jest-link] test runner
 - [React][react-link] ready
 - [Travis Continuous Integration][travis-link]
-- Really? You need me to list them all here? 🐰
+- More… You need me to list them all here? 🐰
 
 
 ## Inspiration
