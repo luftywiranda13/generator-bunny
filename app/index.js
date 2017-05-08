@@ -45,8 +45,7 @@ module.exports = class extends Generator {
       this.fs.copyTpl(
         [`${this.templatePath()}/**`],
         this.destinationPath(),
-        tpl,
-      );
+        tpl);
 
       mv('_package.json', 'package.json');
       mv('all-contributorsrc', '.all-contributorsrc');
