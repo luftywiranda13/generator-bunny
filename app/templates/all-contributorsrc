@@ -2,7 +2,7 @@
   "projectName": "<%= moduleName %>",
   "projectOwner": "<%= name %>",
   "files": [
-    "README.md"
+    "readme.md"
   ],
   "imageSize": 100,
   "commit": false,
