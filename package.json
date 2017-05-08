@@ -9,9 +9,9 @@
     "type": "git",
     "url": "https://github.com/luftywiranda13/generator-bunny.git"
   },
-  "main": "generators/app/index.js",
+  "main": "app/index.js",
   "files": [
-    "generators"
+    "app"
   ],
   "scripts": {
     "start": "nps",
