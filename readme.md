@@ -78,8 +78,6 @@ This generator includes built-in modern tools which are widely-used in the commu
 
 ### 1. Installation
 
-Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
-
 ```sh
 # with yarn:
 yarn global add yo
@@ -131,17 +129,15 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
-There's already a great Travis CI configuration file `(.travis.yml)` provided out of the box for you. You can leave it like what it is because it's already more than enough in most common situation.
+There's already a great Travis CI configuration stored in `.travis.yml`. You can leave it like what it is because it's already more than enough in most common situation.
 
-#### Then, publish manually for this very first time only:
+#### Publish manually for this very first time only:
 ```sh
 npm publish
 ```
 
 
 ### 2. Recommended workflow
-
-As a project maintainer of many projects, you may want to standardize on a single commit message format for all of them. Follow these steps to maintain better project and have the ability to release it automatically.
 
 #### Make changes then commit those changes by running: 
 
@@ -156,17 +152,18 @@ npm start commit
 #### Select the type of commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
-Following the conventions is important if you want to start a maintainable and scalable project.<br />
-Also it is required to make automated releasing works.
+Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to make automated releasing works.
 
 
 #### Push those changes to GitHub
-Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you. Your release version number is auto-formatted based on [SemVer specifications][semver-link].
+Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
+Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
 
 ### 3. Your own workflow
 
-You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
+You don't need to follow those recommended steps. Define your own workflow if you will.<br />
+But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
 
 For example, you still can do it like this:
 ```sh
@@ -177,7 +174,7 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 ## Tips
 
-This generator ships with some useful scripts provided by [nps][nps-link] to help you maintain your project. To see the list, run:
+Some useful scripts are provided by [nps][nps-link] to help you maintain your project. To see the list, run:
 ```sh
 # with yarn:
 yarn start
@@ -191,7 +188,8 @@ npm start
 
 Help things to get better, contributions of any kind are welcome!
 
-I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
+I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project.<br />
+It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
 
 Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
 Also see [contributing.md](./contributing.md) for more informations about how to contribute.
