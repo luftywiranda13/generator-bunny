@@ -219,7 +219,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 
 ## License
-MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13).
+MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
