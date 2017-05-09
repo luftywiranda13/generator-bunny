@@ -78,8 +78,6 @@ This generator includes built-in modern tools which are widely-used in the commu
 
 ### 1. Installation
 
-Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
-
 ```sh
 # with yarn:
 yarn global add yo
@@ -131,17 +129,15 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
-There's already a great Travis CI configuration file `(.travis.yml)` provided out of the box for you. You can leave it like what it is because it's already more than enough in most common situation.
+There's already a great Travis CI configuration stored in `.travis.yml`. You can leave it like what it is because it's already more than enough in most common situation.
 
-#### Then, publish manually for this very first time only:
+#### Publish manually for this very first time only:
 ```sh
 npm publish
 ```
 
 
 ### 2. Recommended workflow
-
-As a project maintainer of many projects, you may want to standardize on a single commit message format for all of them. Follow these steps to maintain better project and have the ability to release it automatically.
 
 #### Make changes then commit those changes by running: 
 
@@ -156,7 +152,7 @@ npm start commit
 #### Select the type of commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
-Following the conventions is important if you want to start a maintainable and scalable project.<br />
+Following a standardize commit message format is important if you want to start a maintainable and scalable project.<br />
 Also it is required to make automated releasing works.
 
 
@@ -177,7 +173,8 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 ## Tips
 
-This generator ships with some useful scripts provided by [nps][nps-link] to help you maintain your project. To see the list, run:
+This generator ships with some useful scripts provided by [nps][nps-link] to help you maintain your project.<br />
+To see the list, run:
 ```sh
 # with yarn:
 yarn start
