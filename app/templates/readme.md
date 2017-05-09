@@ -65,10 +65,6 @@
 
 ### Installation
 
-```
-npm install --save <%= moduleName %>
-```
-
 ```sh
 # with yarn:
 yarn add <%= moduleName %>
