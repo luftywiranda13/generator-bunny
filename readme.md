@@ -131,7 +131,7 @@ yarn global add semantic-release-cli
 semantic-release-cli setup
 ```
 
-#### Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
+#### Select Travis CI, answer `no` to `overwrite`
 
 #### Then, publish manually for the **first time only**:<br />
 ```sh
