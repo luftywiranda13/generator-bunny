@@ -63,18 +63,21 @@ module.exports = class extends Generator {
         tpl);
 
       mv('_package.json', 'package.json');
-      mv('all-contributorsrc', '.all-contributorsrc');
-      mv('babelrc', '.babelrc');
-      mv('editorconfig', '.editorconfig');
-      mv('eslintignore', '.eslintignore');
-      mv('eslintrc.json', '.eslintrc.json');
-      mv('flowconfig', '.flowconfig');
-      mv('gitattributes', '.gitattributes');
-      mv('github/issue_template.md', '.github/issue_template.md');
-      mv('github/pull_request_template.md', '.github/pull_request_template.md');
-      mv('gitignore', '.gitignore');
-      mv('npmrc', '.npmrc');
-      mv('travis.yml', '.travis.yml');
+      mv('_all-contributorsrc', '.all-contributorsrc');
+      mv('_babelrc', '.babelrc');
+      mv('_editorconfig', '.editorconfig');
+      mv('_eslintignore', '.eslintignore');
+      mv('_eslintrc.json', '.eslintrc.json');
+      mv('_flowconfig', '.flowconfig');
+      mv('_gitattributes', '.gitattributes');
+      mv('_github/issue_template.md', '.github/issue_template.md');
+      mv(
+        '_github/pull_request_template.md',
+        '.github/pull_request_template.md',
+      );
+      mv('_gitignore', '.gitignore');
+      mv('_npmrc', '.npmrc');
+      mv('_travis.yml', '.travis.yml');
     });
   }
   git() {
