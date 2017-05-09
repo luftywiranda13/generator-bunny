@@ -161,9 +161,6 @@ Also it is **required to make automated releasing works**.
 Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
 Your release version number is also formatted based on [SemVer][semver-link].
 
-#### Sit back and relax 💅
-All is set, what are you worried about?
-
 
 ### Your own workflow
 
