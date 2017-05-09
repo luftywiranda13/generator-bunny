@@ -7,6 +7,47 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/<%- moduleName %>">
+    <img src="https://img.shields.io/npm/v/<%- moduleName %>.svg?style=flat-square" />
+  </a>
+  <a href="https://travis-ci.org/<%- githubUsername %>/<%- moduleName %>">
+    <img src="https://img.shields.io/travis/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
+  </a>
+  <a href="https://codecov.io/github/<%- githubUsername %>/<%- moduleName %>">
+    <img src="https://img.shields.io/codecov/c/github/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
+  </a>
+  <a href="https://david-dm.org/<%- githubUsername %>/<%- moduleName %>">
+    <img src="https://david-dm.org/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/<%- githubUsername %>/<%- moduleName %>/blob/master/license">
+    <img src="https://img.shields.io/github/license/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
+  </a>
+  <a href="http://commitizen.github.io/cz-cli">
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/<%- githubUsername %>/<%- moduleName %>/blob/master/other/code_of_conduct.md">
+    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/<%- githubUsername %>/<%- moduleName %>/blob/master/other/roadmap.md">
+    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/<%- githubUsername %>/<%- moduleName %>/blob/master/other/examples.md">
+    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
+  </a>
+</p>
+
+<p align="center">
   Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
   Spend your time more on writing codes than setting them up.
 </p>
