@@ -56,6 +56,7 @@
 
 ---
 
+
 ## Highlights
 This generator includes built-in modern tools which are widely-used in the community:
 - Automated [GitHub release](/releases) notes generator
@@ -72,7 +73,9 @@ This generator includes built-in modern tools which are widely-used in the commu
 
 ![](screenshot.png)
 
+
 ## Getting started
+
 
 ### Installation
 
@@ -91,75 +94,77 @@ npm i -g generator-bunny
 
 ### Create new project
 
-Make a directory to hold your project:
-```sh
-mkdir my-bunny
-cd my-bunny
-```
+- #### Make a directory to hold your project:
+  ```sh
+  mkdir my-bunny
+  cd my-bunny
+  ```
 
-Generate files:
-```sh
-yo bunny
-```
+- #### Generate files:
+  ```sh
+  yo bunny
+  ```
 
-Follow the instruction from the command-line. After installation finished,  validate your project by running:
-```sh
-# with yarn:
-yarn start validate
+- #### After installation finished,  validate your project by running:
+  ```sh
+  # with yarn:
+  yarn start validate
 
-# with npm:
-npm start validate
-```
+  # with npm:
+  npm start validate
+  ```
 
-If you got no errors then you're ready to go!
+  If you got no errors then you're ready to go!
 
 
 ## Usage
 
 ### First-timer
-Install and setup [semantic-release][semantic-link]:
-```sh
-# with npm:
-npm i -g semantic-release-cli
 
-# or with yarn :
-yarn global add semantic-release-cli 
+- #### Install and setup [semantic-release][semantic-link]:
+  ```sh
+  # with npm:
+  npm i -g semantic-release-cli
 
-# then run:
-semantic-release-cli setup
-```
+  # or with yarn :
+  yarn global add semantic-release-cli 
 
-Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
+  # then run:
+  semantic-release-cli setup
+  ```
 
-Then, publish manually for the **first time only**:<br />
-```sh
-npm publish
-```
+- #### Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
+
+- #### Then, publish manually for the **first time only**:<br />
+  ```sh
+  npm publish
+  ```
 
 
 ### Recommended workflow
 
 Follow these steps to maintain better project and have the ability to release it automatically.
 
-#### Make changes then commit those changes by running: 
+- #### Make changes then commit those changes by running: 
 
-```sh
-#with yarn:
-yarn start commit 
+  ```sh
+  #with yarn:
+  yarn start commit 
 
-# with npm:
-npm start commit
-```
+  # with npm:
+  npm start commit
+  ```
 
-#### Select the type of commit
-This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
+- #### Select the type of commit
+  This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
-Following the conventions is important if you want to start a maintainable and scalable project.<br />
-Also it is **required to make automated releasing works**.
+  Following the conventions is important if you want to start a maintainable and scalable project.<br />
+  Also it is **required to make automated releasing works**.
 
-#### Push those changes to GitHub
-Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
-Your release version number is also formatted based on [SemVer][semver-link].
+
+- #### Push those changes to GitHub
+  Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
+  Your release version number is also formatted based on [SemVer][semver-link].
 
 
 ### Your own workflow
