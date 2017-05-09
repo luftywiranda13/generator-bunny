@@ -14,7 +14,7 @@ describe('Generator', () => {
     }),
   );
 
-  it('creates files', () => {
+  it('generates files', () => {
     const expected = [
       '.all-contributorsrc',
       '.babelrc',
