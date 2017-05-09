@@ -132,8 +132,9 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
+There's already a great Travis CI configuration file `(.travis.yml)` provided out of the box for you. You can leave it like what it is because it's already more than enough in most common situation.
 
-#### Then, publish manually for the **first time only**:<br />
+#### Then, publish manually for this very first time only:
 ```sh
 npm publish
 ```
@@ -161,8 +162,7 @@ Also it is required to make automated releasing works.
 
 
 #### Push those changes to GitHub
-Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
-Your release version number is also formatted based on [SemVer][semver-link].
+Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you. Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
 
 ### 3. Your own workflow
@@ -178,7 +178,7 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 ## Tips
 
-This generator ships with some useful scripts to help you maintain your project. To see the list, run:
+This generator ships with some useful scripts provided [nps][nps-link] to help you maintain your project. To see the list, run:
 ```sh
 # with yarn:
 yarn start
@@ -186,8 +186,6 @@ yarn start
 # with npm:
 npm start
 ```
-
-The scripts are provided by [nps][nps-link].
 
 
 ## Suggestions
