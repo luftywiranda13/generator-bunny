@@ -36,7 +36,8 @@
   },
   "lint-staged": {
     "*.js": [
-      "prettier-eslint -- --trailing-comma all --single-quote --parser flow --write",
+      "prettier --trailing-comma all --single-quote --parser flow --write",
+      "eslint . --fix",
       "git add"
     ]
   },
@@ -73,7 +74,7 @@
     "nps": "^5.0.3",
     "nps-utils": "^1.1.2",
     "opt-cli": "^1.5.1",
-    "prettier-eslint-cli": "^3.1.2",
+    "prettier": "^3.1.2",
     "react-test-renderer": "^15.5.4",
     "semantic-release": "^6.3.2",
     "validate-commit-msg": "^2.11.1"
