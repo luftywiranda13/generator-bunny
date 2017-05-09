@@ -70,6 +70,7 @@ This generator includes built-in modern tools which are widely-used in the commu
 - [Travis Continuous Integration][travis-link]
 - More… You need me to list them all here? 🐰
 
+![](screenshot.png)
 
 ## Getting started
 
