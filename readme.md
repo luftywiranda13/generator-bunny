@@ -56,6 +56,7 @@
 
 ---
 
+
 ## Highlights
 This generator includes built-in modern tools which are widely-used in the community:
 - Automated [GitHub release](/releases) notes generator
@@ -72,9 +73,11 @@ This generator includes built-in modern tools which are widely-used in the commu
 
 ![](screenshot.png)
 
+
 ## Getting started
 
-### Installation
+
+### 1. Installation
 
 Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
 
@@ -89,20 +92,20 @@ npm i -g generator-bunny
 ```
 
 
-### Create new project
+### 2. Create new project
 
-Make a directory to hold your project:
+#### Make a directory to hold your project:
 ```sh
 mkdir my-bunny
 cd my-bunny
 ```
 
-Generate files:
+#### Generate files:
 ```sh
 yo bunny
 ```
 
-Follow the instruction from the command-line. After installation finished,  validate your project by running:
+#### After installation finished,  validate your project by running:
 ```sh
 # with yarn:
 yarn start validate
@@ -111,13 +114,12 @@ yarn start validate
 npm start validate
 ```
 
-If you got no errors then you're ready to go!
-
 
 ## Usage
 
-### First-timer
-Install and setup [semantic-release][semantic-link]:
+### 1. First-timer
+
+#### Install and setup [semantic-release][semantic-link]:
 ```sh
 # with npm:
 npm i -g semantic-release-cli
@@ -129,17 +131,17 @@ yarn global add semantic-release-cli
 semantic-release-cli setup
 ```
 
-Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
+#### Select Travis CI, answer `no` to `overwrite`
 
-Then, publish manually for the **first time only**:<br />
+#### Then, publish manually for the **first time only**:<br />
 ```sh
 npm publish
 ```
 
 
-### Recommended workflow
+### 2. Recommended workflow
 
-Follow these steps to maintain better project and have the ability to release it automatically.
+As a project maintainer of many projects, you may want to standardize on a single commit message format for all of them. Follow these steps to maintain better project and have the ability to release it automatically.
 
 #### Make changes then commit those changes by running: 
 
@@ -155,14 +157,15 @@ npm start commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
 Following the conventions is important if you want to start a maintainable and scalable project.<br />
-Also it is **required to make automated releasing works**.
+Also it is required to make automated releasing works.
+
 
 #### Push those changes to GitHub
 Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
 Your release version number is also formatted based on [SemVer][semver-link].
 
 
-### Your own workflow
+### 3. Your own workflow
 
 You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
 
@@ -175,7 +178,7 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 ## Tips
 
-This generator ships with some useful scripts to help you. To see the list, run:
+This generator ships with some useful scripts to help you maintain your project. To see the list, run:
 ```sh
 # with yarn:
 yarn start
@@ -188,6 +191,7 @@ The scripts are provided by [nps][nps-link].
 
 
 ## Suggestions
+
 Help things to get better, contributions of any kind are welcome!
 
 I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
@@ -197,6 +201,7 @@ Also see [contributing.md](./contributing.md) for more informations about how to
 
 
 ## Contributors
+
 This project follows the [all-contributors][all-contributors-link] specification.<br />
 Thanks goes to these people:
 
@@ -211,7 +216,6 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 
 ## Useful links
-
 - [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 - [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
