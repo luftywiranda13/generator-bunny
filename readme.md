@@ -178,7 +178,7 @@ git commit -m "I want to do it my way cause this is my project and I'm working f
 
 ## Tips
 
-This generator ships with some useful scripts provided [nps][nps-link] to help you maintain your project. To see the list, run:
+This generator ships with some useful scripts provided by [nps][nps-link] to help you maintain your project. To see the list, run:
 ```sh
 # with yarn:
 yarn start
