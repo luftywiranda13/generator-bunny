@@ -62,6 +62,7 @@ module.exports = class extends Generator {
         this.destinationPath(),
         tpl);
 
+      /* eslint-disable */
       mv('_package.json', 'package.json');
       mv('_all-contributorsrc', '.all-contributorsrc');
       mv('_babelrc', '.babelrc');
@@ -71,13 +72,12 @@ module.exports = class extends Generator {
       mv('_flowconfig', '.flowconfig');
       mv('_gitattributes', '.gitattributes');
       mv('_github/issue_template.md', '.github/issue_template.md');
-      mv(
-        '_github/pull_request_template.md',
-        '.github/pull_request_template.md',
-      );
+      // prettier-ignore
+      mv('_github/pull_request_template.md', '.github/pull_request_template.md');
       mv('_gitignore', '.gitignore');
       mv('_npmrc', '.npmrc');
       mv('_travis.yml', '.travis.yml');
+      /* eslint-enable */
     });
   }
   git() {
