@@ -121,53 +121,53 @@ If you got no errors then you're ready to go!
 
 ### 1. First-timer
 
-- #### Install and setup [semantic-release][semantic-link]:
-  ```sh
-  # with npm:
-  npm i -g semantic-release-cli
+#### Install and setup [semantic-release][semantic-link]:
+```sh
+# with npm:
+npm i -g semantic-release-cli
 
-  # or with yarn :
-  yarn global add semantic-release-cli 
+# or with yarn :
+yarn global add semantic-release-cli 
 
-  # then run:
-  semantic-release-cli setup
-  ```
+# then run:
+semantic-release-cli setup
+```
 
-- #### Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
+#### Select Travis CI (or Travis CI Pro, if you have it), answer `no` to `overwrite`
 
-- #### Then, publish manually for the **first time only**:<br />
-  ```sh
-  npm publish
-  ```
+#### Then, publish manually for the **first time only**:<br />
+```sh
+npm publish
+```
 
 
-### Recommended workflow
+### 2. Recommended workflow
 
 Follow these steps to maintain better project and have the ability to release it automatically.
 
-- #### Make changes then commit those changes by running: 
+#### Make changes then commit those changes by running: 
 
-  ```sh
-  #with yarn:
-  yarn start commit 
+```sh
+#with yarn:
+yarn start commit 
 
-  # with npm:
-  npm start commit
-  ```
+# with npm:
+npm start commit
+```
 
-- #### Select the type of commit
-  This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
+#### Select the type of commit
+This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
-  Following the conventions is important if you want to start a maintainable and scalable project.<br />
-  Also it is **required to make automated releasing works**.
-
-
-- #### Push those changes to GitHub
-  Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
-  Your release version number is also formatted based on [SemVer][semver-link].
+Following the conventions is important if you want to start a maintainable and scalable project.<br />
+Also it is **required to make automated releasing works**.
 
 
-### Your own workflow
+#### Push those changes to GitHub
+Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
+Your release version number is also formatted based on [SemVer][semver-link].
+
+
+### 3. Your own workflow
 
 You don't need to follow those recommended steps. Define your own workflow if you will. But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
 
@@ -193,6 +193,7 @@ The scripts are provided by [nps][nps-link].
 
 
 ## Suggestions
+
 Help things to get better, contributions of any kind are welcome!
 
 I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
@@ -202,6 +203,7 @@ Also see [contributing.md](./contributing.md) for more informations about how to
 
 
 ## Contributors
+
 This project follows the [all-contributors][all-contributors-link] specification.<br />
 Thanks goes to these people:
 
@@ -216,7 +218,6 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 
 ## Useful links
-
 - [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 - [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
