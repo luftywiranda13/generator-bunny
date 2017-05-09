@@ -56,6 +56,7 @@
 
 ---
 
+
 ## Highlights
 
 
@@ -81,6 +82,7 @@ npm install --save <%= moduleName %>
 
 
 ## Suggestions
+
 Help things to get better, contributions of any kind are welcome!
 
 I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [<%= moduleName %>](https://github.com/<%= githubUsername %>/<%= moduleName %>) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
@@ -90,6 +92,7 @@ Also see [contributing.md](./contributing.md) for more informations about how to
 
 
 ## Contributors
+
 This project follows the [all-contributors][all-contributors-link] specification.<br />
 Thanks goes to these people:
 
@@ -99,6 +102,7 @@ Thanks goes to these people:
 
 
 ## Inspiration
+
 Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
 
@@ -109,6 +113,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 
 ## License
+
 MIT &copy; [<%= name %>](<%= website %>)
 
 
