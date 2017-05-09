@@ -67,7 +67,6 @@ This generator includes built-in modern tools which are widely-used in the commu
 - [Eslint][eslint-link] linting utility
 - [Flow][flow-link] static typechecker
 - [Jest][jest-link] test runner
-- [React][react-link] ready
 - [Travis Continuous Integration][travis-link]
 - More… You need me to list them all here? 🐰
 
@@ -249,7 +248,6 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 [prettier-link]: https://github.com/prettier/prettier
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-link]: http://makeapullrequest.com
-[react-link]: https://github.com/facebook/react
 [release-badge]: https://img.shields.io/github/release/luftywiranda13/generator-bunny.svg?style=flat-square
 [release-link]: https://github.com/luftywiranda13/generator-bunny/releases/latest
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square

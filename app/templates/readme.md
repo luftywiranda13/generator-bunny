@@ -140,7 +140,6 @@ MIT &copy; [<%= name %>](<%= website %>)
 [prettier-link]: https://github.com/prettier/prettier
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-link]: http://makeapullrequest.com
-[react-link]: https://github.com/facebook/react
 [release-badge]: https://img.shields.io/github/release/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
 [release-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/releases/latest
 [roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
