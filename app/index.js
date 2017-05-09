@@ -55,6 +55,8 @@ module.exports = class extends Generator {
         website: props.website,
       };
 
+      // TODO: there's a real problem here whether it's with prettier or eslint
+      // prettier-ignore
       this.fs.copyTpl(
         [`${this.templatePath()}/**`],
         this.destinationPath(),
