@@ -14,8 +14,13 @@ describe('Generator', () => {
     }),
   );
 
+  it('can be required without throwing', () => {
+    // eslint-disable-next-line
+    require('../app');
+  });
+
   it('generates files', () => {
-    const expected = [
+    assert.file([
       '.all-contributorsrc',
       '.babelrc',
       '.editorconfig',
@@ -34,22 +39,29 @@ describe('Generator', () => {
       'readme.md',
       'src/index.js',
       'src/index.test.js',
-    ];
-
-    assert.file(expected);
-  });
-
-  it('fills package.json with correct information', () => {
-    assert.JSONFileContent('package.json', {
-      name: 'bunny-module',
-      description: 'as cute as bunny',
-    });
+    ]);
   });
 
   it('converts moduleName to kebabcase', () => {
     assert.JSONFileContent('package.json', {
       name: 'bunny-module',
-      description: 'as cute as bunny',
     });
+  });
+
+  it('fills package.json with correct informations', () => {
+    assert.JSONFileContent('package.json', {
+      name: 'bunny-module',
+      description: 'as cute as bunny',
+      author: 'yo <hi@bunny.io>',
+      repository: {
+        type: 'git',
+        url: 'https://github.com/bunny/bunny-module.git',
+      },
+    });
+  });
+
+  it('writes installation instructions', () => {
+    assert.fileContent('README.md', 'npm install --save bunny-module');
+    assert.fileContent('README.md', 'yarn add bunny-module');
   });
 });
