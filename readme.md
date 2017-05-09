@@ -151,13 +151,13 @@ yarn start commit
 npm start commit
 ```
 
-#### Select the type of your commit
+#### Select the type of commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
 Following the conventions is important if you want to start a maintainable and scalable project.<br />
 Also it is **required to make automated releasing works**.
 
-#### Push those changes to your remote repository
+#### Push those changes to GitHub
 Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
 Your release version number is also formatted based on [SemVer][semver-link].
 
