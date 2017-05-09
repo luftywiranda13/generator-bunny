@@ -77,7 +77,7 @@ This generator includes built-in modern tools which are widely-used in the commu
 ## Getting started
 
 
-### Installation
+### 1. Installation
 
 Install [Yeoman][yeoman-link] and [generator-bunny][generator-bunny-link] globally using [npm][npm-link] or [yarn][yarn-link]. Yarn currently provides significant speed improvements over npm during the installation process. Consider using yarn if the installation is too slow for your needs.
 
@@ -92,34 +92,34 @@ npm i -g generator-bunny
 ```
 
 
-### Create new project
+### 2. Create new project
 
-- #### Make a directory to hold your project:
-  ```sh
-  mkdir my-bunny
-  cd my-bunny
-  ```
+#### Make a directory to hold your project:
+```sh
+mkdir my-bunny
+cd my-bunny
+```
 
-- #### Generate files:
-  ```sh
-  yo bunny
-  ```
+#### Generate files:
+```sh
+yo bunny
+```
 
-- #### After installation finished,  validate your project by running:
-  ```sh
-  # with yarn:
-  yarn start validate
+#### After installation finished,  validate your project by running:
+```sh
+# with yarn:
+yarn start validate
 
-  # with npm:
-  npm start validate
-  ```
+# with npm:
+npm start validate
+```
 
-  If you got no errors then you're ready to go!
+If you got no errors then you're ready to go!
 
 
 ## Usage
 
-### First-timer
+### 1. First-timer
 
 - #### Install and setup [semantic-release][semantic-link]:
   ```sh
