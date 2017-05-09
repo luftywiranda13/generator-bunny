@@ -20,7 +20,7 @@ module.exports = {
       script: 'git-cz',
     },
     lint: {
-      description: 'lint the entire project with eslint & flow',
+      description: 'lint the entire project with eslint',
       script: 'eslint .',
     },
     test: {
