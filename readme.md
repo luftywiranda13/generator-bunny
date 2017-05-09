@@ -141,7 +141,7 @@ npm publish
 
 ### 2. Recommended workflow
 
-Follow these steps to maintain better project and have the ability to release it automatically.
+As a project maintainer of many projects, you may want to standardize on a single commit message format for all of them. Follow these steps to maintain better project and have the ability to release it automatically.
 
 #### Make changes then commit those changes by running: 
 
