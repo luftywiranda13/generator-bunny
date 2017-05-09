@@ -2,7 +2,7 @@ const Generator = require('yeoman-generator');
 const kebabCase = require('lodash.kebabcase');
 
 module.exports = class extends Generator {
-  init() {
+  prompting() {
     return this.prompt([
       {
         name: 'moduleName',
