@@ -152,9 +152,7 @@ npm start commit
 ```
 
 #### Select the type of commit
-This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
-
-Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
+This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
 
 
 #### Push those changes to GitHub
