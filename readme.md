@@ -104,7 +104,7 @@ yo bunny
 # answer some details about your project
 ```
 
-#### Validate the project by running:
+#### Validate the project:
 ```sh
 # with yarn:
 yarn start validate
