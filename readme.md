@@ -59,16 +59,16 @@
 
 ## Highlights
 This generator includes built-in modern tools which are widely-used in the community:
-- Automated [GitHub release](/releases) notes generator
-- Automated releasing with [semantic-release][semantic-link]
+- [Automated GitHub release notes generator](/releases)
+- [Automated releasing with semantic-release][semantic-link]
 - Automated testing & validation before any commits
-- Automated source-code formatting with [prettier][prettier-link]
-- [Babel][babel-link] transpiler for writing next generation JavaScript
-- [Eslint][eslint-link] linting utility
-- [Flow][flow-link] static typechecker
-- [Jest][jest-link] test runner
+- [Automated source-code formatting with prettier][prettier-link]
+- [Babel transpiler for writing next generation JavaScript][babel-link]
+- [Eslint linting utility][eslint-link]
+- [Flow static typechecker][flow-link]
+- [Jest test runner][jest-link]
 - [Travis Continuous Integration][travis-link]
-- More… You need me to list them all here? 🐰
+- :rabbit: [See more…](./package.json)
 
 ![](screenshot.png)
 
