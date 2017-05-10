@@ -4,24 +4,18 @@ import path from 'path';
 
 describe('Generator', () => {
   beforeEach(() =>
-    helpers
-      .run(path.join(__dirname, '../app'))
-      .withPrompts({
-        moduleName: 'bunny module',
-        description: 'as cute as bunny',
-        githubUsername: 'bunny',
-        website: 'www.wewww.com',
-        name: 'yo',
-        email: 'hi@bunny.io'
-      })
-      .withOptions({
-        force: true
-      })
+    helpers.run(path.join(__dirname, '../app')).inTmpDir().withPrompts({
+      moduleName: 'bunny module',
+      description: 'as cute as bunny',
+      githubUsername: 'bunny',
+      website: 'www.wewww.com',
+      name: 'yo',
+      email: 'hi@bunny.io'
+    })
   );
 
   it('can be required without throwing', () => {
-    // eslint-disable-next-line
-    require('../app');
+    require('../app'); // eslint-disable-line
   });
 
   it('generates files', () => {
