@@ -17,7 +17,6 @@
     "start": "nps",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\"",
-    "postinstall": "flow-typed install --overwrite",
     "test": "nps test"
   },
   "config": {
@@ -67,7 +66,6 @@
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
     "flow-bin": "^0.45.0",
-    "flow-typed": "^2.1.2",
     "husky": "^0.13.2",
     "jest": "^20.0.0",
     "lint-staged": "^3.3.1",
