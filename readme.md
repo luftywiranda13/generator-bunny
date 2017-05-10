@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/npm/v/generator-bunny.svg?style=flat-square" />
   </a>
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
-    <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square" />
+    <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny/master.svg?style=flat-square" />
   </a>
   <a href="https://codecov.io/github/luftywiranda13/generator-bunny">
     <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square" />
@@ -84,14 +84,14 @@ yarn global add yo
 yarn global add generator-bunny
 
 # with npm: 
-npm i -g yo
-npm i -g generator-bunny
+npm install -g yo
+npm install -g generator-bunny
 ```
 
 
 ### 2. Create new project
 
-#### Make a directory to hold your project:
+#### Make a new directory:
 ```sh
 mkdir my-bunny
 cd my-bunny
@@ -100,9 +100,11 @@ cd my-bunny
 #### Generate files:
 ```sh
 yo bunny
+
+# answer some details about your project
 ```
 
-#### After installation finished,  validate your project by running:
+#### Validate the project by running:
 ```sh
 # with yarn:
 yarn start validate
