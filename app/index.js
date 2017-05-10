@@ -89,9 +89,6 @@ module.exports = class extends Generator {
       mv('_travis.yml', '.travis.yml');
     });
   }
-  git() {
-    this.spawnCommandSync('git', ['init']);
-  }
   install() {
     this.log(
       chalk.green(
