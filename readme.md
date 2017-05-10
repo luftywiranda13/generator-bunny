@@ -142,7 +142,6 @@ npm publish
 ### 2. Recommended workflow
 
 #### Make changes then commit: 
-
 ```sh
 # with yarn:
 yarn start commit 
@@ -156,6 +155,10 @@ This project follows the [AngularJS Commit Message Conventions][angular-conventi
 
 
 #### Push those changes to GitHub
+```sh
+git push -origin master
+```
+
 Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
 Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
