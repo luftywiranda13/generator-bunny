@@ -84,8 +84,8 @@ yarn global add yo
 yarn global add generator-bunny
 
 # with npm: 
-npm i -g yo
-npm i -g generator-bunny
+npm install -g yo
+npm install -g generator-bunny
 ```
 
 
