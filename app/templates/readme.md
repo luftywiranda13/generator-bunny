@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/npm/v/<%- moduleName %>.svg?style=flat-square" />
   </a>
   <a href="https://travis-ci.org/<%- githubUsername %>/<%- moduleName %>">
-    <img src="https://img.shields.io/travis/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
+    <img src="https://img.shields.io/travis/<%- githubUsername %>/<%- moduleName %>/master.svg?style=flat-square" />
   </a>
   <a href="https://codecov.io/github/<%- githubUsername %>/<%- moduleName %>">
     <img src="https://img.shields.io/codecov/c/github/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
