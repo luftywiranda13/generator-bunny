@@ -91,7 +91,7 @@ npm install -g generator-bunny
 
 ### 2. Create new project
 
-#### Make a directory to hold your project:
+#### Make a new directory:
 ```sh
 mkdir my-bunny
 cd my-bunny
@@ -100,9 +100,11 @@ cd my-bunny
 #### Generate files:
 ```sh
 yo bunny
+
+# answer some details about your project
 ```
 
-#### After installation finished,  validate your project by running:
+#### Validate the project by running:
 ```sh
 # with yarn:
 yarn start validate
