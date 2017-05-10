@@ -12,7 +12,8 @@
   },
   "main": "app/index.js",
   "files": [
-    "app"
+    "app/index.js",
+    "app/templates/"
   ],
   "scripts": {
     "start": "nps",
