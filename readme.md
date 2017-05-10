@@ -61,7 +61,7 @@
 This generator includes built-in modern tools which are widely-used in the community:
 - [Automated GitHub release notes generator](/releases)
 - [Automated releasing with semantic-release][semantic-link]
-- Automated testing & validation before any commits
+- [Automated testing & validation before any commits][husky-link]
 - [Automated source-code formatting with prettier][prettier-link]
 - [Babel transpiler for writing next generation JavaScript][babel-link]
 - [Eslint linting utility][eslint-link]
@@ -237,6 +237,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 [examples-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md
 [flow-link]: https://flow.org
 [generator-bunny-link]: https://github.com/luftywiranda13/generator-bunny
+[husky-link]: https://github.com/typicode/husky
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square
