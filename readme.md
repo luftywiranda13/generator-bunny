@@ -104,7 +104,7 @@ yo bunny
 # answer some details about your project
 ```
 
-#### Validate the project by running:
+#### Validate the project:
 ```sh
 # with yarn:
 yarn start validate
@@ -131,9 +131,9 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
-There's already a great Travis CI configuration stored in `.travis.yml`. You can leave it like what it is because it's already more than enough in most common situation.
+There's already a great Travis CI configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
 
-#### Publish manually for this very first time only:
+#### Publish manually:
 ```sh
 npm publish
 ```
@@ -141,8 +141,7 @@ npm publish
 
 ### 2. Recommended workflow
 
-#### Make changes then commit those changes by running: 
-
+#### Make changes then commit: 
 ```sh
 # with yarn:
 yarn start commit 
@@ -152,12 +151,14 @@ npm start commit
 ```
 
 #### Select the type of commit
-This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
-
-Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
+This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following a standardized commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
 
 
 #### Push those changes to GitHub
+```sh
+git push -origin master
+```
+
 Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
 Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
@@ -190,11 +191,8 @@ npm start
 
 Help things to get better, contributions of any kind are welcome!
 
-I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project.<br />
-It means [generator-bunny](https://github.com/luftywiranda13/generator-bunny) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
-
-Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
-Also see [contributing.md](./contributing.md) for more informations about how to contribute.
+Please check [`roadmap.md`][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
+Also see [`contributing.md`](./contributing.md) for more informations about how to contribute.
 
 
 ## Contributors
