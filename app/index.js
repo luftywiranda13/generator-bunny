@@ -15,31 +15,32 @@ module.exports = class extends Generator {
         name: 'description',
         message: 'Description:',
         default: 'as cute as bunny',
-        type: 'input',
         store: true
+      },
+      {
+        name: 'global',
+        message: 'Let user install as global:',
+        type: 'confirm',
+        default: false
       },
       {
         name: 'name',
         message: "Author's name:",
-        default: this.user.git.name(),
-        type: 'input'
+        default: this.user.git.name()
       },
       {
         name: 'email',
         message: "Author's email:",
-        default: this.user.git.email(),
-        type: 'input'
+        default: this.user.git.email()
       },
       {
         name: 'githubUsername',
         message: 'GitHub username:',
-        type: 'input',
         store: true
       },
       {
         name: 'website',
         message: 'Website:',
-        type: 'input',
         store: true
       },
       {
@@ -57,9 +58,10 @@ module.exports = class extends Generator {
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
         description: props.description,
+        global: props.global,
         name: props.name,
-        githubUsername: props.githubUsername,
         email: props.email,
+        githubUsername: props.githubUsername,
         website: props.website
       };
 

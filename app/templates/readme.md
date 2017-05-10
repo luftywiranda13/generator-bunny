@@ -67,10 +67,10 @@
 
 ```sh
 # with yarn:
-yarn add <%= moduleName %>
+yarn <% if (global) { %>global <% } %>add <%= moduleName %>
 
 # with npm: 
-npm install --save <%= moduleName %>
+npm install <% if (global) { %>-g<% } else { %>--save<% } %> <%= moduleName %>
 ```
 
 
