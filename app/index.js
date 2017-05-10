@@ -9,45 +9,45 @@ module.exports = class extends Generator {
         name: 'moduleName',
         message: 'Module name:',
         default: this.appname.replace(/\s/g, '-'),
-        store: true
+        store: true,
       },
       {
         name: 'description',
         message: 'Description:',
         default: 'as cute as bunny',
-        store: true
+        store: true,
       },
       {
         name: 'global',
         message: 'Let user install as global:',
         type: 'confirm',
-        default: false
+        default: false,
       },
       {
         name: 'name',
         message: "Author's name:",
-        default: this.user.git.name()
+        default: this.user.git.name(),
       },
       {
         name: 'email',
         message: "Author's email:",
-        default: this.user.git.email()
+        default: this.user.git.email(),
       },
       {
         name: 'githubUsername',
         message: 'GitHub username:',
-        store: true
+        store: true,
       },
       {
         name: 'website',
         message: 'Website:',
-        store: true
+        store: true,
       },
       {
         name: 'yarn',
         message: 'Use yarn to install dependencies:',
-        type: 'confirm'
-      }
+        type: 'confirm',
+      },
     ]).then((props) => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
@@ -62,7 +62,7 @@ module.exports = class extends Generator {
         name: props.name,
         email: props.email,
         githubUsername: props.githubUsername,
-        website: props.website
+        website: props.website,
       };
 
       this.fs.copyTpl(
@@ -99,7 +99,7 @@ module.exports = class extends Generator {
     this.installDependencies({
       bower: false,
       npm: !this.yarn,
-      yarn: this.yarn
+      yarn: this.yarn,
     });
   }
   end() {
