@@ -15,7 +15,8 @@ describe('Generator', () => {
   );
 
   it('can be required without throwing', () => {
-    require('../app'); // eslint-disable-line
+    var app = require('./'); // eslint-disable-line
+    expect(app.prompting()).toBeDefined();
   });
 
   it('generates files', () => {
