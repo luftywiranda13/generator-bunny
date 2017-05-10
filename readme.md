@@ -131,7 +131,7 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
-There's already a great Travis CI configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can leave it like what it is because it's already more than enough in most common situation.
+There's already a great Travis CI configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
 
 #### Publish manually for this very first time only:
 ```sh
