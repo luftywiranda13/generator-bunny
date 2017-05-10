@@ -88,5 +88,11 @@
     "validate-commit-msg": "^2.11.1",
     "yeoman-assert": "^3.0.0",
     "yeoman-test": "^1.6.0"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "eslint-plugin-jsx-a11y",
+      "eslint-plugin-react"
+    ]
   }
 }
