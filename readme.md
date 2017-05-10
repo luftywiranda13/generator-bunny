@@ -123,7 +123,7 @@ npm start validate
 # with npm:
 npm i -g semantic-release-cli
 
-# or with yarn :
+# or with yarn:
 yarn global add semantic-release-cli 
 
 # then run:
