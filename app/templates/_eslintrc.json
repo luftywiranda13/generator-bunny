@@ -17,7 +17,13 @@
     "react"
   ],
   "rules": {
-    "comma-dangle": ["error", { "functions": "never" }],
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "never"
+      }],
     "max-len": ["error", 80],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
