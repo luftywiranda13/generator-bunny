@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 const Generator = require('yeoman-generator');
 const kebabCase = require('lodash.kebabcase');
 
@@ -6,45 +7,52 @@ module.exports = class extends Generator {
     return this.prompt([
       {
         name: 'moduleName',
-        message: 'What do you want to name your module?',
+        message: 'Module name:',
         default: this.appname.replace(/\s/g, '-'),
         store: true,
       },
       {
         name: 'description',
-        message: 'Description?',
+        message: 'Description:',
         default: 'as cute as bunny',
         type: 'input',
         store: true,
       },
       {
         name: 'name',
-        message: 'Your name?',
+        message: "Author's name:",
         default: this.user.git.name(),
         type: 'input',
       },
       {
         name: 'email',
-        message: 'Email address?',
+        message: "Author's email:",
         default: this.user.git.email(),
         type: 'input',
       },
       {
         name: 'githubUsername',
-        message: 'GitHub username?',
+        message: 'GitHub username:',
         type: 'input',
         store: true,
       },
       {
         name: 'website',
-        message: 'URL of your website?',
+        message: 'Website:',
         type: 'input',
         store: true,
+      },
+      {
+        name: 'yarn',
+        message: 'Use yarn to install dependencies:',
+        type: 'confirm',
       },
     ]).then((props) => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
       };
+
+      this.yarn = props.yarn;
 
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
@@ -58,9 +66,9 @@ module.exports = class extends Generator {
       // TODO: there's a real problem here whether it's with prettier or eslint
       // prettier-ignore
       this.fs.copyTpl(
-        [`${this.templatePath()}/**`],
-        this.destinationPath(),
-        tpl);
+          [`${this.templatePath()}/**`],
+          this.destinationPath(),
+          tpl);
 
       /* eslint-disable */
       mv('_package.json', 'package.json');
@@ -84,6 +92,16 @@ module.exports = class extends Generator {
     this.spawnCommandSync('git', ['init']);
   }
   install() {
-    this.installDependencies({ bower: false });
+    this.log(
+      chalk.green(
+        '\nAll important files have been generated to your directory.',
+      ),
+    );
+
+    this.installDependencies({
+      bower: false,
+      npm: !this.yarn,
+      yarn: this.yarn,
+    });
   }
 };
