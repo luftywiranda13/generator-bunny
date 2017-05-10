@@ -103,4 +103,14 @@ module.exports = class extends Generator {
       yarn: this.yarn
     });
   }
+  end() {
+    this.log(chalk.blue('\nFinished!\n'));
+    this.log(
+      chalk.yellow(
+        'If dependencies installation succeed, ' +
+          'then just ignore warnings from flow-typed.\n'
+      )
+    );
+    this.log(`Thanks for using${chalk.green(' generator-bunny')}!`);
+  }
 };
