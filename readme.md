@@ -190,8 +190,8 @@ npm start
 
 Help things to get better, contributions of any kind are welcome!
 
-Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
-Also see [contributing.md](./contributing.md) for more informations about how to contribute.
+Please check [`roadmap.md`][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
+Also see [`contributing.md`](./contributing.md) for more informations about how to contribute.
 
 
 ## Contributors
