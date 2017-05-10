@@ -154,7 +154,7 @@ npm start commit
 #### Select the type of commit
 This project follows the [AngularJS Commit Message Conventions][angular-conventions-link].
 
-Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to make automated releasing works.
+Following a standardize commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
 
 
 #### Push those changes to GitHub
@@ -214,6 +214,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 ## Useful links
 - [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+- [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
 - [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
 
