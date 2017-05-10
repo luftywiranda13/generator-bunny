@@ -12,7 +12,7 @@ Care to help? See [contributing.md][contributing-link]
 
 ## Might do
 - [ ] Make custom eslint plugin/config
-- [ ] Bundler integration
+- [ ] Module bundler integration
 
 
 ## Won't do
