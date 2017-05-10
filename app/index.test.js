@@ -12,11 +12,11 @@ describe('Generator', () => {
         githubUsername: 'bunny',
         website: 'www.wewww.com',
         name: 'yo',
-        email: 'hi@bunny.io',
+        email: 'hi@bunny.io'
       })
       .withOptions({
-        force: true,
-      }),
+        force: true
+      })
   );
 
   it('can be required without throwing', () => {
@@ -43,13 +43,13 @@ describe('Generator', () => {
       'package.json',
       'readme.md',
       'src/index.js',
-      'src/index.test.js',
+      'src/index.test.js'
     ]);
   });
 
   it('converts moduleName to kebabcase', () => {
     assert.JSONFileContent('package.json', {
-      name: 'bunny-module',
+      name: 'bunny-module'
     });
   });
 
@@ -60,8 +60,8 @@ describe('Generator', () => {
       author: 'yo <hi@bunny.io>',
       repository: {
         type: 'git',
-        url: 'https://github.com/bunny/bunny-module.git',
-      },
+        url: 'https://github.com/bunny/bunny-module.git'
+      }
     });
   });
 

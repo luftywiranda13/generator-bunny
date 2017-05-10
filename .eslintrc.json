@@ -15,6 +15,7 @@
     "react"
   ],
   "rules": {
+    "comma-dangle": ["error", { "functions": "never" }],
     "max-len": ["error", 80],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   }
