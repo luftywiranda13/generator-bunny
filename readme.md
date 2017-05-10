@@ -83,7 +83,7 @@ This generator includes built-in modern tools which are widely-used in the commu
 yarn global add yo
 yarn global add generator-bunny
 
-# with npm: 
+# or with npm: 
 npm install -g yo
 npm install -g generator-bunny
 ```
@@ -109,7 +109,7 @@ yo bunny
 # with yarn:
 yarn start validate
 
-# with npm:
+# or with npm:
 npm start validate
 ```
 
@@ -120,11 +120,11 @@ npm start validate
 
 #### Install and setup [semantic-release][semantic-link]:
 ```sh
-# with npm:
-npm i -g semantic-release-cli
+# with yarn:
+yarn global add semantic-release-cli
 
-# or with yarn:
-yarn global add semantic-release-cli 
+# or with npm:
+npm i -g semantic-release-cli
 
 # then run:
 semantic-release-cli setup
@@ -144,10 +144,10 @@ npm publish
 #### Make changes then commit those changes by running: 
 
 ```sh
-#with yarn:
+# with yarn:
 yarn start commit 
 
-# with npm:
+# or with npm:
 npm start commit
 ```
 
@@ -181,7 +181,7 @@ Some useful scripts are provided by [nps][nps-link] to help you maintain your pr
 # with yarn:
 yarn start
 
-# with npm:
+# or with npm:
 npm start
 ```
 
