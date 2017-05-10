@@ -95,7 +95,7 @@ module.exports = class extends Generator {
   install() {
     this.log(
       chalk.green(
-        '\nAll important files have been generated to your directory.'
+        '\nAll important files have been generated to your directory.\n'
       )
     );
 
@@ -106,13 +106,6 @@ module.exports = class extends Generator {
     });
   }
   end() {
-    this.log(chalk.blue('\nFinished!\n'));
-    this.log(
-      chalk.yellow(
-        'If dependencies installation succeed, ' +
-          'then just ignore warnings from flow-typed.\n'
-      )
-    );
-    this.log(`Thanks for using${chalk.green(' generator-bunny')}!`);
+    this.log(`\nThanks for using${chalk.green(' generator-bunny')}!`);
   }
 };
