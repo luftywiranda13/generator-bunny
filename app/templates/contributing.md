@@ -12,12 +12,12 @@ Thanks for being willing to contribute!
 3. `npm start validate` to validate you've got it working
 4. Create a branch for your PR
 
-This project uses [`nps`][nps] and you can run `npm start` to see what scripts are available.
+This project uses [nps][nps] and you can run `npm start` to see what scripts are available.
 
 ## Add yourself as a contributor
 
 This project follows the [all contributors][all-contributors] specification. To add yourself to the table of
-contributors on the [readme.md][readme], please use the automated script as part of your PR:
+contributors on the [`readme.md`][readme], please use the automated script as part of your PR:
 
 ```sh
 npm start contributors.add <YOUR_GITHUB_USERNAME>
@@ -30,7 +30,7 @@ too, just run `npm start contributors.generate` to regenerate the table.
 
 ## Committing and Pushing changes
 
-This project uses [`semantic-release`][semantic-release] to do automatic releases and generate a changelog based on the
+This project uses [semantic-release][semantic-release] to do automatic releases and generate a changelog based on the
 commit history. So we follow [a convention][convention] for commit messages. Please follow this convention for your
 commit messages.
 
@@ -56,10 +56,10 @@ pre-commit
 
 ## Help needed
 
-Please checkout the [roadmap.md][roadmap] and raise an issue to discuss
+Please checkout the [`roadmap.md`][roadmap] and raise an issue to discuss
 any of the items in the want to do or might do list.
 
-Also, please watch the repo and respond to questions/bug reports/feature requests! Thanks!
+Also, please watch the repo and respond to questions/bug reports/feature requests, Thanks!
 
 [all-contributors]: https://github.com/kentcdodds/all-contributors
 [convention]: https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md
