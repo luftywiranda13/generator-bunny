@@ -60,10 +60,7 @@
 ## Highlights
 
 
-## Getting started
-
-
-### Installation
+## Installation
 
 ```sh
 # with yarn:
