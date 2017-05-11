@@ -130,7 +130,7 @@ npm i -g semantic-release-cli
 # then run:
 semantic-release-cli setup
 ```
-*At this step, make sure you already have your repository up on GitHub before, otherwise [semantic-release][semantic-link] will complaint!*
+*At this step, make sure you already have your repository up on GitHub before, or [semantic-release][semantic-link] will complaint!*
 
 #### Select Travis CI, answer `no` to `overwrite`
 There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
