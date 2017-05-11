@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Jumpstart <a href="https://www.npmjs.com">node module</a>, like a bunny!</strong>
+  <strong>Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!</strong>
 </p>
 
 <p align="center">
@@ -69,7 +69,7 @@
 # with yarn:
 yarn <% if (global) { %>global <% } %>add <%= moduleName %>
 
-# with npm: 
+# or with npm: 
 npm install <% if (global) { %>-g<% } else { %>--save<% } %> <%= moduleName %>
 ```
 
@@ -81,9 +81,7 @@ npm install <% if (global) { %>-g<% } else { %>--save<% } %> <%= moduleName %>
 
 Help things to get better, contributions of any kind are welcome!
 
-I'm open to discuss any suggestions and contributions, but be aware this is a highly opinionated project. It means [<%= moduleName %>](https://github.com/<%= githubUsername %>/<%= moduleName %>) can't always fulfill your needs and I'm only interested to develop/work on **specific thing that later useful** for any other projects of mine.
-
-Please check [roadmap][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
+Please check [`roadmap.md`][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link] of it!<br />
 Also see [`contributing.md`](./contributing.md) for more informations about how to contribute.
 
 
@@ -93,7 +91,8 @@ This project follows the [all-contributors][all-contributors-link] specification
 Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
+| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub><%= name %></sub>](<%= website %>)<br />[💻](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Code") [📖](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Documentation") [💡](#example-<%= githubUsername %> "Examples") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
@@ -105,6 +104,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 ## Useful links
 
 - [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+- [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
 - [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
 
