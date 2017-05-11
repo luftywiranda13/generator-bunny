@@ -42,31 +42,35 @@ describe('Generator', () => {
     ]);
   });
 
-  it('converts moduleName to kebabcase', () => {
-    assert.JSONFileContent('package.json', {
-      name: 'bunny-module',
+  describe('module name', () => {
+    it('creates a kebab-case name', () => {
+      assert.JSONFileContent('package.json', {
+        name: 'bunny-module',
+      });
+    });
+
+    it('creates a camelCase name', () => {
+      assert.fileContent('readme.md', 'console.log(bunnyModule);');
     });
   });
 
-  it('converts moduleName to camelCase', () => {
-    assert.fileContent('readme.md', 'console.log(bunnyModule);');
-  });
-
-  it('fills package.json with correct informations', () => {
-    assert.JSONFileContent('package.json', {
-      name: 'bunny-module',
-      description: 'as cute as bunny',
-      author: 'yo <hi@bunny.io>',
-      repository: {
-        type: 'git',
-        url: 'https://github.com/bunny/bunny-module.git',
-      },
-      homepage: 'https://github.com/bunny/bunny-module#readme',
+  describe('templating', () => {
+    it('fills package.json with correct informations', () => {
+      assert.JSONFileContent('package.json', {
+        name: 'bunny-module',
+        description: 'as cute as bunny',
+        author: 'yo <hi@bunny.io>',
+        repository: {
+          type: 'git',
+          url: 'https://github.com/bunny/bunny-module.git',
+        },
+        homepage: 'https://github.com/bunny/bunny-module#readme',
+      });
     });
-  });
 
-  it('writes installation instructions', () => {
-    assert.fileContent('readme.md', 'npm install --save bunny-module');
-    assert.fileContent('readme.md', 'yarn add bunny-module');
+    it('writes installation instructions', () => {
+      assert.fileContent('readme.md', 'npm install --save bunny-module');
+      assert.fileContent('readme.md', 'yarn add bunny-module');
+    });
   });
 });
