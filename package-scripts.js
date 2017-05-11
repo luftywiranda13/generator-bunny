@@ -23,7 +23,7 @@ module.exports = {
       script: 'eslint .',
     },
     test: {
-      default: 'jest --coverage',
+      default: 'jest --coverage --runInBand',
       watch: 'jest --watch',
     },
     release: {
