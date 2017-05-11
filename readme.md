@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Jumpstart <a href="https://www.npmjs.com">node module</a>, like a bunny!</strong>
+  <strong>Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!</strong>
 </p>
 
 <p align="center">
@@ -244,6 +244,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 [license-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/license
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
+[node-module-link]: https://nodejs.org/api/modules.html#modules_modules
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier-link]: https://github.com/prettier/prettier
