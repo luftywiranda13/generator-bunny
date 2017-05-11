@@ -94,7 +94,7 @@ module.exports = class extends Generator {
     });
   }
   git() {
-    this.spawnCommandSync('git', ['init']);
+    this.spawnCommandSync('git', ['init', '--quiet']);
   }
   install() {
     this.log(
