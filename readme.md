@@ -132,7 +132,7 @@ semantic-release-cli setup
 ```
 
 #### Select Travis CI, answer `no` to `overwrite`
-There's already a great Travis CI configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
+There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
 
 #### Publish manually:
 ```sh
@@ -167,7 +167,7 @@ Your release version number is auto-formatted based on [SemVer specifications][s
 ### 3. Your own workflow
 
 You don't need to follow those recommended steps. Define your own workflow if you will.<br />
-But one of the consequence is you don't get the ability to publish/release your package to npm automatically.
+But one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
 
 For example, you still can do it like this:
 ```sh
