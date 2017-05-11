@@ -1,7 +1,6 @@
 const npsUtils = require('nps-utils'); // eslint-disable-line
 
 const series = npsUtils.series;
-const concurrent = npsUtils.concurrent;
 const rimraf = npsUtils.rimraf;
 
 module.exports = {
@@ -33,10 +32,7 @@ module.exports = {
     },
     lint: {
       description: 'lint the entire project with eslint & flow',
-      script: series(
-        'flow',
-        'eslint .'
-      ),
+      script: series('flow', 'eslint .'),
     },
     reportCoverage: {
       description: 'Report coverage stats to codecov. This should be run after the `test` script',
@@ -52,7 +48,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: concurrent.nps('lint', 'build', 'test'),
+      script: series.nps('lint', 'build', 'test'),
     },
   },
   options: {
