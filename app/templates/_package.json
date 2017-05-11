@@ -7,9 +7,9 @@
   "preferGlobal": true,<% } %>
   "repository": {
     "type": "git",
-    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
+    "url": "github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
-  "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
+  "homepage": "github.com/<%= githubUsername %>/<%= moduleName %>#readme",
   "main": "dist/index.js",
   "files": [
     "dist"

@@ -1,6 +1,7 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
 const Generator = require('yeoman-generator');
+const humanizeUrl = require('humanize-url');
 const kebabCase = require('lodash.kebabcase');
 
 module.exports = class extends Generator {
@@ -66,7 +67,7 @@ module.exports = class extends Generator {
         name: props.name,
         email: props.email,
         githubUsername: props.githubUsername,
-        website: props.website,
+        website: humanizeUrl(props.website),
       };
 
       this.fs.copyTpl(
