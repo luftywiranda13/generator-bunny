@@ -62,9 +62,9 @@ describe('Generator', () => {
         author: 'yo <hi@bunny.io>',
         repository: {
           type: 'git',
-          url: 'https://github.com/bunny/bunny-module.git',
+          url: 'github.com/bunny/bunny-module.git',
         },
-        homepage: 'https://github.com/bunny/bunny-module#readme',
+        homepage: 'github.com/bunny/bunny-module#readme',
       });
     });
 
