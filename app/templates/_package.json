@@ -56,7 +56,6 @@
     "babel-preset-flow": "^6.23.0",
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.23.0",
-    "codecov": "^2.1.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "3.19.0",
