@@ -88,7 +88,7 @@ npm install -g yo
 npm install -g generator-bunny
 ```
 
-**Note:** Yarn is faster, trust me!
+**Note:** [Yarn][yarn-link] is faster, trust me!
 
 ### 2. Create new project
 
