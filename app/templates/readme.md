@@ -73,6 +73,12 @@ npm install <% if (global) { %>-g<% } else { %>--save<% } %> <%= moduleName %>
 
 ## Usage
 
+```js
+import <%= camelModule %> from '<%= moduleName %>';
+
+// do what you wanna do
+console.log(<%= camelModule %>);
+```
 
 ## Suggestions
 

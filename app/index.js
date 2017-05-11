@@ -1,3 +1,4 @@
+const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
 const Generator = require('yeoman-generator');
 const kebabCase = require('lodash.kebabcase');
@@ -27,11 +28,13 @@ module.exports = class extends Generator {
         name: 'name',
         message: "Author's name:",
         default: this.user.git.name(),
+        store: true,
       },
       {
         name: 'email',
         message: "Author's email:",
         default: this.user.git.email(),
+        store: true,
       },
       {
         name: 'githubUsername',
@@ -57,6 +60,7 @@ module.exports = class extends Generator {
 
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
+        camelModule: camelCase(props.moduleName),
         description: props.description,
         global: props.global,
         name: props.name,

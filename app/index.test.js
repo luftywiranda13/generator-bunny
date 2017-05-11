@@ -48,6 +48,10 @@ describe('Generator', () => {
     });
   });
 
+  it('converts moduleName to camelCase', () => {
+    assert.fileContent('readme.md', 'console.log(bunnyModule);');
+  });
+
   it('fills package.json with correct informations', () => {
     assert.JSONFileContent('package.json', {
       name: 'bunny-module',
