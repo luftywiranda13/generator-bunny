@@ -26,6 +26,10 @@ module.exports = {
       default: 'jest --coverage --runInBand',
       watch: 'jest --watch',
     },
+    reportCoverage: {
+      description: 'Report coverage stats to codecov. This should be run after the `test` script',
+      script: 'codecov',
+    },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
       script: series(
