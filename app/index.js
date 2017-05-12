@@ -1,5 +1,6 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
+const isYarn = require('./is-yarn');
 const Generator = require('yeoman-generator');
 const humanizeUrl = require('humanize-url');
 const kebabCase = require('lodash.kebabcase');
@@ -49,17 +50,10 @@ module.exports = class extends Generator {
         message: 'Website:',
         store: true,
       },
-      {
-        name: 'yarn',
-        message: 'Use yarn to install dependencies:',
-        type: 'confirm',
-      },
     ]).then((props) => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
       };
-
-      this.yarn = props.yarn;
 
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
@@ -116,12 +110,13 @@ module.exports = class extends Generator {
     this.installDependencies({
       skipMessage: true,
       bower: false,
-      npm: !this.yarn,
-      yarn: this.yarn,
+      npm: !isYarn(),
+      yarn: isYarn(),
     });
   }
   end() {
     this.log();
     this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.name}!`));
+    this.log();
   }
 };
