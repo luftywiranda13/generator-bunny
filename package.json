@@ -8,7 +8,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "github.com/luftywiranda13/generator-bunny.git"
+    "url": "https://github.com/luftywiranda13/generator-bunny.git"
   },
   "main": "app/index.js",
   "files": [
