@@ -7,6 +7,8 @@ const spawn = require('child_process').spawn;
 
 module.exports = class extends Generator {
   prompting() {
+    this.log();
+
     return this.prompt([
       {
         name: 'moduleName',
@@ -64,6 +66,9 @@ module.exports = class extends Generator {
         website: humanizeUrl(props.website),
       };
 
+      this.name = props.name;
+      this.log();
+
       this.fs.copyTpl(
         [`${this.templatePath()}/**`],
         this.destinationPath(),
@@ -92,12 +97,7 @@ module.exports = class extends Generator {
     this.spawnCommandSync('git', ['init', '--quiet']);
   }
   install() {
-    this.log(
-      chalk.green(
-        '\nAll important files have been generated to your directory.\n'
-      )
-    );
-
+    this.log();
     const useYarn = () => {
       try {
         spawn.sync('yarnpkg --version', { stdio: 'ignore' });
@@ -112,8 +112,16 @@ module.exports = class extends Generator {
       npm: !useYarn(),
       yarn: useYarn(),
     });
+    this.log(
+      chalk.green('Important files have been generated to your directory')
+    );
+    this.log();
+    this.log('Installing dependencies..');
+    this.log('This might take a couple minutes');
+    this.log();
   }
   end() {
-    this.log(`\nThanks for using${chalk.green(' generator-bunny')}!`);
+    this.log();
+    this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.name}!`));
   }
 };
