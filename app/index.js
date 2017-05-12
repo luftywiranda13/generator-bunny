@@ -103,16 +103,18 @@ module.exports = class extends Generator {
     this.spawnCommandSync('git', ['init', '--quiet']);
   }
   install() {
+    this.log('\x1Bc');
     this.log();
     this.log(
       chalk.green('Important files have been generated to your directory')
     );
-    // this.log();
-    // this.log('Installing dependencies..');
-    // this.log('This might take a couple minutes');
+    this.log();
+    this.log('Installing dependencies..');
+    this.log('This might take a couple minutes');
     this.log();
 
     this.installDependencies({
+      skipMessage: true,
       bower: false,
       npm: !this.yarn,
       yarn: this.yarn,
