@@ -4,7 +4,7 @@
   "description": "Jumpstart node module, like a bunny",
   "license": "MIT",
   "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
-  "homepage": "github.com/luftywiranda13/generator-bunny#readme",
+  "homepage": "https://github.com/luftywiranda13/generator-bunny#readme",
   "preferGlobal": true,
   "repository": {
     "type": "git",

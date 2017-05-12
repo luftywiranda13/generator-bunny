@@ -9,7 +9,7 @@
     "type": "git",
     "url": "github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
-  "homepage": "github.com/<%= githubUsername %>/<%= moduleName %>#readme",
+  "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
   "main": "dist/index.js",
   "files": [
     "dist"
