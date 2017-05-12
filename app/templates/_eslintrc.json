@@ -5,16 +5,14 @@
     "jest/globals": true
   },
   "extends": [
-    "airbnb",
+    "airbnb-base",
     "plugin:flowtype/recommended",
     "plugin:jest/recommended"
   ],
   "plugins": [
     "flowtype",
     "import",
-    "jest",
-    "jsx-a11y",
-    "react"
+    "jest"
   ],
   "rules": {
     "comma-dangle": ["error", {
@@ -24,7 +22,6 @@
       "exports": "always-multiline",
       "functions": "never"
       }],
-    "max-len": ["error", 80],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "max-len": ["error", 80]
   }
 }
