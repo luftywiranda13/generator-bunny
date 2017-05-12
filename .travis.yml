@@ -10,6 +10,9 @@ node_js:
   - '6'
 before_script:
   - npm prune
+  - yarn global add yo
+  - npm link
+  - travis_wait 2 yo bunny
 script:
   - yarn start validate
 after_success:
