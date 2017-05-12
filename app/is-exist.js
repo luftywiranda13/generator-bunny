@@ -1,5 +1,5 @@
 const commandExists = require('command-exists');
 
-const isYarn = () => !!commandExists.sync('yarn');
+const isYarn = command => !!commandExists.sync(command);
 
 module.exports = isYarn;
