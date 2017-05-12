@@ -14,7 +14,6 @@ module.exports = class extends Generator {
         name: 'moduleName',
         message: 'Module name:',
         default: this.appname.replace(/\s/g, '-'),
-        store: true,
       },
       {
         name: 'description',
