@@ -65,7 +65,7 @@
     "eslint-plugin-jest": "^20.0.0",
     "eslint-plugin-jsx-a11y": "4.0.0",
     "eslint-plugin-react": "6.10.3",
-    "flow-bin": "^0.45.0",
+    "flow-bin": "^0.46.0",
     "husky": "^0.13.2",
     "jest": "^20.0.0",
     "lint-staged": "^3.3.1",
