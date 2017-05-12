@@ -1,4 +1,4 @@
-const isYarn = require('../app/is-yarn');
+const isYarn = require('./is-yarn');
 
 describe('isYarn()', () => {
   it('returns value', () => {

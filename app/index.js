@@ -1,6 +1,6 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
-const isYarn = require('../app/is-yarn');
+const isYarn = require('./is-yarn');
 const Generator = require('yeoman-generator');
 const humanizeUrl = require('humanize-url');
 const kebabCase = require('lodash.kebabcase');
