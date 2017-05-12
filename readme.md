@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="280" />
+  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="240" />
 </p>
 
 <p align="center">
