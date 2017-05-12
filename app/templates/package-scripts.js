@@ -20,7 +20,7 @@ module.exports = {
       script: 'git-cz',
     },
     test: {
-      default: 'jest --coverage',
+      default: 'jest --coverage --runInBand',
       watch: 'jest --watch',
     },
     build: {
