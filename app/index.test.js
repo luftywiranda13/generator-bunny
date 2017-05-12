@@ -64,7 +64,7 @@ describe('Generator', () => {
           type: 'git',
           url: 'github.com/bunny/bunny-module.git',
         },
-        homepage: 'github.com/bunny/bunny-module#readme',
+        homepage: 'https://github.com/bunny/bunny-module#readme',
       });
     });
 
