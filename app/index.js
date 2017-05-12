@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const Generator = require('yeoman-generator');
 const humanizeUrl = require('humanize-url');
 const kebabCase = require('lodash.kebabcase');
+const spawn = require('child_process').spawn;
 
 module.exports = class extends Generator {
   prompting() {
@@ -47,17 +48,10 @@ module.exports = class extends Generator {
         message: 'Website:',
         store: true,
       },
-      {
-        name: 'yarn',
-        message: 'Use yarn to install dependencies:',
-        type: 'confirm',
-      },
     ]).then((props) => {
       const mv = (from, to) => {
         this.fs.move(this.destinationPath(from), this.destinationPath(to));
       };
-
-      this.yarn = props.yarn;
 
       const tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
@@ -104,10 +98,19 @@ module.exports = class extends Generator {
       )
     );
 
+    const useYarn = () => {
+      try {
+        spawn.sync('yarnpkg --version', { stdio: 'ignore' });
+        return true;
+      } catch (e) {
+        return false;
+      }
+    };
+
     this.installDependencies({
       bower: false,
-      npm: !this.yarn,
-      yarn: this.yarn,
+      npm: !useYarn(),
+      yarn: useYarn(),
     });
   }
   end() {
