@@ -92,7 +92,7 @@ npm install -g generator-bunny
 
 ### 2. Create new project
 
-#### Make a new directory:
+#### [Make a new directory:](#make-a-new-directory)
 ```sh
 mkdir my-bunny
 cd my-bunny
