@@ -1,7 +1,7 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
-const isExist = require('./is-exist');
 const Generator = require('yeoman-generator');
+const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
 
 module.exports = class extends Generator {
@@ -108,8 +108,8 @@ module.exports = class extends Generator {
     this.installDependencies({
       skipMessage: true,
       bower: false,
-      yarn: isExist('yarn'),
-      npm: !isExist('yarn'),
+      yarn: hasbin.sync('yarn'),
+      npm: !hasbin.sync('yarn'),
     });
   }
   end() {
