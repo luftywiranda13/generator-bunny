@@ -8,8 +8,11 @@ notifications:
 node_js:
   - 'node'
   - '6'
+before_install:
+  - npm -g i yo && npm -g i generator-bunny
 before_script:
   - npm prune
+  - yo bunny
 script:
   - yarn start validate
 after_success:
