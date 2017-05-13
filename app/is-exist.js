@@ -1,5 +1,10 @@
 const commandExists = require('command-exists');
 
-const isExist = command => !!commandExists.sync(command);
+function isExist(command) {
+  if (commandExists.sync(command)) {
+    return true;
+  }
+  return false;
+}
 
 module.exports = isExist;
