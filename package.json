@@ -18,7 +18,7 @@
   "scripts": {
     "start": "nps",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged && opt --in pre-commit --exec \"npm start validate\"",
+    "precommit": "lint-staged",
     "test": "nps test"
   },
   "config": {
@@ -41,6 +41,7 @@
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
       "eslint . --fix",
+      "jest --findRelatedTests",
       "git add"
     ]
   },
