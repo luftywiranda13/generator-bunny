@@ -230,7 +230,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 [build-badge]: https://img.shields.io/travis/luftywiranda13/generator-bunny.svg?style=flat-square
 [build-link]: https://travis-ci.org/luftywiranda13/generator-bunny
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md
+[coc-link]: other/code_of_conduct.md
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen-link]: http://commitizen.github.io/cz-cli
 [coverage-badge]: https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square
@@ -244,7 +244,7 @@ MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square
-[license-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/license
+[license-link]: license
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [node-module-link]: https://nodejs.org/api/modules.html#modules_modules

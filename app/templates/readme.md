@@ -122,7 +122,7 @@ MIT &copy; [<%= name %>](<%= website %>)
 [build-badge]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
 [build-link]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/code_of_conduct.md
+[coc-link]: other/code_of_conduct.md
 [commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 [commitizen-link]: http://commitizen.github.io/cz-cli
 [coverage-badge]: https://img.shields.io/codecov/c/github/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
@@ -135,7 +135,7 @@ MIT &copy; [<%= name %>](<%= website %>)
 [jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
 [license-badge]: https://img.shields.io/github/license/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
-[license-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/license
+[license-link]: license
 [npm-link]: https://www.npmjs.com/
 [nps-link]: https://github.com/kentcdodds/nps
 [open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
