@@ -1,6 +1,6 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
-const isExist = require('./is-exist');
+const isExist = require('../app/is-exist.js');
 const Generator = require('yeoman-generator');
 const kebabCase = require('lodash.kebabcase');
 
