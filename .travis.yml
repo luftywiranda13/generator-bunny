@@ -9,7 +9,7 @@ node_js:
   - 'node'
   - '6'
 before_install:
-  - npm -g i yo && npm -g i generator-bunny
+  - npm -g i yo && npm -g i generator-bunny@2.4.6
 before_script:
   - npm prune
   - yo bunny
