@@ -120,6 +120,9 @@ npm start validate
 ### 1. First-timer
 
 #### Install and setup [semantic-release][semantic-link]:
+Make sure you've set your repository up on GitHub before proceeding,<br />
+otherwise [semantic-release][semantic-link] installation will throw errors!
+
 ```sh
 # with yarn:
 yarn global add semantic-release-cli
@@ -130,7 +133,6 @@ npm i -g semantic-release-cli
 # then run:
 semantic-release-cli setup
 ```
-*At this step, make sure you've set your repository up on GitHub, or [semantic-release][semantic-link] will complaint!*
 
 #### Select Travis CI, answer `no` to `overwrite`
 There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
