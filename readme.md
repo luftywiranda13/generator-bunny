@@ -47,10 +47,10 @@
   </a>
 </p>
 
-<p align="center">
+<p align="center"><em>
   Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
   Spend your time more on writing codes than setting them up.
-</p>
+  </em></p>
 
 <p align="center"><strong>Set it once, then forget it!</strong></p>
 
