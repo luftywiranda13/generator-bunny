@@ -55,7 +55,15 @@
     "yeoman-generator",
     "starter-kit",
     "boilerplate",
-    "npm"
+    "scaffold",
+    "npm",
+    "automated",
+    "automate",
+    "easy",
+    "jest",
+    "babel",
+    "prettier",
+    "eslint"
   ],
   "dependencies": {
     "chalk": "^1.1.3",
