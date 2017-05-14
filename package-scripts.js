@@ -1,5 +1,5 @@
 const npsUtils = require('nps-utils'); // eslint-disable-line
-
+const concurrent = npsUtils.concurrent;
 const series = npsUtils.series;
 
 module.exports = {
@@ -40,7 +40,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: series.nps('lint', 'test'),
+      script: concurrent.nps('lint', 'test'),
     },
   },
   options: {

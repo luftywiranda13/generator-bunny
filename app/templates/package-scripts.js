@@ -1,7 +1,7 @@
 const npsUtils = require('nps-utils'); // eslint-disable-line
-
-const series = npsUtils.series;
+const concurrent = npsUtils.concurrent;
 const rimraf = npsUtils.rimraf;
+const series = npsUtils.series;
 
 module.exports = {
   scripts: {
@@ -48,7 +48,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      script: series.nps('lint', 'build', 'test'),
+      script: concurrent.nps('lint', 'build', 'test'),
     },
   },
   options: {
