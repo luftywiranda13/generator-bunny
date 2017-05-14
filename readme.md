@@ -68,7 +68,7 @@ This generator includes built-in modern tools which are widely-used in the commu
 - [Flow static typechecker][flow-link]
 - [Jest test runner][jest-link]
 - [Travis Continuous Integration][travis-link]
-- :rabbit: [See more…](./package.json)
+- :rabbit:
 
 ![](screenshot.png)
 
