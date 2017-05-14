@@ -40,7 +40,7 @@
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --parser flow --write",
       "eslint . --fix",
-      "jest --findRelatedTests",
+      "jest --findRelatedTests --listTests -i",
       "git add"
     ]
   },
