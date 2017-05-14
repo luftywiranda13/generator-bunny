@@ -58,7 +58,10 @@
 
 
 ## Highlights
-This generator includes built-in modern tools which are widely-used in the community:
+
+Generator-bunny-Webpack will help you build new projects using modern technologies.
+
+Out of the box it comes with support for:
 - [Automated GitHub release notes generator](/releases)
 - [Automated releasing with semantic-release][semantic-link]
 - [Automated testing & validation before any commits][husky-link]
