@@ -70,7 +70,7 @@ This generator includes built-in modern tools which are widely-used in the commu
 - [Travis Continuous Integration][travis-link]
 - :rabbit: [See more…](./package.json)
 
-![](https://github.com/luftywiranda13/generator-bunny/blob/master/screenshot.png)
+![](screenshot.png)
 
 
 ## Getting started
