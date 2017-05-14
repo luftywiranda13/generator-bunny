@@ -21,7 +21,7 @@ module.exports = class extends Generator {
       this.log(chalk.yellow('Please consider to update before proceeding!'));
       this.log('');
       this.log(
-        'If you want to use the latest version,' +
+        'If you want to use the latest version, ' +
           'exit this project setup then run:'
       );
       this.log(chalk.cyan('npm i -g generator-bunny'));
