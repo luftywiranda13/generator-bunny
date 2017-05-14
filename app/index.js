@@ -49,11 +49,9 @@ module.exports = class extends Generator {
         store: true,
       },
     ]).then((props) => {
-      const mv = (from, to) => {
-        this.fs.move(this.destinationPath(from), this.destinationPath(to));
-      };
+      this.log();
 
-      const tpl = {
+      this.tpl = {
         moduleName: kebabCase(props.moduleName).toLowerCase(),
         camelModule: camelCase(props.moduleName),
         description: props.description,
@@ -65,33 +63,36 @@ module.exports = class extends Generator {
       };
 
       this.name = props.name;
-      this.log();
-
-      this.fs.copyTpl(
-        [`${this.templatePath()}/**`],
-        this.destinationPath(),
-        tpl
-      );
-
-      mv('_package.json', 'package.json');
-      mv('_all-contributorsrc', '.all-contributorsrc');
-      mv('_babelrc', '.babelrc');
-      mv('_editorconfig', '.editorconfig');
-      mv('_eslintignore', '.eslintignore');
-      mv('_eslintrc.json', '.eslintrc.json');
-      mv('_flowconfig', '.flowconfig');
-      mv('_gitattributes', '.gitattributes');
-      mv('_github/issue_template.md', '.github/issue_template.md');
-      mv(
-        '_github/pull_request_template.md',
-        '.github/pull_request_template.md'
-      );
-      mv('_gitignore', '.gitignore');
-      mv('_npmrc', '.npmrc');
-      mv('_travis.yml', '.travis.yml');
     });
   }
-  git() {
+  writing() {
+    this.mv = (from, to) => {
+      this.fs.move(this.destinationPath(from), this.destinationPath(to));
+    };
+
+    this.fs.copyTpl(
+      [`${this.templatePath()}/**`],
+      this.destinationPath(),
+      this.tpl
+    );
+
+    this.mv('_package.json', 'package.json');
+    this.mv('_all-contributorsrc', '.all-contributorsrc');
+    this.mv('_babelrc', '.babelrc');
+    this.mv('_editorconfig', '.editorconfig');
+    this.mv('_eslintignore', '.eslintignore');
+    this.mv('_eslintrc.json', '.eslintrc.json');
+    this.mv('_flowconfig', '.flowconfig');
+    this.mv('_gitattributes', '.gitattributes');
+    this.mv('_github/issue_template.md', '.github/issue_template.md');
+    this.mv(
+      '_github/pull_request_template.md',
+      '.github/pull_request_template.md'
+    );
+    this.mv('_gitignore', '.gitignore');
+    this.mv('_npmrc', '.npmrc');
+    this.mv('_travis.yml', '.travis.yml');
+
     this.spawnCommandSync('git', ['init', '--quiet']);
   }
   install() {
