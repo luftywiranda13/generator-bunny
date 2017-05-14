@@ -62,7 +62,7 @@ module.exports = class extends Generator {
         website: props.website,
       };
 
-      this.name = props.name;
+      this.name = this.tpl.name;
     });
   }
   writing() {
