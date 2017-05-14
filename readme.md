@@ -59,7 +59,7 @@
 
 ## Highlights
 
-Generator-bunny-Webpack will help you build new projects using modern technologies.
+Generator-bunny will help you build new projects using modern technologies.
 
 Out of the box it comes with support for:
 - [Automated GitHub release notes generator](/releases)
