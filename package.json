@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
   "homepage": "https://github.com/luftywiranda13/generator-bunny#readme",
+  "bugs": "https://github.com/luftywiranda13/generator-bunny/issues",
   "preferGlobal": true,
   "repository": {
     "type": "git",
