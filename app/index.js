@@ -101,6 +101,7 @@ module.exports = class extends Generator {
     this.log(
       chalk.green('Important files have been generated to your directory')
     );
+
     this.log();
     this.log('Installing dependencies..');
     this.log('This might take a couple minutes');
