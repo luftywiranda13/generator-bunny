@@ -70,6 +70,7 @@
     "hasbin": "^1.2.3",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
+    "update-notifier": "^2.1.0",
     "yeoman-generator": "^1.1.1"
   },
   "devDependencies": {
