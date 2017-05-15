@@ -21,7 +21,6 @@ module.exports = {
     },
     test: {
       default: 'jest --coverage -i',
-      ci: 'jest --coverage',
       watch: 'jest --watch -i',
     },
     build: {
@@ -49,8 +48,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      default: concurrent.nps('lint', 'build', 'test'),
-      ci: concurrent.nps('lint', 'build', 'test.ci'),
+      script: concurrent.nps('lint', 'build', 'test'),
     },
   },
   options: {
