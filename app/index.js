@@ -1,10 +1,31 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
+const dir = require('global-modules');
 const Generator = require('yeoman-generator');
 const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
+const updateNotifier = require('update-notifier');
 
 module.exports = class extends Generator {
+  initializing() {
+    try {
+      const path = `${dir}/generator-bunny/package.json`;
+      const pkg = require(path); // eslint-disable-line
+
+      const notifier = updateNotifier({
+        pkg,
+        updateCheckInterval: 0,
+      }).notify({ defer: false });
+
+      if (notifier.update) {
+        this.log('');
+        this.log(chalk.yellow('Please consider to update before proceeding!'));
+        this.log('');
+      }
+    } catch (e) {
+      this.log('');
+    }
+  }
   prompting() {
     this.log();
 
