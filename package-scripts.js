@@ -23,8 +23,8 @@ module.exports = {
       script: 'eslint .',
     },
     test: {
-      default: 'jest --coverage -i',
-      watch: 'jest --watch -i',
+      default: 'jest --coverage',
+      watch: 'jest --watch',
     },
     reportCoverage: {
       description: 'Report coverage stats to codecov. This should be run after the `test` script',
