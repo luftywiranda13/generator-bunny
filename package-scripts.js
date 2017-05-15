@@ -4,6 +4,16 @@ const series = npsUtils.series;
 
 module.exports = {
   scripts: {
+    changelog: {
+      default: {
+        description: 'Generate changelog',
+        script: 'sr-changelog',
+      },
+      commit: {
+        description: 'Commit changelog',
+        script: 'sr-changelog commit',
+      },
+    },
     contributors: {
       add: {
         description: 'When new people contribute to the project, run this',
