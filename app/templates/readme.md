@@ -106,9 +106,9 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 
 ## Useful links
 
-- [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
-- [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
-- [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
+-   [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+-   [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
+-   [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
 
 ## License
@@ -117,40 +117,7 @@ MIT &copy; [<%= name %>](<%= website %>)
 
 
 [all-contributors-link]: https://github.com/kentcdodds/all-contributors
-[angular-conventions-link]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit
-[babel-link]: https://babeljs.io
-[build-badge]: https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
-[build-link]: https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>
-[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/code_of_conduct.md
-[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
-[commitizen-link]: http://commitizen.github.io/cz-cli
-[coverage-badge]: https://img.shields.io/codecov/c/github/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
-[coverage-link]: https://codecov.io/github/<%= githubUsername %>/<%= moduleName %>
-[eslint-link]: http://eslint.org/
-[examples-badge]: https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square
-[examples-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/examples.md
-[flow-link]: https://flow.org
-[<%= moduleName %>-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>
-[jest-link]: https://facebook.github.io/jest
 [kentcdodds-link]: https://github.com/kentcdodds
-[license-badge]: https://img.shields.io/github/license/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
-[license-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/license
-[npm-link]: https://www.npmjs.com/
-[nps-link]: https://github.com/kentcdodds/nps
-[open-source-link]: https://en.wikipedia.org/wiki/Open-source_software
-[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
-[prettier-link]: https://github.com/prettier/prettier
-[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-link]: http://makeapullrequest.com
-[release-badge]: https://img.shields.io/github/release/<%= githubUsername %>/<%= moduleName %>.svg?style=flat-square
-[release-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/releases/latest
-[roadmap-badge]: https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square
-[roadmap-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/roadmap.md
-[semantic-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[semantic-link]: https://github.com/semantic-release/semantic-release
-[semver-link]: http://semver.org/
 [sindresorhus-link]: https://github.com/sindresorhus
-[travis-link]: https://travis-ci.org
-[yarn-link]: https://yarnpkg.com
-[yeoman-link]: http://yeoman.io/
+[roadmap-link]: https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/other/roadmap.md

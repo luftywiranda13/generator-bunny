@@ -7,10 +7,10 @@ Thanks for being willing to contribute!
 
 ## Project setup
 
-1. Fork and clone the repo
-2. `npm install` to install dependencies
-3. `npm start validate` to validate you've got it working
-4. Create a branch for your PR
+1.  Fork and clone the repo
+2.  `npm install` to install dependencies
+3.  `npm start validate` to validate you've got it working
+4.  Create a branch for your PR
 
 This project uses [nps][nps] and you can run `npm start` to see what scripts are available.
 
@@ -38,8 +38,8 @@ You can use `commitizen` to help you to follow [the convention][convention]
 
 Once you are ready to commit the changes, please use the below commands
 
-1. `git add <files to be comitted>`
-2. `npm start commit`
+1.  `git add <files to be comitted>`
+2.  `npm start commit`
 
 ... and follow the instruction of the interactive prompt.
 
