@@ -35,6 +35,10 @@ module.exports = {
       description: 'lint the entire project with eslint & flow',
       script: series('flow', 'eslint .'),
     },
+    reportCoverage: {
+      description: 'Report coverage stats to codecov. This should be run after the `test` script',
+      script: 'codecov',
+    },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
       script: series(
