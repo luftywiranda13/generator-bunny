@@ -40,7 +40,7 @@
   "lint-staged": {
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --parser flow --write",
-      "eslint . --fix",
+      "eslint . --cache --fix",
       "jest --findRelatedTests --listTests",
       "git add"
     ]
