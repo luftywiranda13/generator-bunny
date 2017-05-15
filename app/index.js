@@ -3,30 +3,8 @@ const chalk = require('chalk');
 const Generator = require('yeoman-generator');
 const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
-const updateNotifier = require('update-notifier');
-
-const pkg = require('../package.json');
 
 module.exports = class extends Generator {
-  // eslint-disable-next-line
-  initializing() {
-    const notifier = updateNotifier({
-      pkg,
-      updateCheckInterval: 0,
-    }).notify();
-
-    if (notifier.update) {
-      this.log('');
-      this.log(chalk.green(`Update available: v${notifier.update.latest}`));
-      this.log(chalk.yellow('Please consider to update before proceeding!'));
-      this.log('');
-      this.log(
-        'If you want to use the latest version, ' +
-          'exit this project setup then run:'
-      );
-      this.log(chalk.cyan('npm i -g generator-bunny'));
-    }
-  }
   prompting() {
     this.log();
 
