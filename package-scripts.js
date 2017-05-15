@@ -23,8 +23,8 @@ module.exports = {
       script: 'eslint .',
     },
     test: {
-      default: 'jest --coverage -i',
-      watch: 'jest --watch -i',
+      default: 'jest --coverage',
+      watch: 'jest --watch',
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
