@@ -86,7 +86,7 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "3.19.0",
-    "eslint-config-airbnb-base": "11.1.3",
+    "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jest": "^20.0.0",
     "husky": "^0.13.2",
