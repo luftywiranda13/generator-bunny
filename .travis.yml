@@ -18,5 +18,5 @@ after_success:
   - yarn start release
 branches:
   only:
-    - master
+    - next
     - /^greenkeeper/.*$/

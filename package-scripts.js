@@ -30,7 +30,7 @@ module.exports = {
       description: 'We automate releases with semantic-release. This should only be run on travis',
       script: series(
         'semantic-release pre',
-        'npm publish',
+        'npm publish --tag=next',
         'semantic-release post'
       ),
     },
