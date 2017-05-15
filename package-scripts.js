@@ -23,13 +23,8 @@ module.exports = {
       script: 'eslint .',
     },
     test: {
-      default: 'jest --coverage -i',
-      ci: 'jest --coverage',
-      watch: 'jest --watch -i',
-    },
-    reportCoverage: {
-      description: 'Report coverage stats to codecov. This should be run after the `test` script',
-      script: 'codecov',
+      default: 'jest --coverage',
+      watch: 'jest --watch',
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
@@ -41,8 +36,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      default: concurrent.nps('lint', 'test'),
-      ci: concurrent.nps('lint', 'test.ci'),
+      script: concurrent.nps('lint', 'test'),
     },
   },
   options: {

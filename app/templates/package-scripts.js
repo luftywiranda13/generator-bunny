@@ -20,9 +20,8 @@ module.exports = {
       script: 'git-cz',
     },
     test: {
-      default: 'jest --coverage -i',
-      ci: 'jest --coverage',
-      watch: 'jest --watch -i',
+      default: 'jest --coverage',
+      watch: 'jest --watch',
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
@@ -35,10 +34,6 @@ module.exports = {
       description: 'lint the entire project with eslint & flow',
       script: series('flow', 'eslint .'),
     },
-    reportCoverage: {
-      description: 'Report coverage stats to codecov. This should be run after the `test` script',
-      script: 'codecov',
-    },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
       script: series(
@@ -49,8 +44,7 @@ module.exports = {
     },
     validate: {
       description: 'This runs several scripts to make sure things look good before committing or on clean install',
-      default: concurrent.nps('lint', 'build', 'test'),
-      ci: concurrent.nps('lint', 'build', 'test.ci'),
+      script: concurrent.nps('lint', 'build', 'test'),
     },
   },
   options: {
