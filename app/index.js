@@ -6,20 +6,23 @@ const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
 const updateNotifier = require('update-notifier');
 
-const path = `${dir}/generator-bunny/package.json`;
-const pkg = require(path); // eslint-disable-line
-
 module.exports = class extends Generator {
-  // eslint-disable-next-line
   initializing() {
-    const notifier = updateNotifier({
-      pkg,
-      updateCheckInterval: 0,
-    }).notify({ defer: false });
+    try {
+      const path = `${dir}/generator-bunny/package.json`;
+      const pkg = require(path); // eslint-disable-line
 
-    if (notifier.update) {
-      this.log('');
-      this.log(chalk.yellow('Please consider to update before proceeding!'));
+      const notifier = updateNotifier({
+        pkg,
+        updateCheckInterval: 0,
+      }).notify({ defer: false });
+
+      if (notifier.update) {
+        this.log('');
+        this.log(chalk.yellow('Please consider to update before proceeding!'));
+        this.log('');
+      }
+    } catch (e) {
       this.log('');
     }
   }
