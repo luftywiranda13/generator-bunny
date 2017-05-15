@@ -12,7 +12,7 @@ before_script:
   - npm prune
   - yarn global add codecov
 script:
-  - yarn start validate.ci
+  - yarn start validate
 after_success:
   - codecov
   - yarn start release
