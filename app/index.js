@@ -8,7 +8,7 @@ const updateNotifier = require('update-notifier');
 
 module.exports = class extends Generator {
   initializing() {
-    if (process.env.CI !== true) {
+    try {
       const path = `${dir}/generator-bunny/package.json`;
       const pkg = require(path); // eslint-disable-line
 
@@ -22,6 +22,8 @@ module.exports = class extends Generator {
         this.log(chalk.yellow('Please consider to update before proceeding!'));
         this.log('');
       }
+    } catch (e) {
+      this.log('');
     }
   }
   prompting() {
