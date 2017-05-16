@@ -21,6 +21,14 @@
     "precommit": "lint-staged",
     "test": "nps test"
   },
+  "lint-staged": {
+    "*.js": [
+      "prettier --trailing-comma es5 --single-quote --parser flow --write",
+      "eslint . --cache --fix",
+      "jest --findRelatedTests --listTests",
+      "git add"
+    ]
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
@@ -37,14 +45,6 @@
         "statements": 100
       }
     }
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --trailing-comma es5 --single-quote --parser flow --write",
-      "eslint . --cache --fix",
-      "jest --findRelatedTests --listTests",
-      "git add"
-    ]
   },
   "keywords": [
     "🐰"
