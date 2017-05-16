@@ -7,7 +7,7 @@
   "preferGlobal": true,<% } %>
   "repository": {
     "type": "git",
-    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
+    "url": "git+https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
   "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
   "bugs": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues",
