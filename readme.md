@@ -217,6 +217,7 @@ Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentc
 ## Useful links
 -   [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 -   [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
+-   [Awesome pull request](https://github.com/stevemao/awesome-pull-requests)
 -   [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
 
 
