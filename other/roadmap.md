@@ -8,6 +8,7 @@ Care to help? See [`contributing.md`][contributing-link]
 -   [x] Make yeoman generator
 -   [x] Create test
 -   [x] Auto-detect & use yarn for dependencies installation. Fallback to npm
+-   [x] Update notifier
 -   [ ] Simplify installation without having to manually make new directory
 
 
