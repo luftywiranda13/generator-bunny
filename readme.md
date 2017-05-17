@@ -22,8 +22,7 @@
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/license">
     <img src="https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-</p>
-<p align="center">
+  <br />
   <a href="https://github.com/semantic-release/semantic-release">
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
   </a>
