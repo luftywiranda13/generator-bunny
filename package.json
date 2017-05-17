@@ -36,7 +36,8 @@
     }
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "notify": true
   },
   "keywords": [
     "🐰",
