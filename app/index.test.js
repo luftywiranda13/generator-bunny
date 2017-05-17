@@ -26,6 +26,9 @@ describe('Generator', () => {
     assert(app);
   });
 
+  // TODO write test for this case
+  it('checks for updates', () => {});
+
   it('generates files', () => {
     assert.file([
       '.all-contributorsrc',
