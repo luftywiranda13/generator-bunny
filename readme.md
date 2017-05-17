@@ -13,9 +13,6 @@
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
     <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny/master.svg?style=flat-square" />
   </a>
-  <a href="https://codecov.io/github/luftywiranda13/generator-bunny">
-    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square" />
-  </a>
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
