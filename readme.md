@@ -58,7 +58,7 @@
 
 
 ## Highlights
-This generator includes built-in modern tools which are widely-used in the community:
+This generator includes built-in modern tools which are widely used in the community:
 -   [Automated GitHub release notes generator](/releases)
 -   [Automated releasing with semantic-release][semantic-link]
 -   [Automated testing & validation before any commits][husky-link]
@@ -169,8 +169,7 @@ Your release version number is auto-formatted based on [SemVer specifications][s
 
 ### 3. Your own workflow
 
-You don't need to follow those recommended steps. Define your own workflow if you will.<br />
-But one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
+You don't need to follow those recommended steps. Define your own workflow if you will but one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
 
 For example, you still can do it like this:
 ```sh
