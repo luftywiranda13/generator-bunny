@@ -41,7 +41,7 @@ Once you are ready to commit the changes, please use the below commands
 1.  `git add <files to be comitted>`
 2.  `npm start commit`
 
-... and follow the instruction of the interactive prompt.
+… and follow the instruction of the interactive prompt.
 
 ### opt into git hooks
 
