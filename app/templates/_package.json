@@ -25,6 +25,7 @@
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --parser flow --write",
       "eslint . --cache --fix",
+      "flow",
       "jest --findRelatedTests --listTests",
       "git add"
     ]

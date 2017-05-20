@@ -20,7 +20,7 @@ module.exports = {
     },
     lint: {
       description: 'lint the entire project with eslint',
-      script: 'eslint .',
+      script: 'eslint . --cache',
     },
     test: {
       default: 'jest --coverage',
