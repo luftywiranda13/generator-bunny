@@ -32,7 +32,7 @@ module.exports = {
     },
     lint: {
       description: 'lint the entire project with eslint & flow',
-      script: series('flow', 'eslint .'),
+      script: series('flow', 'eslint . --cache'),
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
