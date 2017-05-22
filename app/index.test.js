@@ -3,6 +3,13 @@ import helpers from 'yeoman-test';
 import path from 'path';
 
 describe('Generator', () => {
+  jest.mock('update-notifier', () => ({
+    latest: '1.0.1',
+    current: '1.0.0',
+    type: 'patch',
+    name: 'pageres',
+  }));
+
   beforeEach(() =>
     helpers.run(path.join(__dirname, '../app')).inTmpDir().withPrompts({
       moduleName: 'bunny module',
@@ -18,6 +25,9 @@ describe('Generator', () => {
     const app = require('./'); // eslint-disable-line
     assert(app);
   });
+
+  // TODO write test for this case
+  it('checks for updates', () => {});
 
   it('generates files', () => {
     assert.file([
