@@ -37,7 +37,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "notify": true,
     "coverageThreshold": {
       "global": {
         "branches": 100,
