@@ -5,6 +5,10 @@ const series = npsUtils.series;
 
 module.exports = {
   scripts: {
+    commit: {
+      description: 'Commit changes using commitizen',
+      script: 'git-cz',
+    },
     contributors: {
       add: {
         description: 'When new people contribute to the project, run this',
@@ -14,14 +18,6 @@ module.exports = {
         description: 'Update the badge and contributors table',
         script: 'all-contributors generate',
       },
-    },
-    commit: {
-      description: 'This uses commitizen to help us generate well formatted commit messages',
-      script: 'git-cz',
-    },
-    test: {
-      default: 'jest --coverage',
-      watch: 'jest --watch',
     },
     build: {
       description: 'delete the dist directory and run babel to build the files',
@@ -49,15 +45,25 @@ module.exports = {
       script: concurrent.nps('flow', 'eslint'),
     },
     release: {
-      description: 'We automate releases with semantic-release. This should only be run on travis',
+      description: 'This should only be run on travis',
       script: series(
         'semantic-release pre',
         'npm publish',
         'semantic-release post'
       ),
     },
+    test: {
+      default: {
+        description: 'Collect code coverage',
+        script: 'jest --coverage',
+      },
+      watch: {
+        description: 'Run test in interactive watch mode',
+        script: 'jest --watch',
+      },
+    },
     validate: {
-      description: 'This runs several scripts to make sure things look good before committing or on clean install',
+      description: 'Run validation to make sure everything is up to standard',
       script: concurrent.nps('lint', 'build', 'test'),
     },
   },
@@ -65,17 +71,3 @@ module.exports = {
     silent: false,
   },
 };
-
-// this is not transpiled
-/*
-  eslint
-  max-len: 0,
-  comma-dangle: [
-    2,
-    {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      functions: 'never'
-    }
-  ]
- */
