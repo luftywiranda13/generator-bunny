@@ -30,9 +30,23 @@ module.exports = {
         'babel --copy-files --out-dir dist --ignore *.test.js src'
       ),
     },
+    eslint: {
+      description: 'Check for linting errors using eslint',
+      script: 'eslint . --cache',
+    },
+    flow: {
+      default: {
+        description: 'Run typechecking with Flow',
+        script: 'flow --quiet',
+      },
+      typed: {
+        description: 'Install libdefs',
+        script: 'flow-typed update',
+      },
+    },
     lint: {
       description: 'lint the entire project with eslint & flow',
-      script: series('flow', 'eslint . --cache'),
+      script: concurrent.nps('flow', 'eslint'),
     },
     release: {
       description: 'We automate releases with semantic-release. This should only be run on travis',
