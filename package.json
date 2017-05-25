@@ -25,8 +25,8 @@
   "lint-staged": {
     "*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
-      "eslint . --cache --fix",
-      "jest --findRelatedTests --listTests",
+      "eslint --fix",
+      "jest --findRelatedTests",
       "git add"
     ]
   },
