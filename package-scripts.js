@@ -15,7 +15,7 @@ module.exports = {
       },
     },
     commit: {
-      description: 'This uses commitizen to help us generate well formatted commit messages',
+      description: 'Commit changes using commitizen',
       script: 'git-cz',
     },
     lint: {
@@ -23,11 +23,17 @@ module.exports = {
       script: 'eslint . --cache',
     },
     test: {
-      default: 'jest --coverage',
-      watch: 'jest --watch',
+      default: {
+        description: 'Collect code coverage',
+        script: 'jest --coverage',
+      },
+      watch: {
+        description: 'Run test in interactive watch mode',
+        script: 'jest --watch',
+      },
     },
     release: {
-      description: 'We automate releases with semantic-release. This should only be run on travis',
+      description: 'This should only be run on travis',
       script: series(
         'semantic-release pre',
         'npm publish',
@@ -35,7 +41,7 @@ module.exports = {
       ),
     },
     validate: {
-      description: 'This runs several scripts to make sure things look good before committing or on clean install',
+      description: 'Run validation to make sure everything is up to standard',
       script: concurrent.nps('lint', 'test'),
     },
   },
@@ -43,17 +49,3 @@ module.exports = {
     silent: false,
   },
 };
-
-// this is not transpiled
-/*
-  eslint
-  max-len: 0,
-  comma-dangle: [
-    2,
-    {
-      arrays: 'always-multiline',
-      objects: 'always-multiline',
-      functions: 'never'
-    }
-  ]
- */
