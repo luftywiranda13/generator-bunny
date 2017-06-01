@@ -6,7 +6,6 @@ cache:
 notifications:
   email: false
 node_js:
-  - 'node'
   - '6'
 before_script:
   - npm prune
