@@ -9,8 +9,6 @@ node_js:
   - 'node'
   - '7'
 before_script:
-  - npm prune
-  - npm link
   - yarn global add codecov
 script:
   - yarn start validate
