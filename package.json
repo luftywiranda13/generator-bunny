@@ -88,7 +88,7 @@
     "eslint-plugin-import": "2.3.0",
     "eslint-plugin-jest": "^20.0.3",
     "husky": "^0.13.4",
-    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
     "lint-staged": "^3.5.1",
     "nps": "^5.3.1",
     "nps-utils": "^1.1.2",
