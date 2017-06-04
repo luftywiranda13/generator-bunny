@@ -45,6 +45,11 @@
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md">
     <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
   </a>
+  <br />
+  <br />
+  <a href="https://nodei.co/npm/generator-bunny/">
+    <img src="https://nodei.co/npm/generator-bunny.png?downloads=true&downloadRank=true" />
+  </a>
 </p>
 
 <p align="center"><em>
