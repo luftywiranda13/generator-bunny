@@ -33,9 +33,6 @@
   <a href="http://commitizen.github.io/cz-cli">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
-  </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md">
     <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
