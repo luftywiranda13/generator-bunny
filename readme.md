@@ -33,9 +33,6 @@
   <a href="http://commitizen.github.io/cz-cli">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md">
-    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
-  </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
