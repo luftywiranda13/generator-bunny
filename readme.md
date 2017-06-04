@@ -25,9 +25,6 @@
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/license">
-    <img src="https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square" />
-  </a>
 </p>
 <p align="center">
   <a href="https://github.com/semantic-release/semantic-release">
