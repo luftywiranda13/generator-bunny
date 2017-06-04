@@ -8,10 +8,15 @@ notifications:
 node_js:
   - 'node'
   - '7'
+before_install:
+  - yarn global add greenkeeper-lockfile@1
 before_script:
   - yarn global add codecov
+  - greenkeeper-lockfile-update
 script:
   - yarn start validate
+after_script:
+  - greenkeeper-lockfile-upload
 after_success:
   - codecov
   - yarn start release
