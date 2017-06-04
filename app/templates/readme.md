@@ -1,9 +1,15 @@
-<div align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" />
-</div>
+<h1 align="center">
+  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" alt="<%- moduleName %>" />
+  <br />
+  <br />
+</h1>
+
+<h4 align="center">
+  Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!
+</h4>
 
 <p align="center">
-  <strong>Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!</strong>
+  Scaffold <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> project without having to deal with complicated setup.
 </p>
 
 <p align="center">
@@ -25,8 +31,7 @@
   <a href="https://github.com/<%- githubUsername %>/<%- moduleName %>/blob/master/license">
     <img src="https://img.shields.io/github/license/<%- githubUsername %>/<%- moduleName %>.svg?style=flat-square" />
   </a>
-</p>
-<p align="center">
+  <br />
   <a href="https://github.com/semantic-release/semantic-release">
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
   </a>
@@ -47,14 +52,7 @@
   </a>
 </p>
 
-<p align="center">
-  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
-  Spend your time more on writing codes than setting them up.
-</p>
-
-<p align="center"><strong>Set it once, then forget it!</strong></p>
-
----
+<br />
 
 
 ## Highlights
