@@ -22,8 +22,7 @@
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-</p>
-<p align="center">
+  <br />
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
