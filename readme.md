@@ -1,11 +1,15 @@
-<p align="center">
+<h1 align="center">
   <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" alt="generator-bunny" />
   <br />
   <br />
-  <strong>Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!</strong>
-  <br />
-  Don't let yourself for always having to setup any <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> projects from scratch.<br />
-  Spend your time more on writing codes than setting them up.
+</h1>
+
+<h4 align="center">
+  Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!
+</h4>
+
+<p align="center">
+  Scaffold <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> project without having to deal with complicated setup.
 </p>
 
 <p align="center">
