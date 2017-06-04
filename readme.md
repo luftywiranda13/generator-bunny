@@ -1,6 +1,6 @@
-<p align="center">
+<h1 align="center">
   <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" />
-</p>
+</h1>
 
 <p align="center">
   <strong>Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!</strong>
