@@ -22,11 +22,11 @@
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
+</p>
+<p align="center">
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
-</p>
-<p align="center">
   <a href="https://github.com/semantic-release/semantic-release">
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
   </a>
