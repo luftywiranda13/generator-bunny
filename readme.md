@@ -1,5 +1,8 @@
 <h1 align="center">
+  <br />
   <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" alt="generator-bunny" />
+  <br />
+  <br />
 </h1>
 
 <p align="center">
