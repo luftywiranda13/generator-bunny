@@ -39,9 +39,6 @@
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md">
-    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
-  </a>
 </p>
 
 <p align="center"><em>
