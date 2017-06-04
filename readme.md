@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" />
+  <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" alt="generator-bunny" />
 </p>
 
 <p align="center">
@@ -10,6 +10,9 @@
   <a href="https://www.npmjs.com/package/generator-bunny">
     <img src="https://img.shields.io/npm/v/generator-bunny.svg?style=flat-square" />
   </a>
+  <a href="https://www.npmjs.com/package/generator-bunny">
+    <img src="https://img.shields.io/npm/dt/generator-bunny.svg?style=flat-square" />
+  </a>
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
     <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny/master.svg?style=flat-square" />
   </a>
@@ -19,36 +22,19 @@
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
+</p>
+<p align="center">
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/license">
-    <img src="https://img.shields.io/github/license/luftywiranda13/generator-bunny.svg?style=flat-square" />
-  </a>
-</p>
-<p align="center">
   <a href="https://github.com/semantic-release/semantic-release">
     <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
   </a>
   <a href="http://commitizen.github.io/cz-cli">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
-  </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/code_of_conduct.md">
-    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
-  </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
-  </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/examples.md">
-    <img src="https://img.shields.io/badge/%F0%9F%92%A1-examples-8C8E93.svg?style=flat-square" />
-  </a>
-  <br />
-  <br />
-  <a href="https://nodei.co/npm/generator-bunny/">
-    <img src="https://nodei.co/npm/generator-bunny.png?downloads=true&downloadRank=true" />
   </a>
 </p>
 
