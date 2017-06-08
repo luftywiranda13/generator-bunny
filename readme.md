@@ -16,35 +16,35 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/generator-bunny">
-    <img src="https://img.shields.io/npm/v/generator-bunny.svg?style=flat-square" />
+    <img src="https://img.shields.io/npm/v/generator-bunny.svg" />
   </a>
   <a href="https://www.npmjs.com/package/generator-bunny">
-    <img src="https://img.shields.io/npm/dt/generator-bunny.svg?style=flat-square" />
+    <img src="https://img.shields.io/npm/dt/generator-bunny.svg" />
   </a>
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
-    <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny/master.svg?style=flat-square" />
+    <img src="https://img.shields.io/travis/luftywiranda13/generator-bunny/master.svg" />
   </a>
   <a href="https://codecov.io/github/luftywiranda13/generator-bunny">
-    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square" />
+    <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg" />
   </a>
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
-    <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
+    <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg" />
   </a>
   <a href="https://greenkeeper.io/">
     <img src="https://badges.greenkeeper.io/luftywiranda13/generator-bunny.svg" />
   </a>
   <br />
   <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
+    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
   </a>
   <a href="https://github.com/semantic-release/semantic-release">
-    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" />
   </a>
   <a href="http://commitizen.github.io/cz-cli">
-    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
+    <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
   </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
-    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
+    <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg" />
   </a>
 </p>
 
