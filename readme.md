@@ -30,6 +30,9 @@
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
+  <a href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/luftywiranda13/generator-bunny.svg" />
+  </a>
   <br />
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
@@ -49,7 +52,6 @@
 
 ## Highlights
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/generator-bunny.svg)](https://greenkeeper.io/)
 This generator includes built-in modern tools which are widely used in the community:
 -   [Automated GitHub release notes generator](/releases)
 -   [Automated releasing with semantic-release][semantic-link]
