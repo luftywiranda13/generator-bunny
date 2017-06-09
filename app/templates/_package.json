@@ -23,7 +23,7 @@
     "test": "nps test"
   },
   "lint-staged": {
-    "*.js": [
+    "src/**/*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
       "eslint --fix && flow",
       "jest --findRelatedTests",
