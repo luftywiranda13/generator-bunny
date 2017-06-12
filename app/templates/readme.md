@@ -1,14 +1,12 @@
-<div align="center">
+<p align="center">
   <img src="https://cdn.shopify.com/s/files/1/0185/5092/products/nature-0006_large.png" width="200" alt="generator-bunny" />
-  <br />
-  <br />
-</div>
+</p>
 
-<div align="center">
-  <h4>
-  Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!
-  </h4>
-</div>
+<p align="center">
+  <strong>
+    Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!
+  </strong>
+</p>
 
 <p align="center">
   Scaffold <a href="https://www.npmjs.com/">node module</a> or <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> project without having to deal with complicated setup.
