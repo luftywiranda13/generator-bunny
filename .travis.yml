@@ -1,5 +1,6 @@
 language: node_js
 cache:
+  yarn: true
   directories:
     - node_modules
 notifications:
@@ -8,13 +9,13 @@ node_js:
   - 'node'
   - '7'
 before_install:
-  - npm i -g semantic-release
-  - npm i -g codecov
-  - npm i -g greenkeeper-lockfile@1
+  - yarn global add semantic-release
+  - yarn global add codecov
+  - yarn global add greenkeeper-lockfile@1
 before_script:
   - greenkeeper-lockfile-update
 script:
-  - npm start validate
+  - yarn start validate
 after_script:
   - codecov
   - greenkeeper-lockfile-upload
