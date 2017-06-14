@@ -60,9 +60,8 @@ module.exports = class extends Generator {
         email: props.email,
         githubUsername: props.githubUsername,
         website: props.website,
+        hasYarn: hasbin.sync('yarn'),
       };
-
-      this.name = this.tpl.name;
     });
   }
   writing() {
@@ -110,13 +109,13 @@ module.exports = class extends Generator {
     this.installDependencies({
       skipMessage: true,
       bower: false,
-      yarn: hasbin.sync('yarn'),
-      npm: !hasbin.sync('yarn'),
+      yarn: this.tpl.hasYarn,
+      npm: !this.tpl.hasYarn,
     });
   }
   end() {
     this.log();
-    this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.name}!`));
+    this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.tpl.name}!`));
     this.log();
   }
 };
