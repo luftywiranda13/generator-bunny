@@ -63,6 +63,7 @@ module.exports = class extends Generator {
       };
 
       this.name = this.tpl.name;
+      this.hasYarn = hasbin.sync('yarn');
     });
   }
   writing() {
@@ -110,8 +111,8 @@ module.exports = class extends Generator {
     this.installDependencies({
       skipMessage: true,
       bower: false,
-      yarn: hasbin.sync('yarn'),
-      npm: !hasbin.sync('yarn'),
+      yarn: this.hasYarn,
+      npm: !this.hasYarn,
     });
   }
   end() {
