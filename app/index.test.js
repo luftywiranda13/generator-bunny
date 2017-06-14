@@ -45,18 +45,6 @@ describe('Generator', () => {
     ]);
   });
 
-  describe('module name', () => {
-    it('creates a kebab-case name', () => {
-      assert.JSONFileContent('package.json', {
-        name: 'bunny-module',
-      });
-    });
-
-    it('creates a camelCase name', () => {
-      assert.fileContent('readme.md', 'console.log(bunnyModule);');
-    });
-  });
-
   describe('templating', () => {
     it('fills package.json with correct informations', () => {
       assert.JSONFileContent('package.json', {
