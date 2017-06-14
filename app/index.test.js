@@ -57,7 +57,7 @@ describe('Generator', () => {
       });
     });
 
-    it('writes installation instructions', () => {
+    it('fills installation instructions', () => {
       assert.fileContent('readme.md', 'npm install --save bunny-module');
       assert.fileContent('readme.md', 'yarn add bunny-module');
     });
