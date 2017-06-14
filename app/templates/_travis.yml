@@ -1,5 +1,6 @@
 language: node_js
-cache:
+cache:<% if (hasYarn) { %>
+  yarn: true<% } %>
   directories:
     - node_modules
 notifications:
@@ -7,18 +8,20 @@ notifications:
 node_js:
   - 'node'
   - '7'
-before_install:
+before_install:<% if (hasYarn) { %>
+  - yarn global add codecov
+  - yarn global add greenkeeper-lockfile@1<% } else { %>
   - npm i -g codecov
-  - npm i -g greenkeeper-lockfile@1
+  - npm i -g greenkeeper-lockfile@1<% } %>
 before_script:
   - greenkeeper-lockfile-update
 script:
-  - npm start validate
+  - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start validate
 after_script:
   - codecov
   - greenkeeper-lockfile-upload
 after_success:
-  - npm start release
+  - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start release
 branches:
   only:
     - master
