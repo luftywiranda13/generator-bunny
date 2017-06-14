@@ -60,10 +60,11 @@ module.exports = class extends Generator {
         email: props.email,
         githubUsername: props.githubUsername,
         website: props.website,
+        hasYarn: hasbin.sync('yarn'),
       };
 
       this.name = this.tpl.name;
-      this.hasYarn = hasbin.sync('yarn');
+      this.hasYarn = this.tpl.hasYarn;
     });
   }
   writing() {
