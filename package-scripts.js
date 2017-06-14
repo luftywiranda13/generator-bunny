@@ -1,6 +1,5 @@
 const npsUtils = require('nps-utils'); // eslint-disable-line
 const concurrent = npsUtils.concurrent;
-const series = npsUtils.series;
 
 module.exports = {
   scripts: {
@@ -31,14 +30,6 @@ module.exports = {
         description: 'Run test in interactive watch mode',
         script: 'jest --watch',
       },
-    },
-    release: {
-      description: 'This should only be run on travis',
-      script: series(
-        'semantic-release pre',
-        'npm publish',
-        'semantic-release post'
-      ),
     },
     validate: {
       description: 'Run validation to make sure everything is up to standard',
