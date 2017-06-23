@@ -3516,9 +3516,9 @@ nps-utils@^1.1.2:
     opn-cli "^3.1.0"
     rimraf "^2.6.1"
 
-nps@^5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/nps/-/nps-5.3.1.tgz#34846c008ada3922238fa5dab54c89f88eafa527"
+nps@^5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/nps/-/nps-5.3.2.tgz#2b5e39bd63928b7a538a1f2d0ea5906409908303"
   dependencies:
     arrify "^1.0.1"
     chalk "^1.1.3"
