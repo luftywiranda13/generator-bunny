@@ -15,13 +15,22 @@
     "jest"
   ],
   "rules": {
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline",
-      "imports": "always-multiline",
-      "exports": "always-multiline",
-      "functions": "never"
-      }],
-    "max-len": ["error", 80]
+    "import/no-extraneous-dependencies": [
+      0, { "devDependencies": ["**/*.stories.js"] }
+    ],
+    "import/order": [2, { "newlines-between": "always" }],
+    "lines-around-comment": [
+      2, {
+        "beforeBlockComment": true,
+        "beforeLineComment": true,
+        "allowBlockStart": true,
+        "allowObjectStart": true,
+        "allowArrayStart": true
+      }
+    ],
+    "max-len": ["error", 80],
+    "newline-after-var": [2, "always"],
+    "newline-before-return": 2,
+    "no-multiple-empty-lines": [2, { "max": 1 }]
   }
 }
