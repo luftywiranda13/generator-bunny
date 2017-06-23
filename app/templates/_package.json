@@ -15,6 +15,9 @@
   "files": [
     "dist"
   ],
+  "engines" : {
+    "node" : ">=6"
+  },
   "scripts": {
     "start": "nps",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
@@ -57,7 +60,6 @@
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.5.1",
     "babel-preset-flow": "^6.23.0",
-    "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.23.0",
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
