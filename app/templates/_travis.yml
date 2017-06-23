@@ -8,6 +8,7 @@ notifications:
 node_js:
   - 'node'
   - '7'
+  - '6'
 before_install:<% if (hasYarn) { %>
   - yarn global add codecov
   - yarn global add greenkeeper-lockfile@1<% } else { %>
