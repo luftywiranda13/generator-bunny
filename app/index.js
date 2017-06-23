@@ -89,7 +89,6 @@ module.exports = class extends Generator {
       '.github/pull_request_template.md'
     );
     this.mv('_gitignore', '.gitignore');
-    this.mv('_npmrc', '.npmrc');
     this.mv('_travis.yml', '.travis.yml');
 
     this.spawnCommandSync('git', ['init', '--quiet']);
