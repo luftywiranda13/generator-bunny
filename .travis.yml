@@ -8,6 +8,7 @@ notifications:
 node_js:
   - 'node'
   - '7'
+  - '6'
 before_install:
   - yarn global add semantic-release
   - yarn global add codecov
