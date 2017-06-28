@@ -17,7 +17,8 @@
     "app/templates/"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=6",
+    "npm": ">=4"
   },
   "scripts": {
     "start": "nps",
