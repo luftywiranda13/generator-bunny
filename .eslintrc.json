@@ -2,24 +2,21 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "jest/globals": true
+    "jest": true
   },
-  "extends": [
-    "airbnb-base",
-    "plugin:jest/recommended"
-  ],
-  "plugins": [
-    "import",
-    "jest"
-  ],
+  "extends": ["eslint:recommended", "airbnb-base", "plugin:jest/recommended"],
+  "plugins": ["jest"],
   "rules": {
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline",
-      "imports": "always-multiline",
-      "exports": "always-multiline",
-      "functions": "never"
-      }],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
     "max-len": ["error", 80]
   }
 }

@@ -2,25 +2,20 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "jest/globals": true
+    "jest": true
   },
   "extends": [
+    "eslint:recommended",
     "airbnb-base",
     "plugin:flowtype/recommended",
     "plugin:jest/recommended"
   ],
-  "plugins": [
-    "flowtype",
-    "import",
-    "jest"
-  ],
+  "plugins": ["flowtype", "jest"],
   "rules": {
-    "import/no-extraneous-dependencies": [
-      0, { "devDependencies": ["**/*.stories.js"] }
-    ],
     "import/order": [2, { "newlines-between": "always" }],
     "lines-around-comment": [
-      2, {
+      2,
+      {
         "beforeBlockComment": true,
         "beforeLineComment": true,
         "allowBlockStart": true,
