@@ -58,6 +58,7 @@ This generator includes built-in modern tools which are widely used in the commu
 -   [Babel transpiler for writing next generation JavaScript][babel-link]
 -   [Eslint linting utility][eslint-link]
 -   [Flow static typechecker][flow-link]
+-   [GitHub templates (Issue & Pull Request, License, CoC, etc.)](https://github.com/blog/2111-issue-and-pull-request-templates)
 -   [Jest testing framework][jest-link]
 -   [Travis Continuous Integration][travis-link]
 -   :rabbit:
