@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>
-    Jumpstart <a href="https://nodejs.org/api/modules.html#modules_modules">node module</a>, like a bunny!
+    <%- description %>
   </strong>
 </p>
 
