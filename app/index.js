@@ -113,6 +113,11 @@ module.exports = class extends Generator {
     });
   }
   end() {
+    this.spawnCommandSync('git', ['add', '--all']);
+    this.spawnCommandSync('git', [
+      'commit',
+      '-qam feat(package): initial commit',
+    ]);
     this.log();
     this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.tpl.name}!`));
     this.log();
