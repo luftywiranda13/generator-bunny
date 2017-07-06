@@ -23,7 +23,7 @@ module.exports = {
       description: 'delete the dist directory and run babel to build the files',
       script: series(
         rimraf('dist'),
-        'babel --copy-files --out-dir dist --ignore *.test.js src',
+        'babel --copy-files --out-dir dist --ignore *.test.js src'
       ),
     },
     eslint: {
@@ -49,7 +49,7 @@ module.exports = {
       script: series(
         'semantic-release pre',
         'npm publish',
-        'semantic-release post',
+        'semantic-release post'
       ),
     },
     test: {
@@ -71,3 +71,16 @@ module.exports = {
     silent: false,
   },
 };
+
+// this is not transpiled
+/*
+  eslint
+  comma-dangle: [
+    2,
+    {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      functions: 'never'
+    }
+  ]
+ */
