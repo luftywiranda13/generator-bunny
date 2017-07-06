@@ -75,6 +75,7 @@
     "hasbin": "^1.2.3",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
+    "shelljs": "^0.7.8",
     "yeoman-generator": "^1.1.1"
   },
   "devDependencies": {
