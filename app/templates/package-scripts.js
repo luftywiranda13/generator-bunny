@@ -28,7 +28,7 @@ module.exports = {
     },
     eslint: {
       description: 'Check for linting errors using eslint',
-      script: 'eslint src',
+      script: 'eslint .',
     },
     flow: {
       default: {
@@ -72,7 +72,15 @@ module.exports = {
   },
 };
 
-// this is not transpiled
+/**
+ * Additional ESLint rules to be applied only for this file.
+ * Because this file is written in ES5 and not transpiled by Babel.
+ *
+ * Trailing commas in function declarations and function calls are valid syntax
+ * since ECMAScript 2017
+ * http://eslint.org/docs/rules/comma-dangle
+ */
+
 /*
   eslint
   comma-dangle: [
@@ -80,6 +88,8 @@ module.exports = {
     {
       arrays: 'always-multiline',
       objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
       functions: 'never'
     }
   ]
