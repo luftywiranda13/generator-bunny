@@ -115,6 +115,10 @@ module.exports = class extends Generator {
   }
   end() {
     this.log();
+    this.log(`Installing ${chalk.cyan('libdefs..')}`);
+    this.log();
+    shell.exec('npm start flow.typed', { silent: true });
+
     this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.tpl.name}!`));
     this.log();
 
