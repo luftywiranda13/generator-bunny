@@ -102,7 +102,7 @@ module.exports = class extends Generator {
     );
 
     this.log();
-    this.log('Installing dependencies..');
+    this.log('Installing dependencies...');
     this.log('This might take a couple minutes');
     this.log();
 
@@ -115,7 +115,7 @@ module.exports = class extends Generator {
   }
   end() {
     this.log();
-    this.log(`Installing ${chalk.cyan('libdefs..')}`);
+    this.log(`Installing ${chalk.cyan('libdefs...')}`);
     this.log();
     shell.exec('npm start flow.typed', { silent: true });
 
