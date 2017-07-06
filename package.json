@@ -92,7 +92,7 @@
     "eslint-plugin-jest": "^20.0.3",
     "husky": "^0.14.3",
     "jest": "^20.0.4",
-    "lint-staged": "^4.0.0",
+    "lint-staged": "^4.0.1",
     "nps": "^5.3.2",
     "nps-utils": "^1.1.2",
     "opt-cli": "^1.5.1",
