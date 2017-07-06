@@ -28,7 +28,7 @@ module.exports = {
     },
     eslint: {
       description: 'Check for linting errors using eslint',
-      script: 'eslint src',
+      script: 'eslint .',
     },
     flow: {
       default: {
