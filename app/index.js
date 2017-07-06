@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const Generator = require('yeoman-generator');
 const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
+const shell = require('shelljs');
 
 module.exports = class extends Generator {
   prompting() {
@@ -118,8 +119,11 @@ module.exports = class extends Generator {
       'commit',
       '-qam feat(package): initial commit',
     ]);
+
     this.log();
     this.log(chalk.cyan(`Thanks for using generator-bunny, ${this.tpl.name}!`));
     this.log();
+
+    shell.rm('.yo-rc.json');
   }
 };
