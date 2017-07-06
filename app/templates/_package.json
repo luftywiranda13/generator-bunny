@@ -23,7 +23,6 @@
     "start": "nps",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "precommit": "lint-staged && flow --quiet",
-    "postinstall": "nps flow.typed",
     "test": "nps test"
   },
   "lint-staged": {
