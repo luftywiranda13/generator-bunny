@@ -28,9 +28,6 @@
   <a href="https://david-dm.org/luftywiranda13/generator-bunny">
     <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg" />
   </a>
-  <a href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/luftywiranda13/generator-bunny.svg" />
-  </a>
   <br />
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" />
