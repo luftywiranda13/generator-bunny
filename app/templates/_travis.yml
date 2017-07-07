@@ -10,20 +10,14 @@ node_js:
   - '7'
   - '6'
 before_install:<% if (hasYarn) { %>
-  - yarn global add codecov
-  - yarn global add greenkeeper-lockfile@1<% } else { %>
-  - npm i -g codecov
-  - npm i -g greenkeeper-lockfile@1<% } %>
-before_script:
-  - greenkeeper-lockfile-update
+  - yarn global add codecov<% } else { %>
+  - npm i -g codecov<% } %>
 script:
   - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start validate
 after_script:
   - codecov
-  - greenkeeper-lockfile-upload
 after_success:
   - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start release
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
