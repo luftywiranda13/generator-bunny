@@ -47,7 +47,7 @@
 
 ## Highlights
 
-This generator includes built-in modern tools which are widely used in the community:
+This generator includes built-in modern tools which have been widely used by the community:
 -   [Automated GitHub release notes generator](/releases)
 -   [Automated releasing with semantic-release][semantic-link]
 -   [Automated testing & validation before any commits][husky-link]
