@@ -13,7 +13,7 @@ Care to help? See [`contributing.md`][contributing-link]
 
 
 ## Might do
--   [ ] Make custom eslint plugin/config
+-   [x] Make custom eslint plugin/config
 -   [ ] Module bundler integration
 
 

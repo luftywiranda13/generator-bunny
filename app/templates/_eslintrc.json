@@ -1,31 +1,7 @@
 {
-  "parser": "babel-eslint",
-  "env": {
-    "browser": true,
-    "jest": true
-  },
   "extends": [
-    "eslint:recommended",
-    "airbnb-base",
-    "plugin:flowtype/recommended",
-    "plugin:jest/recommended"
+    "bunny",
+    "plugin:flowtype/recommended"
   ],
-  "plugins": ["flowtype", "jest"],
-  "rules": {
-    "import/order": [2, { "newlines-between": "always" }],
-    "lines-around-comment": [
-      2,
-      {
-        "beforeBlockComment": true,
-        "beforeLineComment": true,
-        "allowBlockStart": true,
-        "allowObjectStart": true,
-        "allowArrayStart": true
-      }
-    ],
-    "max-len": ["error", 80],
-    "newline-after-var": [2, "always"],
-    "newline-before-return": 2,
-    "no-multiple-empty-lines": [2, { "max": 1 }]
-  }
+  "plugins": ["flowtype"]
 }
