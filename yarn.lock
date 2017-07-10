@@ -1462,8 +1462,8 @@ es-to-primitive@^1.1.1:
     is-symbol "^1.0.1"
 
 es5-ext@^0.10.14, es5-ext@^0.10.9, es5-ext@~0.10.14:
-  version "0.10.23"
-  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.23.tgz#7578b51be974207a5487821b56538c224e4e7b38"
+  version "0.10.24"
+  resolved "https://registry.yarnpkg.com/es5-ext/-/es5-ext-0.10.24.tgz#a55877c9924bc0c8d9bd3c2cbe17495ac1709b14"
   dependencies:
     es6-iterator "2"
     es6-symbol "~3.1"
@@ -1547,9 +1547,9 @@ eslint-config-airbnb@15.0.2:
   dependencies:
     eslint-config-airbnb-base "^11.2.0"
 
-eslint-config-bunny@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-bunny/-/eslint-config-bunny-1.1.1.tgz#1a6bf04ade599345826f1d01f3369177036823a6"
+eslint-config-bunny@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-bunny/-/eslint-config-bunny-1.2.0.tgz#ef38ac335a371f371f57b1f320a7b85dc0024fff"
   dependencies:
     babel-eslint "7.2.3"
     babel-jest "20.0.3"
