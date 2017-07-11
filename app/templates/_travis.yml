@@ -7,8 +7,8 @@ notifications:
   email: false
 node_js:
   - 'node'
-  - '7'
   - '6'
+  - '4'
 before_install:<% if (hasYarn) { %>
   - yarn global add codecov<% } else { %>
   - npm i -g codecov<% } %>
