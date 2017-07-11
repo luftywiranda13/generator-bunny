@@ -32,6 +32,9 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
+  "eslintConfig": {
+    "extends": "bunny"
+  },
   "jest": {
     "testEnvironment": "node",
     "coverageThreshold": {
