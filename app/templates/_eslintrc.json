@@ -1,7 +1,20 @@
+/**
+ * This config uses eslint-config-bunny
+ * https://github.com/luftywiranda13/eslint-config-bunny
+ *
+ * No special thing about this config,
+ * basically it's just a config that wraps eslint-config-airbnb
+ * and all the goodies together.
+ */
 {
   "extends": [
     "bunny",
-    "plugin:flowtype/recommended"
-  ],
-  "plugins": ["flowtype"]
+
+    /**
+     * This config uses eslint-plugin-flowtype with the recommended config
+     * under the hood.
+     * https://github.com/gajus/eslint-plugin-flowtype#recommended
+     */
+    "bunny/flowtype"
+  ]
 }
