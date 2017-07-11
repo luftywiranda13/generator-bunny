@@ -16,8 +16,7 @@
     "dist"
   ],
   "engines" : {
-    "node": ">=6",
-    "npm": ">=4"
+    "node": ">=4"
   },
   "scripts": {
     "start": "nps",
