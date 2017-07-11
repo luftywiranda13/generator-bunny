@@ -3,19 +3,16 @@
   "version": "0.0.0-development",
   "description": "Jumpstart node module, like a bunny",
   "license": "MIT",
-  "author": "Lufty Wiranda <lufty.wiranda@gmail.com>",
-  "homepage": "https://github.com/luftywiranda13/generator-bunny#readme",
-  "bugs": "https://github.com/luftywiranda13/generator-bunny/issues",
-  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luftywiranda13/generator-bunny.git"
   },
-  "main": "app/index.js",
-  "files": [
-    "app/index.js",
-    "app/templates/"
-  ],
+  "preferGlobal": true,
+  "author": {
+    "name": "Lufty Wiranda",
+    "email": "lufty.wiranda@gmail.com",
+    "url": "https://www.instagram.com/luftywiranda13/"
+  },
   "engines": {
     "node": ">=4"
   },
@@ -25,14 +22,11 @@
     "precommit": "lint-staged",
     "test": "nps test"
   },
-  "lint-staged": {
-    "*.js": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "eslint --fix",
-      "jest --findRelatedTests",
-      "git add"
-    ]
-  },
+  "main": "app/index.js",
+  "files": [
+    "app/index.js",
+    "app/templates/"
+  ],
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
@@ -49,26 +43,14 @@
       }
     }
   },
-  "keywords": [
-    "🐰",
-    "javascript",
-    "open-source",
-    "node",
-    "node-module",
-    "yeoman",
-    "yeoman-generator",
-    "starter-kit",
-    "boilerplate",
-    "scaffold",
-    "npm",
-    "automated",
-    "automate",
-    "easy",
-    "jest",
-    "babel",
-    "prettier",
-    "eslint"
-  ],
+  "lint-staged": {
+    "*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "eslint --fix",
+      "jest --findRelatedTests",
+      "git add"
+    ]
+  },
   "dependencies": {
     "chalk": "2.0.1",
     "hasbin": "1.2.3",
@@ -95,5 +77,25 @@
     "validate-commit-msg": "2.12.2",
     "yeoman-assert": "3.0.0",
     "yeoman-test": "1.7.0"
-  }
+  },
+  "keywords": [
+    "🐰",
+    "javascript",
+    "open-source",
+    "node",
+    "node-module",
+    "yeoman",
+    "yeoman-generator",
+    "starter-kit",
+    "boilerplate",
+    "scaffold",
+    "npm",
+    "automated",
+    "automate",
+    "easy",
+    "jest",
+    "babel",
+    "prettier",
+    "eslint"
+  ]
 }
