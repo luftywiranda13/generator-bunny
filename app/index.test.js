@@ -47,13 +47,15 @@ describe('Generator', () => {
       assert.JSONFileContent('package.json', {
         name: 'bunny-module',
         description: 'as cute as bunny',
-        author: 'yo <hi@bunny.io>',
         repository: {
           type: 'git',
           url: 'git+https://github.com/bunny/bunny-module.git',
         },
-        homepage: 'https://github.com/bunny/bunny-module#readme',
-        bugs: 'https://github.com/bunny/bunny-module/issues',
+        author: {
+          name: 'yo',
+          email: 'hi@bunny.io',
+          url: 'www.wewww.com',
+        },
       });
     });
 

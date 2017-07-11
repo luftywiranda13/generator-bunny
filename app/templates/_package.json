@@ -3,18 +3,16 @@
   "version": "0.0.0-development",
   "description": "<%= description %>",
   "license": "MIT",
-  "author": "<%= name %> <<%= email %>>",<% if (global) { %>
-  "preferGlobal": true,<% } %>
   "repository": {
     "type": "git",
     "url": "git+https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
+  },<% if (global) { %>
+  "preferGlobal": true,<% } %>
+  "author": {
+    "name": "<%= name %>",
+    "email": "<%= email %>",
+    "url": "<%= website %>"
   },
-  "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
-  "bugs": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "engines" : {
     "node": ">=4"
   },
@@ -23,14 +21,6 @@
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "precommit": "lint-staged && flow --quiet",
     "test": "nps test"
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "eslint --fix",
-      "jest --findRelatedTests",
-      "git add"
-    ]
   },
   "config": {
     "commitizen": {
@@ -48,8 +38,17 @@
       }
     }
   },
-  "keywords": [
-    "🐰"
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "eslint --fix",
+      "jest --findRelatedTests",
+      "git add"
+    ]
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -74,5 +73,8 @@
     "opt-cli": "^1.5.1",
     "prettier": "^1.5.2",
     "validate-commit-msg": "^2.12.2"
-  }
+  },
+  "keywords": [
+    "🐰"
+  ]
 }
