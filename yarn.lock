@@ -1547,9 +1547,9 @@ eslint-config-airbnb@15.0.2:
   dependencies:
     eslint-config-airbnb-base "^11.2.0"
 
-eslint-config-bunny@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-bunny/-/eslint-config-bunny-2.0.0.tgz#95a9e40ce19f86dd01b43799c7dc925e0992353a"
+eslint-config-bunny@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-bunny/-/eslint-config-bunny-2.1.0.tgz#bca346e4df8f2f4edfec20cae7dd7946160bfd5e"
   dependencies:
     babel-eslint "7.2.3"
     babel-jest "20.0.3"
