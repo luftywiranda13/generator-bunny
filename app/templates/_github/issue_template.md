@@ -1,41 +1,28 @@
-<!--
-Thanks for your interest in the project. I appreciate bugs filed and PRs submitted!
-Please make sure that you are familiar with and follow the Code of Conduct for
-this project (found in the code_of_conduct.md file).
+<!--- Provide a general summary of the issue in the Title above -->
 
-Please fill out this template with all the relevant information so we can
-understand what's going on and fix the issue.
+## Expected Behavior
+<!--- If you're describing a bug, tell us what should happen -->
+<!--- If you're suggesting a change/improvement, tell us how it should work -->
 
-I'll probably ask you to submit the fix (after giving some direction). If you've
-never done that before, that's great! Check this free short video tutorial to
-learn how: http://kcd.im/pull-request
--->
+## Current Behavior
+<!--- If describing a bug, tell us what happens instead of the expected behavior -->
+<!--- If suggesting a change/improvement, explain the difference from current behavior -->
 
--   `<%= moduleName %>` version:
--   `node` version:
--   `npm` (or `yarn`) version:
+## Possible Solution
+<!--- Not obligatory, but suggest a fix/reason for the bug, -->
+<!--- or ideas how to implement the addition or change -->
 
-**Relevant code or config**
-```js
-# write some codes here
+## Steps to Reproduce (for bugs)
+<!--- Provide a link to a live example, or an unambiguous set of steps to -->
+<!--- reproduce this bug. Include code or screenshot if relevant -->
+1.
+2.
+3.
+4.
 
-```
-
-**What you did:**
-
-
-**What happened:**
-<!-- Please provide the full error message/screenshots/anything -->
-
-
-**Reproduction repository:**
-<!--
-If possible, please create a repository that reproduces the issue with the
-minimal amount of code possible.
--->
-
-
-**Problem description:**
-
-
-**Suggested solution:**
+## Your Environment
+<!--- Include as many relevant details about the environment you experienced the bug in -->
+* Version used:
+* Environment name and version (e.g. npm v4, node v6, etc):
+* Operating System and version (desktop or mobile):
+* Link to your project:
