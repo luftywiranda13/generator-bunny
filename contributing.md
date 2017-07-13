@@ -23,7 +23,7 @@ This project uses [nps](https://npmjs.com/package/nps) and you can run `npm star
 >
 > ```
 >
-> This will add the original repository as a "remote" called "upstream," Then fetch the git information from that remote, then set your local `master` branch to use the upstream master branch whenever you run `git pull`. Then you can make all of your pull request branches based on this `master` branch. Whenever you want to update your version of `master`, do a regular `git pull`.
+> This will add the original repository as a “remote” called “upstream”, Then fetch the git information from that remote, then set your local `master` branch to use the upstream master branch whenever you run `git pull`. Then you can make all of your pull request branches based on this `master` branch. Whenever you want to update your version of `master`, do a regular `git pull`.
 
 ## Add yourself as a contributor
 
@@ -41,7 +41,7 @@ type.
 ## Committing and Pushing changes
 
 This project uses [semantic-release](https://npmjs.com/package/semantic-release) to do automatic releases and generate a changelog based on the
-commit history. So we follow [a convention](https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md) for commit messages. You don't have to follow this convention if you don't like to. Just know that when we merge your commit, we'll probably use "Squash and Merge" so we can change the commit message.
+commit history. So we follow [a convention](https://github.com/conventional-changelog/conventional-changelog-angular/blob/ed32559941719a130bb0327f886d6a32a8cbc2ba/convention.md) for commit messages. You don't have to follow this convention if you don't like to. Just know that when we merge your commit, we'll probably use “Squash and Merge” so we can change the commit message.
 
 ### Opt into git hooks
 
