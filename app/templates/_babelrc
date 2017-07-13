@@ -6,8 +6,6 @@
     "flow"
   ],
   "plugins": [
-    "add-module-exports",
-    "transform-class-properties",
-    "transform-object-rest-spread"
+    "add-module-exports"
   ]
 }
