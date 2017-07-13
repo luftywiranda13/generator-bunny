@@ -30,6 +30,7 @@ describe('Generator', () => {
       '.flowconfig',
       '.gitattributes',
       '.gitignore',
+      '.npmrc',
       '.travis.yml',
       'changelog.md',
       'contributing.md',
