@@ -1,7 +1,7 @@
-build/
-coverage/
-dist/
-flow-typed/
-lib/
-node_modules/
-public/
+build
+dist
+public
+coverage
+flow-typed
+.opt-in
+.opt-out
