@@ -91,6 +91,7 @@ module.exports = class extends Generator {
     );
     this.mv('_gitignore', '.gitignore');
     this.mv('_travis.yml', '.travis.yml');
+    this.mv('src/index._test_.js', 'src/index.test.js');
 
     this.spawnCommandSync('git', ['init', '--quiet']);
   }
