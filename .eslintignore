@@ -1,7 +1,8 @@
-build/
-coverage/
-dist/
-flow-typed/
-app/templates/
-lib/
-public/
+build
+dist
+public
+coverage
+flow-typed
+app/templates
+.opt-in
+.opt-out
