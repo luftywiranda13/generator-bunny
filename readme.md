@@ -29,7 +29,7 @@
   <a href="http://commitizen.github.io/cz-cli">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/luftywiranda13/generator-bunny/blob/feature/babel/other/code_of_conduct.md">
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/code-of-conduct.md">
     <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
