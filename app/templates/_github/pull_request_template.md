@@ -1,29 +1,29 @@
-<!--
-Thanks for your interest in the project. I appreciate bugs filed and PRs submitted!
+<!--- Provide a general summary of your changes in the Title above -->
 
-Please make sure that you are familiar with and follow the Code of Conduct for
-this project (found in the code_of_conduct.md file).
+## Description
+<!--- Describe your changes in detail -->
 
-Also, please make sure you're familiar with and follow the instructions in the
-contributing guidelines (found in the contributing.md file).
+## Motivation and Context
+<!--- Why is this change required? What problem does it solve? -->
+<!--- If it fixes an open issue, please link to the issue here. -->
 
-If you're new to contributing to open source projects, you might find this free
-video course helpful: http://kcd.im/pull-request
+## How Has This Been Tested?
+<!--- Please describe in detail how you tested your changes. -->
+<!--- Include details of your testing environment, and the tests you ran to -->
+<!--- see how your change affects other areas of the code, etc. -->
 
-Please fill out the information below to expedite the review and (hopefully)
-merge of your pull request!
--->
+## Screenshots (if appropriate):
 
-**What**:
-<!-- What changes are being made? (What feature/bug is being fixed here?) -->
+## Types of changes
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to change)
 
-
-**Why**:
-<!-- Why are these changes necessary? -->
-
-
-**How**:
-<!-- How were these changes implemented? -->
-
-
-<!-- feel free to add additional comments -->
+## Checklist:
+<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
+- [ ] My code follows the code style of this project.
+- [ ] My change requires a change to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] I have read the **CONTRIBUTING** document.
