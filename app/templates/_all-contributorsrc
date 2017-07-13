@@ -1,6 +1,6 @@
 {
   "projectName": "<%= moduleName %>",
-  "projectOwner": "<%= name %>",
+  "projectOwner": "<%= githubUsername %>",
   "files": [
     "readme.md"
   ],
@@ -15,8 +15,7 @@
       "contributions": [
         "code",
         "doc",
-        "infra",
-        "test"
+        "infra"
       ]
     }
   ]
