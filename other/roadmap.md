@@ -1,6 +1,6 @@
 # Project Roadmap
 
-This is where we'll define a few things about the library's goals.
+This is where we‘ll define a few things about the library‘s goals.
 
 Care to help? See [`contributing.md`](https://github.com/luftywiranda13/generator-bunny/blob/master/contributing.md)
 

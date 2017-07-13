@@ -92,7 +92,7 @@ npm start validate
 npm install -g semantic-release-cli
 ```
 
-> **Note:** Make sure you've set your repository up on GitHub before proceeding or `semantic-release` installation will throw errors!
+> **Note:** Make sure you‘ve set your repository up on GitHub before proceeding or `semantic-release` installation will throw errors!
 
 **Then run:**
 
@@ -102,7 +102,7 @@ semantic-release-cli setup
 
 **Select Travis CI, answer `no` to `overwrite`**
 
-> There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
+> There‘s already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it‘s already more than enough in most common situation.
 
 **Publish manually:**
 
@@ -128,18 +128,18 @@ npm start commit
 git push origin master
 ```
 
-> **Note:** Don't add tag, publish, or bump your project version manually. Let `semantic-release` do those tasks for you. Your release version number is auto-formatted based on [SemVer specifications][semver-link].
+> **Note:** Don‘t add tag, publish, or bump your project version manually. Let `semantic-release` do those tasks for you. Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
 
 ### 3. Your own workflow
 
-> You don't have to follow those recommended steps. Define your own workflow if you will but one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
+> You don‘t have to follow those recommended steps. Define your own workflow if you will but one of the consequence is you don‘t get the ability to publish/release your package to [npm][npm-link] automatically.
 
 For example, you still can do it like this:
 
 ```sh
 git add .
-git commit -m "I want to do it my way cause this is my project and I'm working for myself"
+git commit -m "I want to do it my way cause this is my project and I‘m working for myself"
 ```
 
 ## Tips
