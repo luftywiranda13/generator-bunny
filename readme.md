@@ -25,25 +25,17 @@
   <a href="https://codecov.io/github/luftywiranda13/generator-bunny">
     <img src="https://img.shields.io/codecov/c/github/luftywiranda13/generator-bunny.svg?style=flat-square" />
   </a>
-  <a href="https://david-dm.org/luftywiranda13/generator-bunny">
-    <img src="https://david-dm.org/luftywiranda13/generator-bunny.svg?style=flat-square" />
-  </a>
   <br />
-  <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square" />
-  </a>
-  <a href="https://github.com/semantic-release/semantic-release">
-    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" />
-  </a>
   <a href="http://commitizen.github.io/cz-cli">
     <img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/luftywiranda13/generator-bunny/blob/feature/babel/other/code_of_conduct.md">
+    <img src="https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square" />
   </a>
   <a href="https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md">
     <img src="https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square" />
   </a>
 </p>
-
-<br />
 
 ## Highlights
 
@@ -57,177 +49,138 @@ This generator includes built-in modern tools which have been widely used by the
 -   [Flow static typechecker][flow-link]
 -   [GitHub templates (Issue & Pull Request, License, CoC, etc.)](https://github.com/blog/2111-issue-and-pull-request-templates)
 -   [Jest testing framework][jest-link]
--   [Travis Continuous Integration][travis-link]
--   :rabbit:
+-   [Travis Continuous Integration config][travis-link]
 
 ![](screenshot.png)
 
-
 ## Getting started
-
 
 ### 1. Installation
 
 ```sh
-# with yarn:
-yarn global add yo
-yarn global add generator-bunny
-
-# or with npm: 
-npm install -g yo
-npm install -g generator-bunny
+npm install -g yo generator-bunny
 ```
-
 
 ### 2. Create new project
 
-#### Make a new directory:
+**Make a new directory:**
+
 ```sh
 mkdir my-bunny
 cd my-bunny
 ```
 
-#### Generate files:
+**Generate files:**
+
 ```sh
 yo bunny
-
-# answer some details about your project
 ```
 
-#### Validate project:
-```sh
-# with yarn:
-yarn start validate
+**Validate project:**
 
-# or with npm:
+```sh
 npm start validate
 ```
-
 
 ## Usage
 
 ### 1. First-timer
 
-#### Install and setup [semantic-release][semantic-link]:
-Make sure you've set your repository up on GitHub before proceeding,<br />
-otherwise [semantic-release][semantic-link] installation will throw errors!
+**Install and setup [semantic-release][semantic-link]:**
 
 ```sh
-# with yarn:
-yarn global add semantic-release-cli
+npm install -g semantic-release-cli
+```
 
-# or with npm:
-npm i -g semantic-release-cli
+> **Note:** Make sure you've set your repository up on GitHub before proceeding or `semantic-release` installation will throw errors!
 
-# then run:
+**Then run:**
+
+```sh
 semantic-release-cli setup
 ```
 
-#### Select Travis CI, answer `no` to `overwrite`
-There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
+**Select Travis CI, answer `no` to `overwrite`**
 
-#### Publish manually:
+> There's already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it's already more than enough in most common situation.
+
+**Publish manually:**
+
 ```sh
 npm publish
 ```
 
-
 ### 2. Recommended workflow
 
-#### Make changes then commit: 
-```sh
-# with yarn:
-yarn start commit 
+**Make some changes. If you want to commit, run (instead of `git commit`):**
 
-# or with npm:
+```sh
 npm start commit
 ```
 
-#### Select the type of commit
-This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following a standardized commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
+**Select the type of commit**
 
+> This project follows the [AngularJS Commit Message Conventions][angular-conventions-link]. Following a standardized commit message format is important if you want to start a maintainable and scalable project. Also it is required to generate changelog and make automated releasing works.
 
-#### Push those changes to GitHub
+**Push those changes to GitHub**
+
 ```sh
 git push origin master
 ```
 
-Don't add tag, publish, or bump your project version manually. [Semantic-release][semantic-link] will do those stuffs for you.<br />
-Your release version number is auto-formatted based on [SemVer specifications][semver-link].
+> **Note:** Don't add tag, publish, or bump your project version manually. Let `semantic-release` do those tasks for you. Your release version number is auto-formatted based on [SemVer specifications][semver-link].
 
 
 ### 3. Your own workflow
 
-You don't need to follow those recommended steps. Define your own workflow if you will but one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
+> You don't have to follow those recommended steps. Define your own workflow if you will but one of the consequence is you don't get the ability to publish/release your package to [npm][npm-link] automatically.
 
 For example, you still can do it like this:
+
 ```sh
 git add .
 git commit -m "I want to do it my way cause this is my project and I'm working for myself"
 ```
 
-
 ## Tips
 
-Some useful scripts are provided by [nps][nps-link] to help you maintain your project. To see the list, run:
-```sh
-# with yarn:
-yarn start
+> Some useful scripts are provided by [nps](https://github.com/kentcdodds/nps) to help you maintain your project.
 
-# or with npm:
+To see the list, run:
+
+```sh
 npm start
 ```
 
-
-## Suggestions
-
-Help things to get better, contributions of any kind are welcome!
-
-Please check [`roadmap.md`][roadmap-link] to list or see something you can contribute on, then [make a pull request][prs-link]!<br />
-Also see [`contributing.md`](./contributing.md) for more informations about how to contribute.
-
-
 ## Contributors
 
-This project follows the [all-contributors][all-contributors-link] specification.<br />
-Thanks goes to these people:
+Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](https://www.instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Documentation") [💡](#example-luftywiranda13 "Examples") |
+| [<img src="https://avatars3.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub>Lufty Wiranda</sub>](http://instagram.com/luftywiranda13)<br />[💻](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Code") [📖](https://github.com/luftywiranda13/generator-bunny/commits?author=luftywiranda13 "Documentation") [🚇](#infra-luftywiranda13 "Infrastructure (Hosting, Build-Tools, etc)") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
 
 ## Inspiration
-Heavily inspired from [Sindre Sorhus][sindresorhus-link] & [Kent C. Dodds][kentcdodds-link].
 
-
-## Useful links
--   [How to contribute to an open-source project](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
--   [Submitting a pull request (PR)](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-submitting-a-pull-request-pr)
--   [Awesome pull request](https://github.com/stevemao/awesome-pull-requests)
--   [Thoughts on small module](https://github.com/sindresorhus/ama/issues/10#issuecomment-117766328)
-
+- [Sindre Sorhus](https://github.com/sindresorhus) ⟷ [generator-nm](https://github.com/sindresorhus/generator-nm)
+- [Kent C. Dodds](https://github.com/kentcdodds) ⟷ [generator-kcd-oss](https://github.com/kentcdodds/generator-kcd-oss)
 
 ## License
 MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)
 
-
-[all-contributors-link]: https://github.com/kentcdodds/all-contributors
+<!-- reference -->
 [angular-conventions-link]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit
 [babel-link]: https://babeljs.io
 [eslint-link]: http://eslint.org/
 [flow-link]: https://flow.org
 [husky-link]: https://github.com/typicode/husky
 [jest-link]: https://facebook.github.io/jest
-[kentcdodds-link]: https://github.com/kentcdodds
 [npm-link]: https://www.npmjs.com/
-[nps-link]: https://github.com/kentcdodds/nps
 [prettier-link]: https://github.com/prettier/prettier
-[prs-link]: http://makeapullrequest.com
 [roadmap-link]: https://github.com/luftywiranda13/generator-bunny/blob/master/other/roadmap.md
 [semantic-link]: https://github.com/semantic-release/semantic-release
 [semver-link]: http://semver.org/
-[sindresorhus-link]: https://github.com/sindresorhus
 [travis-link]: https://travis-ci.org
-[yarn-link]: https://yarnpkg.com
