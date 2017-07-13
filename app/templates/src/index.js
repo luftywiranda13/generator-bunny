@@ -1,4 +1,4 @@
 /* @flow */
-const bunny = 'hi, 🐰';
-
-export default bunny;
+export default function <%= camelModule %>(input: string) {
+  return input ? `👉 ${input} 👈` : 'No args passed!';
+}
