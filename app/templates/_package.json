@@ -14,7 +14,8 @@
     "url": "<%= website %>"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=4",
+    "npm": ">=4"
   },
   "scripts": {
     "start": "nps",
