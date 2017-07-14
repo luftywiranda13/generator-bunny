@@ -9,14 +9,13 @@ node_js:
   - 'node'
   - '6'
   - '4'
-before_install:
-  - yarn global add semantic-release
-  - yarn global add codecov
 script:
   - yarn start validate
 after_script:
+  - yarn global add codecov
   - codecov
 after_success:
+  - yarn global add semantic-release
   - semantic-release pre && npm publish && semantic-release post
 branches:
   only:
