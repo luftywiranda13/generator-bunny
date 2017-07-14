@@ -147,6 +147,44 @@ describe('Generator', () => {
       });
     });
 
+    describe('.travis.yml', () => {
+      it("enables 'yarn'", () => {
+        assert.fileContent(
+          '.travis.yml',
+          'yarn: true'
+        );
+        assert.noFileContent(
+          '.travis.yml',
+          'npm'
+        );
+      });
+
+      it("installs 'codecov'", () => {
+        assert.fileContent(
+          '.travis.yml',
+          'yarn global add codecov'
+        );
+        assert.fileContent(
+          '.travis.yml',
+          '- codecov'
+        );
+      });
+
+      it("runs 'validate' script", () => {
+        assert.fileContent(
+          '.travis.yml',
+          'start validate'
+        );
+      });
+
+      it("runs 'release' script", () => {
+        assert.fileContent(
+          '.travis.yml',
+          'start release'
+        );
+      });
+    });
+
     describe('code-of-conduct.md', () => {
       it('fiils the authors email', () => {
         assert.fileContent(
