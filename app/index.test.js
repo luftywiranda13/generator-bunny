@@ -228,4 +228,13 @@ describe('templating', () => {
       );
     });
   });
+
+  describe('pull_request_template.md', () => {
+    it('fills correct upstream', () => {
+      assert.fileContent(
+        '.github/pull_request_template.md',
+        '[`contributing.md`](https://github.com/bunny/bunny-module/blob/master/contributing.md)'
+      );
+    });
+  });
 });
