@@ -17,7 +17,7 @@ This project uses [nps](https://npmjs.com/package/nps) and you can run `npm star
 > Tip: Keep your `master` branch pointing at the original repository and make pull requests from branches on your fork. To do this, run:
 >
 > ```
-> git remote add upstream https://github.com/kentcdodds/<%= moduleName %>.git
+> git remote add upstream https://github.com/<%= githubUsername %>/<%= moduleName %>.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
 >
