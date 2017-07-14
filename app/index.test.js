@@ -164,5 +164,21 @@ describe('Generator', () => {
         );
       });
     });
+
+    describe('.all-contributorsrc', () => {
+      it('fiils with correct informations', () => {
+        assert.JSONFileContent('.all-contributorsrc', {
+          projectName: 'bunny-module',
+          projectOwner: 'bunny',
+          contributors: [
+            {
+              login: 'bunny',
+              name: 'yo',
+              profile: 'https://github.com/bunny',
+            },
+          ],
+        });
+      });
+    });
   });
 });
