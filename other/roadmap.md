@@ -2,7 +2,7 @@
 
 This is where we‘ll define a few things about the library‘s goals.
 
-Care to help? See [`contributing.md`](https://github.com/luftywiranda13/generator-bunny/blob/master/contributing.md)
+Care to help? See [`contributing.md`](../contributing.md)
 
 ## Want to do
 - [x] Make yeoman generator
