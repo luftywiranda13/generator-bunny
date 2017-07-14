@@ -113,10 +113,7 @@ describe('templating', () => {
     });
 
     it('fills the usage instructions', () => {
-      assert.fileContent(
-        'readme.md',
-        'import bunnyModule from \'bunny-module\''
-      );
+      assert.fileContent('readme.md', "import bunnyModule from 'bunny-module'");
     });
 
     it('fills the FAQ', () => {
@@ -130,55 +127,34 @@ describe('templating', () => {
 
   describe('src', () => {
     it('fills the index.js', () => {
-      assert.fileContent(
-        'src/index.js',
-        'export default function bunnyModule'
-      );
+      assert.fileContent('src/index.js', 'export default function bunnyModule');
     });
 
     it('fills the index.test.js', () => {
       assert.fileContent(
         'src/index.test.js',
-        'import bunnyModule from \'./index\''
+        "import bunnyModule from './index'"
       );
     });
   });
 
   describe('.travis.yml', () => {
     it("enables 'yarn'", () => {
-      assert.fileContent(
-        '.travis.yml',
-        'yarn: true'
-      );
-      assert.noFileContent(
-        '.travis.yml',
-        '- npm'
-      );
+      assert.fileContent('.travis.yml', 'yarn: true');
+      assert.noFileContent('.travis.yml', '- npm');
     });
 
     it("installs 'codecov'", () => {
-      assert.fileContent(
-        '.travis.yml',
-        'yarn global add codecov'
-      );
-      assert.fileContent(
-        '.travis.yml',
-        '- codecov'
-      );
+      assert.fileContent('.travis.yml', 'yarn global add codecov');
+      assert.fileContent('.travis.yml', '- codecov');
     });
 
     it("runs 'validate' script", () => {
-      assert.fileContent(
-        '.travis.yml',
-        '- yarn start validate'
-      );
+      assert.fileContent('.travis.yml', '- yarn start validate');
     });
 
     it("runs 'release' script", () => {
-      assert.fileContent(
-        '.travis.yml',
-        '- yarn global add semantic-release'
-      );
+      assert.fileContent('.travis.yml', '- yarn global add semantic-release');
       assert.fileContent(
         '.travis.yml',
         '- semantic-release pre && npm publish && semantic-release post'
@@ -197,10 +173,7 @@ describe('templating', () => {
 
   describe('license', () => {
     it('fiils the authors & email', () => {
-      assert.fileContent(
-        'license',
-        'Copyright (c) yo <hi@bunny.io>'
-      );
+      assert.fileContent('license', 'Copyright (c) yo <hi@bunny.io>');
     });
   });
 
