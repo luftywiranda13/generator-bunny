@@ -141,22 +141,17 @@ describe('templating', () => {
   });
 
   describe('.travis.yml', () => {
-    it("enables 'yarn'", () => {
-      assert.fileContent('.travis.yml', 'yarn: true');
-      assert.noFileContent('.travis.yml', '- npm');
-    });
-
-    it("installs 'codecov'", () => {
-      assert.fileContent('.travis.yml', 'yarn global add codecov');
+    it("runs 'codecov'", () => {
+      assert.fileContent('.travis.yml', 'npm install -g codecov');
       assert.fileContent('.travis.yml', '- codecov');
     });
 
     it("runs 'validate' script", () => {
-      assert.fileContent('.travis.yml', '- yarn start validate');
+      assert.fileContent('.travis.yml', '- npm start validate');
     });
 
     it("runs 'release' script", () => {
-      assert.fileContent('.travis.yml', '- yarn global add semantic-release');
+      assert.fileContent('.travis.yml', '- npm install -g semantic-release');
       assert.fileContent(
         '.travis.yml',
         '- semantic-release pre && npm publish && semantic-release post'
