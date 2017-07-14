@@ -20,7 +20,7 @@ describe('Generator', () => {
     assert(app);
   });
 
-  it('generates files', () => {
+  it('renames files', () => {
     assert.file([
       '.all-contributorsrc',
       '.babelrc',
@@ -29,16 +29,12 @@ describe('Generator', () => {
       '.eslintrc.json',
       '.flowconfig',
       '.gitattributes',
+      '.github/issue_template.md',
+      '.github/pull_request_template.md',
       '.gitignore',
       '.npmrc',
       '.travis.yml',
-      'changelog.md',
-      'contributing.md',
-      'license',
-      'package-scripts.js',
       'package.json',
-      'readme.md',
-      'src/index.js',
       'src/index.test.js',
     ]);
     assert.noFile('yo-rc.json');
