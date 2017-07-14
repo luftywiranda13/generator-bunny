@@ -44,14 +44,6 @@ module.exports = {
       description: 'lint the entire project with eslint & flow',
       script: concurrent.nps('flow', 'eslint'),
     },
-    release: {
-      description: 'This should only be run on travis',
-      script: series(
-        'semantic-release pre',
-        'npm publish',
-        'semantic-release post'
-      ),
-    },
     test: {
       default: {
         description: 'Collect code coverage',
