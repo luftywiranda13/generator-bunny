@@ -63,6 +63,8 @@ module.exports = class extends Generator {
         website: props.website,
         hasYarn: hasbin.sync('yarn'),
       };
+
+      this.spawnCommand('git', ['init', '--quiet']);
     });
   }
   writing() {
@@ -112,8 +114,6 @@ module.exports = class extends Generator {
       yarn: this.tpl.hasYarn,
       npm: !this.tpl.hasYarn,
     });
-
-    this.spawnCommand('git', ['init', '--quiet']);
   }
   end() {
     this.log();
@@ -125,8 +125,8 @@ module.exports = class extends Generator {
     this.log();
 
     shell.rm('.yo-rc.json');
-    shell.exec('git add --all', { silent: true });
-    shell.exec('git commit -qam "feat(package): initial commit"', {
+    shell.exec('git add -A', { silent: true });
+    shell.exec('git commit -qnm "feat(package): initial commit"', {
       silent: true,
     });
   }
