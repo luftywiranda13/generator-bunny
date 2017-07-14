@@ -131,11 +131,13 @@ describe('Generator', () => {
       });
     });
 
-    it('fiils the license', () => {
-      assert.fileContent(
-        'license',
-        'Copyright (c) yo <hi@bunny.io>'
-      );
+    describe('license', () => {
+      it('fiils the authors & email', () => {
+        assert.fileContent(
+          'license',
+          'Copyright (c) yo <hi@bunny.io>'
+        );
+      });
     });
   });
 });
