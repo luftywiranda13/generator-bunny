@@ -131,6 +131,22 @@ describe('Generator', () => {
       });
     });
 
+    describe('src', () => {
+      it('fills the index.js', () => {
+        assert.fileContent(
+          'src/index.js',
+          'export default function bunnyModule'
+        );
+      });
+
+      it('fills the index.test.js', () => {
+        assert.fileContent(
+          'src/index.test.js',
+          'import bunnyModule from \'./index\''
+        );
+      });
+    });
+
     describe('code-of-conduct.md', () => {
       it('fiils the authors email', () => {
         assert.fileContent(
