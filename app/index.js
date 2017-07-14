@@ -66,7 +66,7 @@ module.exports = class extends Generator {
     });
   }
   writing() {
-    this.mv = (from, to) => {
+    const mv = (from, to) => {
       this.fs.move(this.destinationPath(from), this.destinationPath(to));
     };
 
@@ -76,25 +76,23 @@ module.exports = class extends Generator {
       this.tpl
     );
 
-    this.mv('_all-contributorsrc', '.all-contributorsrc');
-    this.mv('_babelrc', '.babelrc');
-    this.mv('_editorconfig', '.editorconfig');
-    this.mv('_eslintignore', '.eslintignore');
-    this.mv('_eslintrc.json', '.eslintrc.json');
-    this.mv('_flowconfig', '.flowconfig');
-    this.mv('_gitattributes', '.gitattributes');
-    this.mv('_github/issue_template.md', '.github/issue_template.md');
-    this.mv(
+    mv('_all-contributorsrc', '.all-contributorsrc');
+    mv('_babelrc', '.babelrc');
+    mv('_editorconfig', '.editorconfig');
+    mv('_eslintignore', '.eslintignore');
+    mv('_eslintrc.json', '.eslintrc.json');
+    mv('_flowconfig', '.flowconfig');
+    mv('_gitattributes', '.gitattributes');
+    mv('_github/issue_template.md', '.github/issue_template.md');
+    mv(
       '_github/pull_request_template.md',
       '.github/pull_request_template.md'
     );
-    this.mv('_gitignore', '.gitignore');
-    this.mv('_npmrc', '.npmrc');
-    this.mv('_package.json', 'package.json');
-    this.mv('_travis.yml', '.travis.yml');
-    this.mv('src/index._test_.js', 'src/index.test.js');
-
-    this.spawnCommandSync('git', ['init', '--quiet']);
+    mv('_gitignore', '.gitignore');
+    mv('_npmrc', '.npmrc');
+    mv('_package.json', 'package.json');
+    mv('_travis.yml', '.travis.yml');
+    mv('src/index._test_.js', 'src/index.test.js');
   }
   install() {
     this.log('\x1Bc');
@@ -114,6 +112,8 @@ module.exports = class extends Generator {
       yarn: this.tpl.hasYarn,
       npm: !this.tpl.hasYarn,
     });
+
+    this.spawnCommand('git', ['init', '--quiet']);
   }
   end() {
     this.log();
