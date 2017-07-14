@@ -11,12 +11,12 @@ node_js:
   - '4'
 script:
   - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start validate
-after_script:<% if (hasYarn) { %>
-  - yarn global add codecov<% } else { %>
-  - npm i -g codecov<% } %>
+after_script:
+  - <% if (hasYarn) { %>yarn global add<% } else { %>npm i -g<% } %> codecov
   - codecov
 after_success:
-  - <% if (hasYarn) { %>yarn<% } else { %>npm<% } %> start release
+  - <% if (hasYarn) { %>yarn global add<% } else { %>npm i -g<% } %> semantic-release
+  - semantic-release pre && npm publish && semantic-release post
 branches:
   only:
     - master
