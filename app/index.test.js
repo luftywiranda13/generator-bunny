@@ -131,6 +131,15 @@ describe('Generator', () => {
       });
     });
 
+    describe('code-of-conduct.md', () => {
+      it('fiils the authors email', () => {
+        assert.fileContent(
+          'other/code_of_conduct.md',
+          'reported by contacting the project team at hi@bunny.io'
+        );
+      });
+    });
+
     describe('license', () => {
       it('fiils the authors & email', () => {
         assert.fileContent(
