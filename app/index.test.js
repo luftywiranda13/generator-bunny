@@ -218,5 +218,14 @@ describe('Generator', () => {
         });
       });
     });
+
+    describe('contributing', () => {
+      it('fills correct upstream', () => {
+        assert.fileContent(
+          'contributing.md',
+          'git remote add upstream https://github.com/bunny/bunny-module.git'
+        );
+      });
+    });
   });
 });
