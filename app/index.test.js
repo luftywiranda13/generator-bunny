@@ -42,19 +42,21 @@ describe('generator', () => {
 });
 
 describe('templating', () => {
-  it('fills package.json with correct informations', () => {
-    assert.JSONFileContent('package.json', {
-      name: 'bunny-module',
-      description: 'as cute as bunny',
-      repository: {
-        type: 'git',
-        url: 'git+https://github.com/bunny/bunny-module.git',
-      },
-      author: {
-        name: 'yo',
-        email: 'hi@bunny.io',
-        url: 'www.wewww.com',
-      },
+  describe('package.json', () => {
+    it('fills with correct informations', () => {
+      assert.fileContent('package.json', /"name": "bunny-module",/);
+      assert.fileContent('package.json', /"description": "as cute as bunny",/);
+      assert.JSONFileContent('package.json', {
+        repository: {
+          type: 'git',
+          url: 'git+https://github.com/bunny/bunny-module.git',
+        },
+        author: {
+          name: 'yo',
+          email: 'hi@bunny.io',
+          url: 'www.wewww.com',
+        },
+      });
     });
   });
 
