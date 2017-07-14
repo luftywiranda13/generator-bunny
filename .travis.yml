@@ -1,6 +1,9 @@
+# The use of `npm` instead of `yarn` here is intentional
+# to make sure the package also works on `npm`
+# because `npm` has a lot more users than `yarn`
 language: node_js
 cache:
-  yarn: true
+  yarn: false
   directories:
     - node_modules
 notifications:
@@ -9,13 +12,18 @@ node_js:
   - 'node'
   - '6'
   - '4'
+before_install: if [[ `npm -v` < 4* ]]; then npm i -g npm@^4; fi
+install:
+  - npm install
+before_script:
+  - npm prune
 script:
-  - yarn start validate
+  - npm start validate
 after_script:
-  - yarn global add codecov
+  - npm install -g codecov
   - codecov
 after_success:
-  - yarn global add semantic-release
+  - npm install -g semantic-release
   - semantic-release pre && npm publish && semantic-release post
 branches:
   only:
