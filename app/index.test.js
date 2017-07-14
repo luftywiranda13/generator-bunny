@@ -152,7 +152,7 @@ describe('templating', () => {
       );
       assert.noFileContent(
         '.travis.yml',
-        'npm'
+        '- npm'
       );
     });
 
@@ -170,14 +170,18 @@ describe('templating', () => {
     it("runs 'validate' script", () => {
       assert.fileContent(
         '.travis.yml',
-        'start validate'
+        '- yarn start validate'
       );
     });
 
     it("runs 'release' script", () => {
       assert.fileContent(
         '.travis.yml',
-        'start release'
+        '- yarn global add semantic-release'
+      );
+      assert.fileContent(
+        '.travis.yml',
+        '- semantic-release pre && npm publish && semantic-release post'
       );
     });
   });
