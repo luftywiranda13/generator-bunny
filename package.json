@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luftywiranda13/generator-bunny.git"
+    "url": "https://github.com/luftywiranda13/generator-bunny.git"
   },
   "preferGlobal": true,
   "author": {
