@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/<%= moduleName %>.svg?style=flat-square)](https://www.npmjs.com/package/<%= moduleName %>)
 [![npm](https://img.shields.io/npm/dt/<%= moduleName %>.svg?style=flat-square)](https://npm-stat.com/charts.html?package=<%= moduleName %>&from=2016-04-01)
-[![Travis branch](https://img.shields.io/travis/<%= moduleName %>/rust/master.svg?style=flat-square)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+[![Travis branch](https://img.shields.io/travis/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
 [![Codecov branch](https://img.shields.io/codecov/c/github/<%= githubUsername %>/<%= moduleName %>/master.svg?style=flat-square)](https://codecov.io/github/<%= githubUsername %>/<%= moduleName %>)
 <br />
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)

@@ -84,7 +84,7 @@ describe('templating', () => {
       it('build status', () => {
         assert.fileContent(
           'readme.md',
-          '[![Travis branch](https://img.shields.io/travis/bunny-module/rust/master.svg?style=flat-square)](https://travis-ci.org/bunny/bunny-module)'
+          '[![Travis branch](https://img.shields.io/travis/bunny/bunny-module/master.svg?style=flat-square)](https://travis-ci.org/bunny/bunny-module)'
         );
       });
 
