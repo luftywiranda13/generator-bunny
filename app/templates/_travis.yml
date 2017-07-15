@@ -3,7 +3,6 @@
 # because `npm` has a lot more users than `yarn`
 language: node_js
 cache:
-  yarn: false
   directories:
     - node_modules
 notifications:
@@ -13,8 +12,6 @@ node_js:
   - '6'
   - '4'
 before_install: if [[ `npm -v` < 3* ]]; then npm i -g npm@^3; fi
-install:
-  - npm install
 before_script:
   - npm prune
 script:
