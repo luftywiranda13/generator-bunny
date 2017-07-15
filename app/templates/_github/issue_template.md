@@ -22,7 +22,9 @@
 
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
-* Version used:
-* Environment name and version (e.g. npm v4, node v6, etc):
+* `node -v`:
+* `npm -v`:
+* `yarn --version` (if you use Yarn):
+* `npm ls <%= moduleName %>`:
 * Operating System and version (desktop or mobile):
 * Link to your project:

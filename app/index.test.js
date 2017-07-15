@@ -49,7 +49,7 @@ describe('templating', () => {
       assert.JSONFileContent('package.json', {
         repository: {
           type: 'git',
-          url: 'git+https://github.com/bunny/bunny-module.git',
+          url: 'https://github.com/bunny/bunny-module.git',
         },
         author: {
           name: 'yo',
@@ -199,12 +199,23 @@ describe('templating', () => {
     });
   });
 
-  describe('pull_request_template.md', () => {
-    it('fills correct upstream', () => {
-      assert.fileContent(
-        '.github/pull_request_template.md',
-        '[`contributing.md`](https://github.com/bunny/bunny-module/blob/master/contributing.md)'
-      );
+  describe('GitHub templates', () => {
+    describe('pull_request_template.md', () => {
+      it('fills correct upstream', () => {
+        assert.fileContent(
+          '.github/pull_request_template.md',
+          '[`contributing.md`](https://github.com/bunny/bunny-module/blob/master/contributing.md)'
+        );
+      });
+    });
+
+    describe('issue_template.md', () => {
+      it('fills correct upstream', () => {
+        assert.fileContent(
+          '.github/issue_template.md',
+          '* `npm ls bunny-module`:'
+        );
+      });
     });
   });
 });
