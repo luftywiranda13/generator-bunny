@@ -60,6 +60,6 @@ module.exports = {
     },
   },
   options: {
-    silent: false,
+    logLevel: 'warn',
   },
 };
