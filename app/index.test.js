@@ -151,7 +151,10 @@ describe('templating', () => {
     });
 
     it("runs 'release' script", () => {
-      assert.fileContent('.travis.yml', '- npm install -g semantic-release');
+      assert.fileContent(
+        '.travis.yml',
+        '- npm install -g codecov semantic-release'
+      );
       assert.fileContent(
         '.travis.yml',
         '- semantic-release pre && npm publish && semantic-release post'
