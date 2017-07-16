@@ -16,11 +16,9 @@ before_script:
   - npm prune
 script:
   - npm start validate
-after_script:
-  - npm install -g codecov
-  - codecov
 after_success:
-  - npm install -g semantic-release
+  - npm install -g codecov semantic-release
+  - codecov
   - semantic-release pre && npm publish && semantic-release post
 branches:
   only:
