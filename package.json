@@ -14,7 +14,8 @@
     "url": "https://www.instagram.com/luftywiranda13/"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=4",
+    "npm": ">=3"
   },
   "scripts": {
     "start": "nps --no-scripts",
