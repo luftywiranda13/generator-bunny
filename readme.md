@@ -16,7 +16,7 @@
   <a href="https://www.npmjs.com/package/generator-bunny">
     <img src="https://img.shields.io/npm/v/generator-bunny.svg?style=flat-square" />
   </a>
-  <a href="https://www.npmjs.com/package/generator-bunny">
+  <a href="https://npm-stat.com/charts.html?package=generator-bunny&from=2016-04-01">
     <img src="https://img.shields.io/npm/dt/generator-bunny.svg?style=flat-square" />
   </a>
   <a href="https://travis-ci.org/luftywiranda13/generator-bunny">
