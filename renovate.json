@@ -7,6 +7,7 @@
   "prTitle": "{{semanticPrefix}}{{#if isPin}}pin{{else}}update{{/if}} `{{depName}}` to v{{#if isRange}}{{newVersion}}{{else}}{{#if isMajor}}{{newVersionMajor}}.x{{else}}{{newVersion}}{{/if}}{{/if}}",
   "lockFileMaintenance": {
     "commitMessage": "{{semanticPrefix}}update lockfile",
-    "prTitle": "{{semanticPrefix}}lock file maintenance"
+    "prTitle": "{{semanticPrefix}}lock file maintenance",
+    "schedule": "every hour"
   }
 }
