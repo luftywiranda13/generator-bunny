@@ -63,7 +63,7 @@
     "yeoman-generator": "1.1.1"
   },
   "devDependencies": {
-    "all-contributors-cli": "4.3.0",
+    "all-contributors-cli": "4.4.0",
     "babel-cli": "6.24.1",
     "babel-preset-env": "1.6.0",
     "commitizen": "2.9.6",
