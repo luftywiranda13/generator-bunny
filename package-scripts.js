@@ -1,4 +1,5 @@
-const npsUtils = require('nps-utils'); // eslint-disable-line
+const npsUtils = require('nps-utils');
+
 const concurrent = npsUtils.concurrent;
 
 module.exports = {

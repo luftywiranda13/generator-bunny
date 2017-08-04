@@ -1,4 +1,5 @@
-const npsUtils = require('nps-utils'); // eslint-disable-line
+const npsUtils = require('nps-utils');
+
 const concurrent = npsUtils.concurrent;
 const rimraf = npsUtils.rimraf;
 const series = npsUtils.series;
