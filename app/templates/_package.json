@@ -61,7 +61,7 @@
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.3.0",
-    "eslint-config-bunny": "^3.0.0",
+    "eslint-config-bunny": "^3.0.1",
     "flow-bin": "^0.51.0",
     "flow-typed": "^2.1.5",
     "husky": "^0.14.3",
