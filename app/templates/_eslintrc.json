@@ -9,6 +9,7 @@
 {
   "extends": [
     "bunny",
+    "bunny/recommended",
 
     /**
      * This config uses eslint-plugin-flowtype with the recommended config
