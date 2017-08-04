@@ -10,6 +10,7 @@
   "extends": [
     "bunny",
     "bunny/recommended",
-    "bunny/flowtype"
-  ]
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["flowtype"]
 }
