@@ -10,12 +10,6 @@
   "extends": [
     "bunny",
     "bunny/recommended",
-
-    /**
-     * This config uses eslint-plugin-flowtype with the recommended config
-     * under the hood.
-     * https://github.com/gajus/eslint-plugin-flowtype#recommended
-     */
     "bunny/flowtype"
   ]
 }

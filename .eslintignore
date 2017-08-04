@@ -3,6 +3,4 @@ dist
 public
 coverage
 flow-typed
-app/templates
-.opt-in
-.opt-out
+app/templates/src
