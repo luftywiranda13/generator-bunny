@@ -204,7 +204,7 @@ describe('templating', () => {
 
   describe('GitHub templates', () => {
     describe('pull_request_template.md', () => {
-      it('fills correct upstream', () => {
+      it('fills correct contributing link', () => {
         assert.fileContent(
           '.github/pull_request_template.md',
           '[`contributing.md`](https://github.com/bunny/bunny-module/blob/master/contributing.md)'
@@ -213,10 +213,10 @@ describe('templating', () => {
     });
 
     describe('issue_template.md', () => {
-      it('fills correct upstream', () => {
+      it('fills correct moduleName', () => {
         assert.fileContent(
           '.github/issue_template.md',
-          '* `npm ls bunny-module`:'
+          '- bunny-module version: <!-- run `npm ls bunny-module` -->'
         );
       });
     });
