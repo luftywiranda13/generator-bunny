@@ -28,7 +28,7 @@
 3.
 4.
 
-## Your Environment
+## Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 - <%= moduleName %> version: <!-- run `npm<% if (global) { %> -g<% } %> ls <%= moduleName %>` -->
 - Node version: <!-- run `node -v` -->
