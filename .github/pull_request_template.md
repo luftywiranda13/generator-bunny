@@ -1,9 +1,19 @@
 <!--- Provide a general summary of your changes in the Title above -->
 
+## PR Type
+<!--- What types of changes does your code introduce? -->
+<!-- Put an `x` in all the boxes that apply: -->
+- [ ] Bugfix
+- [ ] Feature
+- [ ] Code style update (whitespace, formatting, missing semicolons, etc.)
+- [ ] Refactoring (no functional changes, no api changes)
+- [ ] Build related changes
+- [ ] CI related changes
+- [ ] Documentation content changes
+- [ ] Other… Please describe:
+
 ## Description
 <!--- Describe your changes in detail -->
-
-## Motivation and Context
 <!--- Why is this change required? What problem does it solve? -->
 <!--- If it fixes an open issue, please link to the issue here. -->
 
@@ -14,17 +24,15 @@
 
 ## Screenshots (if appropriate):
 
-## Types of changes
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
-- [ ] Documentation
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
+## Does this PR introduce a breaking change?
+<!-- If this PR contains a breaking change, -->
+<!-- please also describe the impact and migration path for existing applications -->
+- [ ] Yes
+- [ ] No
 
 ## Checklist:
-<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!--- Put an `x` in all the boxes that apply. -->
 <!--- If you‘re unsure about any of these, don‘t hesitate to ask. We‘re here to help! -->
-- [ ] My code follows the code style of this project.
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
 - [ ] I have read the [`contributing.md`](https://github.com/luftywiranda13/generator-bunny/blob/master/contributing.md).
