@@ -1,5 +1,13 @@
 <!--- Provide a general summary of the issue in the Title above -->
 
+## I'm submitting a…
+<!-- Check one of the following options with "x" -->
+- [ ] Regression (a behavior that used to work and stopped working in a new release)
+- [ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
+- [ ] Feature request
+- [ ] Documentation issue or request
+- [ ] Support request
+
 ## Expected Behavior
 <!--- If you‘re describing a bug, tell us what should happen -->
 <!--- If you‘re suggesting a change/improvement, tell us how it should work -->
@@ -22,9 +30,9 @@
 
 ## Your Environment
 <!--- Include as many relevant details about the environment you experienced the bug in -->
-* `node -v`:
-* `npm -v`:
-* `yarn --version` (if you use Yarn):
-* `npm ls <%= moduleName %>`:
-* Operating System and version (desktop or mobile):
-* Link to your project:
+- <%= moduleName %> version: <!-- run `npm<% if (global) { %> -g<% } %> ls <%= moduleName %>` -->
+- Node version: <!-- run `node -v` -->
+- NPM version: <!-- run `npm -v` -->
+- Yarn version (if you use Yarn):
+- Operating system:  <!-- Mac, Linux, Windows -->
+- Link to your project:
