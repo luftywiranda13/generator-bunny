@@ -152,6 +152,16 @@ To see the list, run:
 npm start
 ```
 
+## FAQ
+
+#### 1. Why does `generator-bunny` use `npm` to install dependencies?
+
+> We did support auto-detect & auto-install dependencies using `yarn` before but then decided to drop that feature in v4 because `yarn` is buggy and `npm` has a lot more users than `yarn`.
+
+#### 2. Why does `generator-bunny` disable/ignore lockfiles?
+
+> Lockfiles is for apps, not for packages/libraries. Read more on [What do you think of lockfiles?](https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514)
+
 ## Contributors
 
 Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
