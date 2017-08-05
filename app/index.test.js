@@ -147,7 +147,7 @@ describe('templating', () => {
     });
 
     it("runs 'validate' script", () => {
-      assert.fileContent('.travis.yml', '- npm start validate');
+      assert.fileContent('.travis.yml', 'script: npm start validate');
     });
 
     it("runs 'release' script", () => {
