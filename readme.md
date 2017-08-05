@@ -92,7 +92,7 @@ npm start validate
 npm install -g semantic-release-cli
 ```
 
-> **Note:** Make sure you‘ve set your repository up on GitHub before proceeding or `semantic-release` installation will throw errors!
+> **Note:** Make sure you‘ve set your repository up on GitHub before proceeding otherwise `semantic-release` installation will throw errors!
 
 **Then run:**
 
