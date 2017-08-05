@@ -1,6 +1,3 @@
-# The use of `npm` instead of `yarn` here is intentional
-# to make sure the package also works on `npm`
-# because `npm` has a lot more users than `yarn`
 language: node_js
 notifications:
   email: false
