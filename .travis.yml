@@ -6,12 +6,11 @@ node_js:
   - '6'
   - '4'
 before_install: if [[ `npm -v` < 3* ]]; then npm i -g npm@^3; fi
-script:
-  - npm start validate
+before_script: npm prune
+script: npm start validate
 after_success:
   - npm install -g codecov semantic-release
   - codecov
   - semantic-release pre && npm publish && semantic-release post
 branches:
-  only:
-    - master
+  only: master
