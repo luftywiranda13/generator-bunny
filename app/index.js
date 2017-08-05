@@ -1,7 +1,6 @@
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
 const Generator = require('yeoman-generator');
-const hasbin = require('hasbin');
 const kebabCase = require('lodash.kebabcase');
 const shell = require('shelljs');
 
@@ -61,7 +60,6 @@ module.exports = class extends Generator {
         email: props.email,
         githubUsername: props.githubUsername,
         website: props.website,
-        hasYarn: hasbin.sync('yarn'),
       };
 
       this.spawnCommand('git', ['init', '--quiet']);
@@ -109,10 +107,9 @@ module.exports = class extends Generator {
     this.log();
 
     this.installDependencies({
-      skipMessage: true,
       bower: false,
-      yarn: this.tpl.hasYarn,
-      npm: !this.tpl.hasYarn,
+      npm: true,
+      skipMessage: true,
     });
   }
   end() {
