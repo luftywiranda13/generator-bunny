@@ -126,7 +126,7 @@ module.exports = class extends Generator {
 
     shell.rm('.yo-rc.json');
     shell.exec('git add -A', { silent: true });
-    shell.exec('git commit -qnm "feat(package): initial commit"', {
+    shell.exec('git commit -qnm "chore: initial commit"', {
       silent: true,
     });
   }
