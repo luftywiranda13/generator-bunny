@@ -74,7 +74,7 @@
     "eslint-config-bunny": "4.0.0",
     "husky": "0.14.3",
     "jest": "20.0.4",
-    "lint-staged": "4.0.2",
+    "lint-staged": "4.0.3",
     "nps": "5.7.0",
     "nps-utils": "1.3.0",
     "opt-cli": "1.5.1",
