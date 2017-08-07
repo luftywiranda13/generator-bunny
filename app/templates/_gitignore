@@ -65,3 +65,7 @@ typings/
 # when working with contributors
 package-lock.json
 yarn.lock
+
+# https://github.com/<%= githubUsername %>/<%= moduleName %>/blob/master/contributing.md#opt-into-git-hooks
+.opt-in
+.opt-out
