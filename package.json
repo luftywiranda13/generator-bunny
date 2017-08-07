@@ -2,16 +2,16 @@
   "name": "generator-bunny",
   "version": "0.0.0-development",
   "description": "Jumpstart node module, like a bunny",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/luftywiranda13/generator-bunny.git"
-  },
   "preferGlobal": true,
+  "license": "MIT",
   "author": {
     "name": "Lufty Wiranda",
     "email": "lufty.wiranda@gmail.com",
     "url": "https://www.instagram.com/luftywiranda13/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luftywiranda13/generator-bunny.git"
   },
   "engines": {
     "node": ">=4",
@@ -28,6 +28,31 @@
     "app/index.js",
     "app/templates/"
   ],
+  "dependencies": {
+    "chalk": "2.1.0",
+    "lodash.camelcase": "4.3.0",
+    "lodash.kebabcase": "4.1.1",
+    "shelljs": "0.7.8",
+    "yeoman-generator": "1.1.1"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "4.4.0",
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.6.0",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "eslint": "4.4.1",
+    "eslint-config-bunny": "4.0.1",
+    "husky": "0.14.3",
+    "jest": "20.0.4",
+    "lint-staged": "4.0.3",
+    "nps": "5.7.0",
+    "nps-utils": "1.3.0",
+    "opt-cli": "1.5.1",
+    "validate-commit-msg": "2.14.0",
+    "yeoman-assert": "3.0.0",
+    "yeoman-test": "1.7.0"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
@@ -56,31 +81,6 @@
       "jest --findRelatedTests",
       "git add"
     ]
-  },
-  "dependencies": {
-    "chalk": "2.1.0",
-    "lodash.camelcase": "4.3.0",
-    "lodash.kebabcase": "4.1.1",
-    "shelljs": "0.7.8",
-    "yeoman-generator": "1.1.1"
-  },
-  "devDependencies": {
-    "all-contributors-cli": "4.4.0",
-    "babel-cli": "6.24.1",
-    "babel-preset-env": "1.6.0",
-    "commitizen": "2.9.6",
-    "cz-conventional-changelog": "2.0.0",
-    "eslint": "4.4.1",
-    "eslint-config-bunny": "4.0.1",
-    "husky": "0.14.3",
-    "jest": "20.0.4",
-    "lint-staged": "4.0.3",
-    "nps": "5.7.0",
-    "nps-utils": "1.3.0",
-    "opt-cli": "1.5.1",
-    "validate-commit-msg": "2.14.0",
-    "yeoman-assert": "3.0.0",
-    "yeoman-test": "1.7.0"
   },
   "keywords": [
     "🐰",

@@ -1,17 +1,17 @@
 {
   "name": "<%= moduleName %>",
   "version": "0.0.0-development",
-  "description": "<%= description %>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
-  },<% if (global) { %>
+  "description": "<%= description %>",<% if (global) { %>
   "preferGlobal": true,<% } %>
+  "license": "MIT",
   "author": {
     "name": "<%= name %>",
     "email": "<%= email %>",
     "url": "<%= website %>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
   "engines": {
     "node": ">=4",
@@ -22,30 +22,6 @@
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
     "precommit": "lint-staged && flow --quiet",
     "test": "nps test"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    }
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --trailing-comma es5 --single-quote --write",
-      "eslint --fix",
-      "jest --findRelatedTests",
-      "git add"
-    ]
   },
   "main": "dist/index.js",
   "files": [
@@ -73,6 +49,30 @@
     "opt-cli": "^1.5.1",
     "prettier": "^1.5.3",
     "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --trailing-comma es5 --single-quote --write",
+      "eslint --fix",
+      "jest --findRelatedTests",
+      "git add"
+    ]
   },
   "keywords": [
     "🐰"
