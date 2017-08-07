@@ -20,7 +20,7 @@
   "scripts": {
     "start": "nps --no-scripts",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged && flow --quiet",
+    "precommit": "lint-staged && opt --in pre-commit --exec \"flow && jest --coverage\"",
     "test": "nps test"
   },
   "main": "dist/index.js",
@@ -73,7 +73,6 @@
     "src/**/*.js": [
       "prettier --trailing-comma es5 --single-quote --write",
       "eslint --fix",
-      "jest --findRelatedTests",
       "git add"
     ]
   },

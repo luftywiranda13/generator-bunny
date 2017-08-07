@@ -20,7 +20,7 @@
   "scripts": {
     "start": "nps --no-scripts",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged",
+    "precommit": "lint-staged && opt --in pre-commit --exec \"jest --coverage\"",
     "test": "nps test"
   },
   "main": "app/index.js",
@@ -78,7 +78,6 @@
   "lint-staged": {
     "*.js": [
       "eslint --fix",
-      "jest --findRelatedTests",
       "git add"
     ]
   },
