@@ -22,7 +22,6 @@ This project uses [nps](https://npmjs.com/package/nps) and you can run `npm star
 > git remote add upstream https://github.com/<%= githubUsername %>/<%= moduleName %>.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/master master
->
 > ```
 >
 > This will add the original repository as a “remote” called “upstream”, Then fetch the git information from that remote, then set your local `master` branch to use the upstream master branch whenever you run `git pull`. Then you can make all of your pull request branches based on this `master` branch. Whenever you want to update your version of `master`, do a regular `git pull`.
