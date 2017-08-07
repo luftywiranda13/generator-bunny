@@ -79,6 +79,9 @@
     "*.js": [
       "eslint --fix",
       "git add"
+    ],
+    "yarn.lock": [
+      "git rm --cached"
     ]
   },
   "keywords": [
