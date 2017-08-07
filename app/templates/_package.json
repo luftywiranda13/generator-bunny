@@ -20,7 +20,7 @@
   "scripts": {
     "start": "nps --no-scripts",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged && opt --in pre-commit --exec \"flow && jest --coverage\"",
+    "precommit": "lint-staged && opt --in pre-commit --exec \"flow && nps test\"",
     "test": "nps test"
   },
   "main": "dist/index.js",
