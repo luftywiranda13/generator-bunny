@@ -42,7 +42,7 @@ import <%= camelModule %> from '<%= moduleName %>';
 Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub><%= name %></sub>](<%= website %>)<br />[💻](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Code") [📖](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Documentation") [🚇](#infra-<%= githubUsername %> "Infrastructure (Hosting, Build-Tools, etc") |
+| [<img src="https://avatars2.githubusercontent.com/u/22868432?v=3" width="100px;"/><br /><sub><%= name %></sub>](https://github.com/<%= githubUsername %>)<br />[💻](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Code") [📖](https://github.com/<%= githubUsername %>/<%= moduleName %>/commits?author=<%= githubUsername %> "Documentation") [🚇](#infra-luftywiranda13 "Infrastructure (Hosting, Build-Tools, etc)") |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
