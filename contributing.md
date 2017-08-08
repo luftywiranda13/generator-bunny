@@ -7,8 +7,6 @@ Thanks for being willing to contribute!
 
 ## Project setup
 
-> If you are using `yarn`, we suggest that you run `yarn install --no-lockfile` instead of the bare `yarn` or `yarn install`. We internally only use `npm` and decide not to generate or commit the lockfile in this repo. Read more on [What do you think of lockfiles?](https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514)
-
 1.  Fork and clone the repo
 2.  `npm install` to install dependencies
 3.  `npm start validate` to validate you‘ve got it working
