@@ -118,10 +118,6 @@ describe('templating', () => {
       assert.fileContent('readme.md', "import bunnyModule from 'bunny-module'");
     });
 
-    it('fills the FAQ', () => {
-      assert.fileContent('readme.md', '### Why should I use `bunny-module`?');
-    });
-
     it('fills the license', () => {
       assert.fileContent('readme.md', 'MIT &copy; [yo](www.wewww.com)');
     });

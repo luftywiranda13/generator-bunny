@@ -12,7 +12,7 @@
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](./other/code_of_conduct.md)
 [![Roadmap](https://img.shields.io/badge/%F0%9F%93%94-roadmap-CD9523.svg?style=flat-square)](./other/roadmap.md)
 
-## Highlights
+## Why?
 
 // TODO
 
@@ -32,8 +32,6 @@ import <%= camelModule %> from '<%= moduleName %>';
 ```
 
 ## FAQ
-
-### Why should I use `<%= moduleName %>`?
 
 // TODO
 

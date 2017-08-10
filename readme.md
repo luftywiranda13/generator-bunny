@@ -37,7 +37,7 @@
   </a>
 </p>
 
-## Highlights
+## Why?
 
 This generator includes built-in modern tools which have been widely used by the community:
 -   [Automated GitHub release notes generator](/releases)
@@ -158,9 +158,9 @@ npm start
 
 > We did support auto-detect & auto-install dependencies using `yarn` before but then decided to drop that feature in v4 because `yarn` is buggy and `npm` has a lot more users than `yarn`.
 
-#### 2. Why does `generator-bunny` disable/ignore lockfiles?
+#### 2. Why does `generator-bunny` remove lockfiles in pre-commit?
 
-> Lockfiles is for apps, not for packages/libraries. Read more on [What do you think of lockfiles?](https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514)
+> Lockfiles are for apps, not for packages/libraries. Read more on [What do you think of lockfiles?](https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514)
 
 ## Contributors
 
