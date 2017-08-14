@@ -48,7 +48,7 @@ module.exports = class extends Generator {
         message: 'Website:',
         store: true,
       },
-    ]).then((props) => {
+    ]).then(props => {
       this.log();
 
       this.tpl = {
