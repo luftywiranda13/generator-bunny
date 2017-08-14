@@ -20,7 +20,7 @@
   "scripts": {
     "start": "nps --no-scripts",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "precommit": "lint-staged && opt --in pre-commit --exec \"flow && nps test\"",
+    "precommit": "remove-lockfiles && lint-staged && opt --in pre-commit --exec \"flow && nps test\"",
     "test": "nps test"
   },
   "main": "dist/index.js",
@@ -75,10 +75,6 @@
       "prettier --trailing-comma es5 --single-quote --write",
       "eslint --fix",
       "git add"
-    ],
-    "yarn.lock": [
-      "git rm --cached",
-      "shx rm"
     ]
   },
   "keywords": [
