@@ -48,7 +48,7 @@
     "nps-utils": "^1.3.0",
     "opt-cli": "^1.5.1",
     "prettier": "^1.5.3",
-    "remove-lockfiles": "^0.2.2",
+    "remove-lockfiles": "^1.0.0",
     "validate-commit-msg": "^2.14.0"
   },
   "config": {
