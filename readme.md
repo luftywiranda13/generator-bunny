@@ -104,12 +104,6 @@ semantic-release-cli setup
 
 > There‘s already a general purpose [Travis CI][travis-link] configuration stored in [`.travis.yml`](./app/templates/_travis.yml). You can just leave it like that because it‘s already more than enough in most common situation.
 
-**Publish manually:**
-
-```sh
-npm publish
-```
-
 ### 2. Recommended workflow
 
 **Make some changes. If you want to commit, run (instead of `git commit`):**
