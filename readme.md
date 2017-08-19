@@ -156,6 +156,11 @@ npm start
 
 > Lockfiles are for apps, not for packages/libraries. Read more on [What do you think of lockfiles?](https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514)
 
+## Inspiration
+
+- [Sindre Sorhus](https://github.com/sindresorhus) ⟷ [generator-nm](https://github.com/sindresorhus/generator-nm)
+- [Kent C. Dodds](https://github.com/kentcdodds) ⟷ [generator-kcd-oss](https://github.com/kentcdodds/generator-kcd-oss)
+
 ## Contributors
 
 Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
@@ -166,11 +171,6 @@ Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contr
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
-
-## Inspiration
-
-- [Sindre Sorhus](https://github.com/sindresorhus) ⟷ [generator-nm](https://github.com/sindresorhus/generator-nm)
-- [Kent C. Dodds](https://github.com/kentcdodds) ⟷ [generator-kcd-oss](https://github.com/kentcdodds/generator-kcd-oss)
 
 ## License
 MIT &copy; [Lufty Wiranda](https://www.instagram.com/luftywiranda13)

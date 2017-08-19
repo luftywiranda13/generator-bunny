@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 const npsUtils = require('nps-utils');
 
 const concurrent = npsUtils.concurrent;

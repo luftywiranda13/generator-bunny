@@ -1,7 +1,9 @@
-import path from 'path';
+'use strict';
 
-import assert from 'yeoman-assert';
-import helpers from 'yeoman-test';
+const path = require('path');
+
+const assert = require('yeoman-assert');
+const helpers = require('yeoman-test');
 
 beforeAll(() =>
   helpers.run(path.join(__dirname, '../app')).inTmpDir().withPrompts({
@@ -32,7 +34,6 @@ describe('generator', () => {
       '.github/issue_template.md',
       '.github/pull_request_template.md',
       '.gitignore',
-      '.npmrc',
       '.travis.yml',
       'package.json',
       'src/index.test.js',
@@ -47,10 +48,7 @@ describe('templating', () => {
       assert.fileContent('package.json', /"name": "bunny-module",/);
       assert.fileContent('package.json', /"description": "as cute as bunny",/);
       assert.JSONFileContent('package.json', {
-        repository: {
-          type: 'git',
-          url: 'https://github.com/bunny/bunny-module.git',
-        },
+        repository: 'https://github.com/bunny/bunny-module',
         author: {
           name: 'yo',
           email: 'hi@bunny.io',
@@ -162,7 +160,7 @@ describe('templating', () => {
     it('fiils the authors email', () => {
       assert.fileContent(
         'other/code_of_conduct.md',
-        'reported by contacting the project team at hi@bunny.io'
+        'reported by contacting the project team at [hi@bunny.io]'
       );
     });
   });
@@ -193,7 +191,7 @@ describe('templating', () => {
     it('fills correct upstream', () => {
       assert.fileContent(
         'contributing.md',
-        'git remote add upstream https://github.com/bunny/bunny-module.git'
+        'git remote add upstream https://github.com/bunny/bunny-module'
       );
     });
   });

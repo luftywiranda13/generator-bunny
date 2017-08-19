@@ -1,3 +1,5 @@
+'use strict';
+
 const camelCase = require('lodash.camelcase');
 const chalk = require('chalk');
 const Generator = require('yeoman-generator');
@@ -89,7 +91,6 @@ module.exports = class extends Generator {
       '.github/pull_request_template.md'
     );
     mv('_gitignore', '.gitignore');
-    mv('_npmrc', '.npmrc');
     mv('_package.json', 'package.json');
     mv('_travis.yml', '.travis.yml');
     mv('src/index._test_.js', 'src/index.test.js');

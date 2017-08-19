@@ -1,6 +1,2 @@
-build
-dist
-public
 coverage
-flow-typed
-app/templates/src
+app/templates/**

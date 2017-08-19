@@ -35,6 +35,10 @@ import <%= camelModule %> from '<%= moduleName %>';
 
 // TODO
 
+## Related
+
+// TODO
+
 ## Contributors
 
 Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
@@ -45,10 +49,6 @@ Thanks goes to these people ([emoji key](https://github.com/kentcdodds/all-contr
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
-
-## Related
-
-// TODO
 
 ## License
 

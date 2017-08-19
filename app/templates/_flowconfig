@@ -1,8 +1,6 @@
 [ignore]
-.*/build/.*
 .*/dist/.*
 .*/node_modules/.*
-.*/public/.*
 
 [include]
 
