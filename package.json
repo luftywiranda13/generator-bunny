@@ -28,7 +28,7 @@
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
     "shelljs": "^0.7.8",
-    "yeoman-generator": "^1.1.1"
+    "yeoman-generator": "^2.0.0"
   },
   "devDependencies": {
     "all-contributors-cli": "^4.4.0",
