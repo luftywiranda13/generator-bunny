@@ -98,9 +98,7 @@ module.exports = class extends Generator {
   install() {
     this.log('\x1Bc');
     this.log();
-    this.log(
-      chalk.green('Important files have been generated to your directory')
-    );
+    this.log(chalk.green('Important files have been generated to your directory'));
 
     this.log();
     this.log('Installing dependencies...');

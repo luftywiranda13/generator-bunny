@@ -13,8 +13,7 @@ beforeAll(() =>
     website: 'www.wewww.com',
     name: 'yo',
     email: 'hi@bunny.io',
-  })
-);
+  }));
 
 describe('generator', () => {
   it('can be required without throwing', () => {
