@@ -1,4 +1,5 @@
-// eslint-disable-next-line
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable prefer-destructuring */
 const npsUtils = require('nps-utils');
 
 const concurrent = npsUtils.concurrent;
