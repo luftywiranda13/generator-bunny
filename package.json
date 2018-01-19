@@ -39,7 +39,7 @@
     "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
-    "lint-staged": "^4.2.3",
+    "lint-staged": "^6.0.1",
     "nps": "^5.7.1",
     "nps-utils": "^1.4.0",
     "remove-lockfiles": "^1.4.1",
