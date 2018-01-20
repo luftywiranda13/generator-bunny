@@ -27,7 +27,7 @@
     "chalk": "^2.1.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.1",
     "yeoman-generator": "^2.0.1"
   },
   "devDependencies": {
