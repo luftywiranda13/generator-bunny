@@ -27,7 +27,7 @@
     "chalk": "^2.1.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.1",
     "yeoman-generator": "^2.0.1"
   },
   "devDependencies": {
@@ -38,11 +38,11 @@
     "eslint-config-airbnb-base": "^12.0.2",
     "eslint-plugin-import": "^2.7.0",
     "husky": "^0.14.3",
-    "jest": "^21.2.1",
-    "lint-staged": "^4.2.3",
+    "jest": "^22.1.4",
+    "lint-staged": "^6.0.1",
     "nps": "^5.7.1",
     "nps-utils": "^1.4.0",
-    "remove-lockfiles": "^1.4.1",
+    "remove-lockfiles": "^2.1.2",
     "yeoman-assert": "^3.1.0",
     "yeoman-test": "^1.7.0"
   },
