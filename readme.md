@@ -39,6 +39,8 @@
 
 ## Why?
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/luftywiranda13/generator-bunny.svg)](https://greenkeeper.io/)
+
 This generator includes built-in modern tools which have been widely used by the community:
 -   [Automated GitHub release notes generator](/releases)
 -   [Automated releasing with semantic-release][semantic-link]
